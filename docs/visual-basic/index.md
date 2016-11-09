@@ -74,7 +74,7 @@ Visual Basic is engineered for productively building type-safe and object-orient
  [ASP.NET Overview](../Topic/ASP.NET%20Overview.md)  
  Provides general information about ASP.NET and discusses factors that you should consider when you create a website by using ASP.NET.  
   
- [Development Guide](../Topic/.NET%20Framework%20Development%20Guide.md)  
+ [Development Guide](https://msdn.microsoft.com/library/hh156542)  
  Provides information about key technology areas and tasks for application development, including creating, configuring, debugging, securing, and deploying your application. The topic also provides information about dynamic programming, interoperability, extensibility, memory management, and threading.  
   
  [.NET Framework Class Library](http://go.microsoft.com/fwlink/?LinkID=227195)  

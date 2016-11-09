@@ -86,4 +86,4 @@ class TestStringSplit
 ## See Also  
  [C# Programming Guide](../../../csharp/programming-guide/index.md)   
  [Strings](../../../csharp/programming-guide/strings/index.md)   
- [.NET Framework Regular Expressions](../Topic/.NET%20Framework%20Regular%20Expressions.md)
+ [.NET Framework Regular Expressions](https://msdn.microsoft.com/library/hs600312)

@@ -86,7 +86,7 @@ Specifies which platform version of common language runtime (CLR) can run the ou
   
 -   Executables that are compiled with `/platform:anycpu32bitpreferred` will execute on the 32-bit CLR.  
   
- For more information about how to develop an application to run on a 64-bit version of Windows, see [64-bit Applications](../Topic/64-bit%20Applications.md).  
+ For more information about how to develop an application to run on a 64-bit version of Windows, see [64-bit Applications](https://msdn.microsoft.com/library/ms241064).  
   
 ### To set /platform in the Visual Studio IDE  
   
@@ -106,6 +106,6 @@ vbc /platform:x86 myFile.vb
 ```  
   
 ## See Also  
- [/target (Visual Basic)](../../../visual-basic/reference/command-line-compiler/target.md)   
- [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)   
- [Sample Compilation Command Lines](../../../visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md)
+ [/target (Visual Basic)](target.md)   
+ [Visual Basic Command-Line Compiler](index.md)   
+ [Sample Compilation Command Lines](sample-compilation-command-lines.md)
