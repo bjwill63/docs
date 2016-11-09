@@ -52,19 +52,19 @@ If you have defined a class or structure, you can define the behavior of a stand
 ## Example  
  The following example defines the `+` operator for a structure called `height`. The structure uses heights measured in feet and inches. One *inch* is 2.54 centimeters, and one *foot* is 12 inches. To ensure normalized values (inches < 12.0), the constructor performs *modulo* 12 arithmetic. The `+` operator uses the constructor to generate normalized values.  
   
- [!code-vb[VbVbcnProcedures#25](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-an-operator_1.vb)]  
+ [!code-vb[VbVbcnProcedures#25](./codesnippet/VisualBasic/how-to-define-an-operator_1.vb)]  
   
  You can test the structure `height` with the following code.  
   
- [!code-vb[VbVbcnProcedures#26](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-an-operator_2.vb)]  
+ [!code-vb[VbVbcnProcedures#26](./codesnippet/VisualBasic/how-to-define-an-operator_2.vb)]  
   
  For more information and examples, see [Operator Overloading in Visual Basic 2005](http://go.microsoft.com/fwlink/?LinkId=101703).  
   
 ## See Also  
- [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [How to: Define a Conversion Operator](../../../visual-basic/language-reference/procedures/how-to-define-a-conversion-operator.md)   
- [How to: Call an Operator Procedure](../../../visual-basic/language-reference/procedures/how-to-call-an-operator-procedure.md)   
- [How to: Use a Class that Defines Operators](../../../visual-basic/language-reference/procedures/how-to-use-a-class-that-defines-operators.md)   
+ [Operator Procedures](./operator-procedures.md)   
+ [How to: Define a Conversion Operator](./how-to-define-a-conversion-operator.md)   
+ [How to: Call an Operator Procedure](./how-to-call-an-operator-procedure.md)   
+ [How to: Use a Class that Defines Operators](./how-to-use-a-class-that-defines-operators.md)   
  [Operator Statement](../../../visual-basic/language-reference/statements/operator-statement.md)   
  [Structure Statement](../../../visual-basic/language-reference/statements/structure-statement.md)   
  [How to: Declare a Structure](../../../visual-basic/programming-guide/language-features/data-types/how-to-declare-a-structure.md)   

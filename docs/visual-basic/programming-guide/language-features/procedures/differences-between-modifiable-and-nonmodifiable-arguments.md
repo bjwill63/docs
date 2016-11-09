@@ -60,13 +60,13 @@ When you call a procedure, you typically pass one or more arguments to it. Each 
  The called procedure might modify its local copy of a nonmodifiable argument, but that modification does not affect the underlying element in the calling code.  
   
 ## See Also  
- [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
- [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [How to: Pass Arguments to a Procedure](../../../visual-basic/language-reference/procedures/how-to-pass-arguments-to-a-procedure.md)   
- [Passing Arguments by Value and by Reference](../../../visual-basic/language-reference/procedures/passing-arguments-by-value-and-by-reference.md)   
- [Differences Between Passing an Argument By Value and By Reference](../../../visual-basic/language-reference/procedures/differences-between-passing-an-argument-by-value-and-by-reference.md)   
- [How to: Change the Value of a Procedure Argument](../../../visual-basic/language-reference/procedures/how-to-change-the-value-of-a-procedure-argument.md)   
- [How to: Protect a Procedure Argument Against Value Changes](../../../visual-basic/language-reference/procedures/how-to-protect-a-procedure-argument-against-value-changes.md)   
- [How to: Force an Argument to Be Passed by Value](../../../visual-basic/language-reference/procedures/how-to-force-an-argument-to-be-passed-by-value.md)   
- [Passing Arguments by Position and by Name](../../../visual-basic/language-reference/procedures/passing-arguments-by-position-and-by-name.md)   
+ [Procedures](./index.md)   
+ [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
+ [How to: Pass Arguments to a Procedure](./how-to-pass-arguments-to-a-procedure.md)   
+ [Passing Arguments by Value and by Reference](./passing-arguments-by-value-and-by-reference.md)   
+ [Differences Between Passing an Argument By Value and By Reference](./differences-between-passing-an-argument-by-value-and-by-reference.md)   
+ [How to: Change the Value of a Procedure Argument](./how-to-change-the-value-of-a-procedure-argument.md)   
+ [How to: Protect a Procedure Argument Against Value Changes](./how-to-protect-a-procedure-argument-against-value-changes.md)   
+ [How to: Force an Argument to Be Passed by Value](./how-to-force-an-argument-to-be-passed-by-value.md)   
+ [Passing Arguments by Position and by Name](./passing-arguments-by-position-and-by-name.md)   
  [Value Types and Reference Types](../../../visual-basic/programming-guide/language-features/data-types/value-types-and-reference-types.md)

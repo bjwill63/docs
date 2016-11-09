@@ -74,17 +74,17 @@ Usually, you cannot call a procedure with more arguments than the procedure decl
   
  The following example defines a procedure with a parameter array, and outputs the values of all the array elements passed to the parameter array.  
   
- [!code-vb[VbVbcnProcedures#48](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/parameter-arrays_2.vb)]  
+ [!code-vb[VbVbcnProcedures#48](./codesnippet/VisualBasic/parameter-arrays_2.vb)]  
   
- [!code-vb[VbVbcnProcedures#49](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/parameter-arrays_3.vb)]  
+ [!code-vb[VbVbcnProcedures#49](./codesnippet/VisualBasic/parameter-arrays_3.vb)]  
   
 ## See Also  
  <xref:Microsoft.VisualBasic.Information.UBound%2A>   
- [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
- [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Passing Arguments by Value and by Reference](../../../visual-basic/language-reference/procedures/passing-arguments-by-value-and-by-reference.md)   
- [Passing Arguments by Position and by Name](../../../visual-basic/language-reference/procedures/passing-arguments-by-position-and-by-name.md)   
- [Optional Parameters](../../../visual-basic/language-reference/procedures/optional-parameters.md)   
- [Procedure Overloading](../../../visual-basic/language-reference/procedures/procedure-overloading.md)   
+ [Procedures](./index.md)   
+ [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
+ [Passing Arguments by Value and by Reference](./passing-arguments-by-value-and-by-reference.md)   
+ [Passing Arguments by Position and by Name](./passing-arguments-by-position-and-by-name.md)   
+ [Optional Parameters](./optional-parameters.md)   
+ [Procedure Overloading](./procedure-overloading.md)   
  [Arrays](../../../visual-basic/programming-guide/language-features/arrays/index.md)   
  [Optional](../../../visual-basic/language-reference/modifiers/optional.md)

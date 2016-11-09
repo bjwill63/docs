@@ -60,13 +60,13 @@ In most cases, a procedure must have some information about the circumstances in
  In contrast to parameter definition, arguments do not have names. Each argument is an expression, which can contain zero or more variables, constants, and literals. The data type of the evaluated expression should typically match the data type defined for the corresponding parameter, and in any case it must be convertible to the parameter type.  
   
 ## See Also  
- [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
- [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md)   
- [Function Procedures](../../../visual-basic/language-reference/procedures/function-procedures.md)   
- [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md)   
- [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [How to: Define a Parameter for a Procedure](../../../visual-basic/language-reference/procedures/how-to-define-a-parameter-for-a-procedure.md)   
- [How to: Pass Arguments to a Procedure](../../../visual-basic/language-reference/procedures/how-to-pass-arguments-to-a-procedure.md)   
- [Passing Arguments by Value and by Reference](../../../visual-basic/language-reference/procedures/passing-arguments-by-value-and-by-reference.md)   
- [Recursive Procedures](../../../visual-basic/language-reference/procedures/recursive-procedures.md)   
- [Procedure Overloading](../../../visual-basic/language-reference/procedures/procedure-overloading.md)
+ [Procedures](./index.md)   
+ [Sub Procedures](./sub-procedures.md)   
+ [Function Procedures](./function-procedures.md)   
+ [Property Procedures](./property-procedures.md)   
+ [Operator Procedures](./operator-procedures.md)   
+ [How to: Define a Parameter for a Procedure](./how-to-define-a-parameter-for-a-procedure.md)   
+ [How to: Pass Arguments to a Procedure](./how-to-pass-arguments-to-a-procedure.md)   
+ [Passing Arguments by Value and by Reference](./passing-arguments-by-value-and-by-reference.md)   
+ [Recursive Procedures](./recursive-procedures.md)   
+ [Procedure Overloading](./procedure-overloading.md)

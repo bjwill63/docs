@@ -35,7 +35,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Call an Extension Method (Visual Basic)
-Extension methods enable you to add methods to an existing class. After an extension method is declared and brought into scope, you can call it like an instance method of the type that it extends. For more information about how to write an extension method, see [How to: Write an Extension Method](../../../visual-basic/language-reference/procedures/how-to-write-an-extension-method.md).  
+Extension methods enable you to add methods to an existing class. After an extension method is declared and brought into scope, you can call it like an instance method of the type that it extends. For more information about how to write an extension method, see [How to: Write an Extension Method](./how-to-write-an-extension-method.md).  
   
  The following instructions refer to extension method `PrintAndPunctuate`, which will display the string instance that invokes it, followed by whatever value is sent in for the second parameter, `punc`.  
   
@@ -118,6 +118,6 @@ End Module
 ```  
   
 ## See Also  
- [How to: Write an Extension Method](../../../visual-basic/language-reference/procedures/how-to-write-an-extension-method.md)   
- [Extension Methods](../../../visual-basic/language-reference/procedures/extension-methods.md)   
+ [How to: Write an Extension Method](./how-to-write-an-extension-method.md)   
+ [Extension Methods](./extension-methods.md)   
  [Scope in Visual Basic](../../../visual-basic/programming-guide/language-features/declared-elements/scope.md)

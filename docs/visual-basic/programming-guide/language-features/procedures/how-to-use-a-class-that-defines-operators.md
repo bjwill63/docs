@@ -41,16 +41,16 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Use a Class that Defines Operators (Visual Basic)
-If you are using a class or structure that defines its own operators, you can access those operators from [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)].  
+If you are using a class or structure that defines its own operators, you can access those operators from [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)].  
   
  Defining an operator on a class or structure is also called *overloading* the operator.  
   
 ## Example  
- The following example accesses the SQL structure <xref:System.Data.SqlTypes.SqlString>, which defines the conversion operators ([CType Function](../../../visual-basic/language-reference/functions/ctype-function.md)) in both directions between a SQL string and a [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] string. Use `CType(`*SQL string expression*, `String)` to convert a SQL string to a [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] string, and `CType(`*Visual Basic string expression*, <xref:System.Data.SqlTypes.SqlString>`)` to convert in the other direction.  
+ The following example accesses the SQL structure <xref:System.Data.SqlTypes.SqlString>, which defines the conversion operators ([CType Function](../../../visual-basic/language-reference/functions/ctype-function.md)) in both directions between a SQL string and a [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] string. Use `CType(`*SQL string expression*, `String)` to convert a SQL string to a [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] string, and `CType(`*Visual Basic string expression*, <xref:System.Data.SqlTypes.SqlString>`)` to convert in the other direction.  
   
- [!code-vb[VbVbcnProcedures#30](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-use-a-class-that-defines-operators_1.vb)]  
+ [!code-vb[VbVbcnProcedures#30](./codesnippet/VisualBasic/how-to-use-a-class-that-defines-operators_1.vb)]  
   
- [!code-vb[VbVbcnProcedures#31](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-use-a-class-that-defines-operators_2.vb)]  
+ [!code-vb[VbVbcnProcedures#31](./codesnippet/VisualBasic/how-to-use-a-class-that-defines-operators_2.vb)]  
   
  The <xref:System.Data.SqlTypes.SqlString> structure defines a conversion operator ([CType Function](../../../visual-basic/language-reference/functions/ctype-function.md)) from `String` to <xref:System.Data.SqlTypes.SqlString> and another from <xref:System.Data.SqlTypes.SqlString> to `String`. The statement that assigns `title` to `jobTitle` makes use of the first operator, and the <xref:Microsoft.VisualBasic.Interaction.MsgBox%2A> function call uses the second.  
   
@@ -62,10 +62,10 @@ If you are using a class or structure that defines its own operators, you can ac
  Your project must have references to System.Data and System.XML.  
   
 ## See Also  
- [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [How to: Define an Operator](../../../visual-basic/language-reference/procedures/how-to-define-an-operator.md)   
- [How to: Define a Conversion Operator](../../../visual-basic/language-reference/procedures/how-to-define-a-conversion-operator.md)   
- [How to: Call an Operator Procedure](../../../visual-basic/language-reference/procedures/how-to-call-an-operator-procedure.md)   
+ [Operator Procedures](./operator-procedures.md)   
+ [How to: Define an Operator](./how-to-define-an-operator.md)   
+ [How to: Define a Conversion Operator](./how-to-define-a-conversion-operator.md)   
+ [How to: Call an Operator Procedure](./how-to-call-an-operator-procedure.md)   
  [Widening](../../../visual-basic/language-reference/modifiers/widening.md)   
  [Narrowing](../../../visual-basic/language-reference/modifiers/narrowing.md)   
  [Structure Statement](../../../visual-basic/language-reference/statements/structure-statement.md)   

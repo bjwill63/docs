@@ -48,17 +48,17 @@ If you have defined a class or structure, you can define a type conversion opera
 ## Example  
  The following example defines conversion operators between a structure called `digit` and a `Byte`.  
   
- [!code-vb[VbVbcnProcedures#27](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-a-conversion-operator_1.vb)]  
+ [!code-vb[VbVbcnProcedures#27](./codesnippet/VisualBasic/how-to-define-a-conversion-operator_1.vb)]  
   
  You can test the structure `digit` with the following code.  
   
- [!code-vb[VbVbcnProcedures#28](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-a-conversion-operator_2.vb)]  
+ [!code-vb[VbVbcnProcedures#28](./codesnippet/VisualBasic/how-to-define-a-conversion-operator_2.vb)]  
   
 ## See Also  
- [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [How to: Define an Operator](../../../visual-basic/language-reference/procedures/how-to-define-an-operator.md)   
- [How to: Call an Operator Procedure](../../../visual-basic/language-reference/procedures/how-to-call-an-operator-procedure.md)   
- [How to: Use a Class that Defines Operators](../../../visual-basic/language-reference/procedures/how-to-use-a-class-that-defines-operators.md)   
+ [Operator Procedures](./operator-procedures.md)   
+ [How to: Define an Operator](./how-to-define-an-operator.md)   
+ [How to: Call an Operator Procedure](./how-to-call-an-operator-procedure.md)   
+ [How to: Use a Class that Defines Operators](./how-to-use-a-class-that-defines-operators.md)   
  [Operator Statement](../../../visual-basic/language-reference/statements/operator-statement.md)   
  [Structure Statement](../../../visual-basic/language-reference/statements/structure-statement.md)   
  [How to: Declare a Structure](../../../visual-basic/programming-guide/language-features/data-types/how-to-declare-a-structure.md)   

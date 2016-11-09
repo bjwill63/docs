@@ -1450,10 +1450,10 @@
 #### [Object-Oriented Programming](visual-basic/programming-guide/concepts/object-oriented-programming.md)
 #### [Reflection](visual-basic/programming-guide/concepts/reflection.md)
 
-<!-- #### [Serialization](visual-basic/programming-guide/concepts/serialization/index.md) -->
-<!-- ##### [How to: Write Object Data to an XML File](visual-basic/programming-guide/concepts/serialization/how-to-write-object-data-to-an-xml-file.md) -->
-<!-- ##### [How to: Read Object Data from an XML File](visual-basic/programming-guide/concepts/serialization/how-to-read-object-data-from-an-xml-file.md) -->
-<!-- ##### [Walkthrough: Persisting an Object](visual-basic/programming-guide/concepts/serialization/walkthrough-persisting-an-object-in-visual-studio.md) -->
+#### [Serialization](visual-basic/programming-guide/concepts/serialization/index.md)
+##### [How to: Write Object Data to an XML File](visual-basic/programming-guide/concepts/serialization/how-to-write-object-data-to-an-xml-file.md)
+##### [How to: Read Object Data from an XML File](visual-basic/programming-guide/concepts/serialization/how-to-read-object-data-from-an-xml-file.md)
+##### [Walkthrough: Persisting an Object](visual-basic/programming-guide/concepts/serialization/walkthrough-persisting-an-object-in-visual-studio.md)
 
 #### [Threading](visual-basic/programming-guide/concepts/threading/index.md)
 ##### [Multithreaded Applications](visual-basic/programming-guide/concepts/threading/multithreaded-applications.md)
@@ -1608,57 +1608,57 @@
 ##### [Value Comparisons](visual-basic/programming-guide/language-features/operators-and-expressions/value-comparisons.md)
 ##### [Boolean Expressions](visual-basic/programming-guide/language-features/operators-and-expressions/boolean-expressions.md)
 
-<!-- #### [Procedures](visual-basic/programming-guide/language-features/index.md) -->
-<!-- ####### [How to: Create a Procedure](visual-basic/programming-guide/language-features/how-to-create-a-procedure.md) -->
-<!-- ####### [Sub Procedures](visual-basic/programming-guide/language-features/sub-procedures.md) -->
-<!-- ######### [How to: Call a Procedure that Does Not Return a Value](visual-basic/programming-guide/language-features/how-to-call-a-procedure-that-does-not-return-a-value.md) -->
-<!-- ######### [How to: Call an Event Handler](visual-basic/programming-guide/language-features/how-to-call-an-event-handler.md) -->
-<!-- ####### [Function Procedures](visual-basic/programming-guide/language-features/function-procedures.md) -->
-<!-- ######### [How to: Create a Procedure that Returns a Value](visual-basic/programming-guide/language-features/how-to-create-a-procedure-that-returns-a-value.md) -->
-<!-- ######### [How to: Return a Value from a Procedure](visual-basic/programming-guide/language-features/how-to-return-a-value-from-a-procedure.md) -->
-<!-- ######### [How to: Call a Procedure That Returns a Value](visual-basic/programming-guide/language-features/how-to-call-a-procedure-that-returns-a-value.md) -->
-<!-- ####### [Property Procedures](visual-basic/programming-guide/language-features/property-procedures.md) -->
-<!-- ######### [Auto-Implemented Properties](visual-basic/programming-guide/language-features/auto-implemented-properties.md) -->
-<!-- ######### [Differences Between Properties and Variables](visual-basic/programming-guide/language-features/differences-between-properties-and-variables.md) -->
-<!-- ######### [How to: Create a Property](visual-basic/programming-guide/language-features/how-to-create-a-property.md) -->
-<!-- ######### [How to: Declare a Property with Mixed Access Levels](visual-basic/programming-guide/language-features/how-to-declare-a-property-with-mixed-access-levels.md) -->
-<!-- ######### [How to: Call a Property Procedure](visual-basic/programming-guide/language-features/how-to-call-a-property-procedure.md) -->
-<!-- ######### [How to: Declare and Call a Default Property](visual-basic/programming-guide/language-features/how-to-declare-and-call-a-default-property.md) -->
-<!-- ######### [How to: Put a Value in a Property](visual-basic/programming-guide/language-features/how-to-put-a-value-in-a-property.md) -->
-<!-- ######### [How to: Get a Value from a Property](visual-basic/programming-guide/language-features/how-to-get-a-value-from-a-property.md) -->
-<!-- ####### [Operator Procedures](visual-basic/programming-guide/language-features/operator-procedures.md) -->
-<!-- ######### [How to: Define an Operator](visual-basic/programming-guide/language-features/how-to-define-an-operator.md) -->
-<!-- ######### [How to: Define a Conversion Operator](visual-basic/programming-guide/language-features/how-to-define-a-conversion-operator.md) -->
-<!-- ######### [How to: Call an Operator Procedure](visual-basic/programming-guide/language-features/how-to-call-an-operator-procedure.md) -->
-<!-- ######### [How to: Use a Class that Defines Operators](visual-basic/programming-guide/language-features/how-to-use-a-class-that-defines-operators.md) -->
-<!-- ####### [Procedure Parameters and Arguments](visual-basic/programming-guide/language-features/procedure-parameters-and-arguments.md) -->
-<!-- ######### [Differences Between Parameters and Arguments](visual-basic/programming-guide/language-features/differences-between-parameters-and-arguments.md) -->
-<!-- ######### [How to: Define a Parameter for a Procedure](visual-basic/programming-guide/language-features/how-to-define-a-parameter-for-a-procedure.md) -->
-<!-- ######### [How to: Pass Arguments to a Procedure](visual-basic/programming-guide/language-features/how-to-pass-arguments-to-a-procedure.md) -->
-<!-- ######### [Passing Arguments by Value and by Reference](visual-basic/programming-guide/language-features/passing-arguments-by-value-and-by-reference.md) -->
-<!-- ########## [Differences Between Modifiable and Nonmodifiable Arguments](visual-basic/programming-guide/language-features/differences-between-modifiable-and-nonmodifiable-arguments.md) -->
-<!-- ########## [Differences Between Passing an Argument By Value and By Reference](visual-basic/programming-guide/language-features/differences-between-passing-an-argument-by-value-and-by-reference.md) -->
-<!-- ########## [How to: Change the Value of a Procedure Argument](visual-basic/programming-guide/language-features/how-to-change-the-value-of-a-procedure-argument.md) -->
-<!-- ########## [How to: Protect a Procedure Argument Against Value Changes](visual-basic/programming-guide/language-features/how-to-protect-a-procedure-argument-against-value-changes.md) -->
-<!-- ########## [How to: Force an Argument to Be Passed by Value](visual-basic/programming-guide/language-features/how-to-force-an-argument-to-be-passed-by-value.md) -->
-<!-- ######### [Passing Arguments by Position and by Name](visual-basic/programming-guide/language-features/passing-arguments-by-position-and-by-name.md) -->
-<!-- ######### [Optional Parameters](visual-basic/programming-guide/language-features/optional-parameters.md) -->
-<!-- ######### [Parameter Arrays](visual-basic/programming-guide/language-features/parameter-arrays.md) -->
-<!-- ####### [Recursive Procedures](visual-basic/programming-guide/language-features/recursive-procedures.md) -->
-<!-- ####### [Procedure Overloading](visual-basic/programming-guide/language-features/procedure-overloading.md) -->
-<!-- ######### [How to: Define Multiple Versions of a Procedure](visual-basic/programming-guide/language-features/how-to-define-multiple-versions-of-a-procedure.md) -->
-<!-- ######### [How to: Call an Overloaded Procedure](visual-basic/programming-guide/language-features/how-to-call-an-overloaded-procedure.md) -->
-<!-- ######### [How to: Overload a Procedure that Takes Optional Parameters](visual-basic/programming-guide/language-features/how-to-overload-a-procedure-that-takes-optional-parameters.md) -->
-<!-- ######### [How to: Overload a Procedure that Takes an Indefinite Number of Parameters](visual-basic/programming-guide/language-features/how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters.md) -->
-<!-- ######### [Considerations in Overloading Procedures](visual-basic/programming-guide/language-features/considerations-in-overloading-procedures.md) -->
-<!-- ######### [Overload Resolution](visual-basic/programming-guide/language-features/overload-resolution.md) -->
-<!-- ####### [Troubleshooting Procedures](visual-basic/programming-guide/language-features/troubleshooting-procedures.md) -->
-<!-- ####### [Extension Methods](visual-basic/programming-guide/language-features/extension-methods.md) -->
-<!-- ######### [How to: Write an Extension Method](visual-basic/programming-guide/language-features/how-to-write-an-extension-method.md) -->
-<!-- ######### [How to: Call an Extension Method](visual-basic/programming-guide/language-features/how-to-call-an-extension-method.md) -->
-<!-- ####### [Lambda Expressions](visual-basic/programming-guide/language-features/lambda-expressions.md) -->
-<!-- ######### [How to: Create a Lambda Expression](visual-basic/programming-guide/language-features/how-to-create-a-lambda-expression.md) -->
-<!-- ####### [Partial Methods](visual-basic/programming-guide/language-features/partial-methods.md) -->
+#### [Procedures](visual-basic/programming-guide/language-features/procedures/index.md)
+##### [How to: Create a Procedure](visual-basic/programming-guide/language-features/procedures/how-to-create-a-procedure.md)
+##### [Sub Procedures](visual-basic/programming-guide/language-features/procedures/sub-procedures.md)
+###### [How to: Call a Procedure that Does Not Return a Value](visual-basic/programming-guide/language-features/procedures/how-to-call-a-procedure-that-does-not-return-a-value.md)
+###### [How to: Call an Event Handler](visual-basic/programming-guide/language-features/procedures/how-to-call-an-event-handler.md)
+##### [Function Procedures](visual-basic/programming-guide/language-features/procedures/function-procedures.md)
+###### [How to: Create a Procedure that Returns a Value](visual-basic/programming-guide/language-features/procedures/how-to-create-a-procedure-that-returns-a-value.md)
+###### [How to: Return a Value from a Procedure](visual-basic/programming-guide/language-features/procedures/how-to-return-a-value-from-a-procedure.md)
+###### [How to: Call a Procedure That Returns a Value](visual-basic/programming-guide/language-features/procedures/how-to-call-a-procedure-that-returns-a-value.md)
+##### [Property Procedures](visual-basic/programming-guide/language-features/procedures/property-procedures.md)
+###### [Auto-Implemented Properties](visual-basic/programming-guide/language-features/procedures/auto-implemented-properties.md)
+###### [Differences Between Properties and Variables](visual-basic/programming-guide/language-features/procedures/differences-between-properties-and-variables.md)
+###### [How to: Create a Property](visual-basic/programming-guide/language-features/procedures/how-to-create-a-property.md)
+###### [How to: Declare a Property with Mixed Access Levels](visual-basic/programming-guide/language-features/procedures/how-to-declare-a-property-with-mixed-access-levels.md)
+###### [How to: Call a Property Procedure](visual-basic/programming-guide/language-features/procedures/how-to-call-a-property-procedure.md)
+###### [How to: Declare and Call a Default Property](visual-basic/programming-guide/language-features/procedures/how-to-declare-and-call-a-default-property.md)
+###### [How to: Put a Value in a Property](visual-basic/programming-guide/language-features/procedures/how-to-put-a-value-in-a-property.md)
+###### [How to: Get a Value from a Property](visual-basic/programming-guide/language-features/procedures/how-to-get-a-value-from-a-property.md)
+##### [Operator Procedures](visual-basic/programming-guide/language-features/procedures/operator-procedures.md)
+###### [How to: Define an Operator](visual-basic/programming-guide/language-features/procedures/how-to-define-an-operator.md)
+###### [How to: Define a Conversion Operator](visual-basic/programming-guide/language-features/procedures/how-to-define-a-conversion-operator.md)
+###### [How to: Call an Operator Procedure](visual-basic/programming-guide/language-features/procedures/how-to-call-an-operator-procedure.md)
+###### [How to: Use a Class that Defines Operators](visual-basic/programming-guide/language-features/procedures/how-to-use-a-class-that-defines-operators.md)
+##### [Procedure Parameters and Arguments](visual-basic/programming-guide/language-features/procedures/procedure-parameters-and-arguments.md)
+###### [Differences Between Parameters and Arguments](visual-basic/programming-guide/language-features/procedures/differences-between-parameters-and-arguments.md)
+###### [How to: Define a Parameter for a Procedure](visual-basic/programming-guide/language-features/procedures/how-to-define-a-parameter-for-a-procedure.md)
+###### [How to: Pass Arguments to a Procedure](visual-basic/programming-guide/language-features/procedures/how-to-pass-arguments-to-a-procedure.md)
+###### [Passing Arguments by Value and by Reference](visual-basic/programming-guide/language-features/procedures/passing-arguments-by-value-and-by-reference.md)
+####### [Differences Between Modifiable and Nonmodifiable Arguments](visual-basic/programming-guide/language-features/procedures/differences-between-modifiable-and-nonmodifiable-arguments.md)
+####### [Differences Between Passing an Argument By Value and By Reference](visual-basic/programming-guide/language-features/procedures/differences-between-passing-an-argument-by-value-and-by-reference.md)
+####### [How to: Change the Value of a Procedure Argument](visual-basic/programming-guide/language-features/procedures/how-to-change-the-value-of-a-procedure-argument.md)
+####### [How to: Protect a Procedure Argument Against Value Changes](visual-basic/programming-guide/language-features/procedures/how-to-protect-a-procedure-argument-against-value-changes.md)
+####### [How to: Force an Argument to Be Passed by Value](visual-basic/programming-guide/language-features/procedures/how-to-force-an-argument-to-be-passed-by-value.md)
+###### [Passing Arguments by Position and by Name](visual-basic/programming-guide/language-features/procedures/passing-arguments-by-position-and-by-name.md)
+###### [Optional Parameters](visual-basic/programming-guide/language-features/procedures/optional-parameters.md)
+###### [Parameter Arrays](visual-basic/programming-guide/language-features/procedures/parameter-arrays.md)
+##### [Recursive Procedures](visual-basic/programming-guide/language-features/procedures/recursive-procedures.md)
+##### [Procedure Overloading](visual-basic/programming-guide/language-features/procedures/procedure-overloading.md)
+###### [How to: Define Multiple Versions of a Procedure](visual-basic/programming-guide/language-features/procedures/how-to-define-multiple-versions-of-a-procedure.md)
+###### [How to: Call an Overloaded Procedure](visual-basic/programming-guide/language-features/procedures/how-to-call-an-overloaded-procedure.md)
+###### [How to: Overload a Procedure that Takes Optional Parameters](visual-basic/programming-guide/language-features/procedures/how-to-overload-a-procedure-that-takes-optional-parameters.md)
+###### [How to: Overload a Procedure that Takes an Indefinite Number of Parameters](visual-basic/programming-guide/language-features/procedures/how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters.md)
+###### [Considerations in Overloading Procedures](visual-basic/programming-guide/language-features/procedures/considerations-in-overloading-procedures.md)
+###### [Overload Resolution](visual-basic/programming-guide/language-features/procedures/overload-resolution.md)
+##### [Troubleshooting Procedures](visual-basic/programming-guide/language-features/procedures/troubleshooting-procedures.md)
+##### [Extension Methods](visual-basic/programming-guide/language-features/procedures/extension-methods.md)
+###### [How to: Write an Extension Method](visual-basic/programming-guide/language-features/procedures/how-to-write-an-extension-method.md)
+###### [How to: Call an Extension Method](visual-basic/programming-guide/language-features/procedures/how-to-call-an-extension-method.md)
+##### [Lambda Expressions](visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)
+###### [How to: Create a Lambda Expression](visual-basic/programming-guide/language-features/procedures/how-to-create-a-lambda-expression.md)
+##### [Partial Methods](visual-basic/programming-guide/language-features/procedures/partial-methods.md)
 
 #### [Statements](visual-basic/programming-guide/language-features/statements.md)
 #### [Strings](visual-basic/programming-guide/language-features/strings/index.md)

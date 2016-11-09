@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Procedures in Visual Basic
-A *procedure* is a block of [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] statements enclosed by a declaration statement (`Function`, `Sub`, `Operator`, `Get`, `Set`) and a matching `End` declaration. All executable statements in [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] must be within some procedure.  
+A *procedure* is a block of [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] statements enclosed by a declaration statement (`Function`, `Sub`, `Operator`, `Get`, `Set`) and a matching `End` declaration. All executable statements in [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] must be within some procedure.  
   
 ## Calling a Procedure  
  You invoke a procedure from some other place in the code. This is known as a *procedure call*. When the procedure is finished running, it returns control to the code that invoked it, which is known as the *calling code*. The calling code is a statement, or an expression within a statement, that specifies the procedure by name and transfers control to it.  
@@ -56,17 +56,17 @@ A *procedure* is a block of [!INCLUDE[vbprvb](../../../csharp/programming-guide/
  In most cases, a procedure needs to operate on different data each time you call it. You can pass this information to the procedure as part of the procedure call. The procedure defines zero or more *parameters*, each of which represents a value it expects you to pass to it. Corresponding to each parameter in the procedure definition is an *argument* in the procedure call. An argument represents the value you pass to the corresponding parameter in a given procedure call.  
   
 ## Types of Procedures  
- [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] uses several types of procedures:  
+ [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] uses several types of procedures:  
   
--   [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md) perform actions but do not return a value to the calling code.  
+-   [Sub Procedures](./sub-procedures.md) perform actions but do not return a value to the calling code.  
   
 -   Event-handling procedures are `Sub` procedures that execute in response to an event raised by user action or by an occurrence in a program.  
   
--   [Function Procedures](../../../visual-basic/language-reference/procedures/function-procedures.md) return a value to the calling code. They can perform other actions before returning.  
+-   [Function Procedures](./function-procedures.md) return a value to the calling code. They can perform other actions before returning.  
   
--   [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md) return and assign values of properties on objects or modules.  
+-   [Property Procedures](./property-procedures.md) return and assign values of properties on objects or modules.  
   
--   [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md) define the behavior of a standard operator when one or both of the operands is a newly-defined class or structure.  
+-   [Operator Procedures](./operator-procedures.md) define the behavior of a standard operator when one or both of the operands is a newly-defined class or structure.  
   
 -   [Generic Procedures in Visual Basic](../../../visual-basic/programming-guide/language-features/data-types/generic-procedures.md) define one or more *type parameters* in addition to their normal parameters, so the calling code can pass specific data types each time it makes a call.  
   
@@ -82,13 +82,13 @@ A *procedure* is a block of [!INCLUDE[vbprvb](../../../csharp/programming-guide/
 -   After you develop procedures for use in one program, you can use them in other programs, often with little or no modification. This helps you avoid code duplication.  
   
 ## See Also  
- [How to: Create a Procedure](../../../visual-basic/language-reference/procedures/how-to-create-a-procedure.md)   
- [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md)   
- [Function Procedures](../../../visual-basic/language-reference/procedures/function-procedures.md)   
- [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md)   
- [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Recursive Procedures](../../../visual-basic/language-reference/procedures/recursive-procedures.md)   
- [Procedure Overloading](../../../visual-basic/language-reference/procedures/procedure-overloading.md)   
+ [How to: Create a Procedure](./how-to-create-a-procedure.md)   
+ [Sub Procedures](./sub-procedures.md)   
+ [Function Procedures](./function-procedures.md)   
+ [Property Procedures](./property-procedures.md)   
+ [Operator Procedures](./operator-procedures.md)   
+ [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
+ [Recursive Procedures](./recursive-procedures.md)   
+ [Procedure Overloading](./procedure-overloading.md)   
  [Generic Procedures in Visual Basic](../../../visual-basic/programming-guide/language-features/data-types/generic-procedures.md)   
  [Objects and Classes](../../../visual-basic/programming-guide/language-features/objects-and-classes/index.md)

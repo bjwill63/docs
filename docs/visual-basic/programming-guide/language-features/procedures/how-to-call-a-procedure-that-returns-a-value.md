@@ -47,7 +47,7 @@ A `Function` procedure returns a value to the calling code. You call it by inclu
   
 3.  Place the arguments in the argument list within the parentheses, separated by commas. Be sure you supply the arguments in the same order that the `Function` procedure defines the corresponding parameters.  
   
-     Alternatively, you can pass one or more arguments by name. For more information, see [Passing Arguments by Position and by Name](../../../visual-basic/language-reference/procedures/passing-arguments-by-position-and-by-name.md).  
+     Alternatively, you can pass one or more arguments by name. For more information, see [Passing Arguments by Position and by Name](./passing-arguments-by-position-and-by-name.md).  
   
 4.  The value returned from the procedure participates in the expression just as the value of a variable or constant would.  
   
@@ -62,14 +62,14 @@ A `Function` procedure returns a value to the calling code. You call it by inclu
 4.  The value returned from the procedure is stored in the variable or property on the left side of the assignment statement.  
   
 ## Example  
- The following example calls the [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] <xref:Microsoft.VisualBasic.Interaction.Environ%2A> to retrieve the value of an operating system environment variable. The first line calls `Environ` within an expression, and the second line calls it in an assignment statement. `Environ` takes the variable name as its sole argument. It returns the variable's value to the calling code.  
+ The following example calls the [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] <xref:Microsoft.VisualBasic.Interaction.Environ%2A> to retrieve the value of an operating system environment variable. The first line calls `Environ` within an expression, and the second line calls it in an assignment statement. `Environ` takes the variable name as its sole argument. It returns the variable's value to the calling code.  
   
- [!code-vb[VbVbcnProcedures#7](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-call-a-procedure-that-returns-a-value_1.vb)]  
+ [!code-vb[VbVbcnProcedures#7](./codesnippet/VisualBasic/how-to-call-a-procedure-that-returns-a-value_1.vb)]  
   
 ## See Also  
- [Function Procedures](../../../visual-basic/language-reference/procedures/function-procedures.md)   
- [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Function Procedures](./function-procedures.md)   
+ [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
  [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md)   
- [How to: Create a Procedure that Returns a Value](../../../visual-basic/language-reference/procedures/how-to-create-a-procedure-that-returns-a-value.md)   
- [How to: Return a Value from a Procedure](../../../visual-basic/language-reference/procedures/how-to-return-a-value-from-a-procedure.md)   
- [How to: Call a Procedure that Does Not Return a Value](../../../visual-basic/language-reference/procedures/how-to-call-a-procedure-that-does-not-return-a-value.md)
+ [How to: Create a Procedure that Returns a Value](./how-to-create-a-procedure-that-returns-a-value.md)   
+ [How to: Return a Value from a Procedure](./how-to-return-a-value-from-a-procedure.md)   
+ [How to: Call a Procedure that Does Not Return a Value](./how-to-call-a-procedure-that-does-not-return-a-value.md)
