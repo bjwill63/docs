@@ -41,11 +41,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Sub Procedures (Visual Basic)
-A `Sub` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] statements enclosed by the `Sub` and `End Sub` statements. The `Sub` procedure performs a task and then returns control to the calling code, but it does not return a value to the calling code.  
+A `Sub` procedure is a series of [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] statements enclosed by the `Sub` and `End Sub` statements. The `Sub` procedure performs a task and then returns control to the calling code, but it does not return a value to the calling code.  
   
  Each time the procedure is called, its statements are executed, starting with the first executable statement after the `Sub` statement and ending with the first `End Sub`, `Exit Sub`, or `Return` statement encountered.  
   
- You can define a `Sub` procedure in modules, classes, and structures. By default, it is `Public`, which means you can call it from anywhere in your application that has access to the module, class, or structure in which you defined it. The term, *method*, describes a `Sub` or `Function` procedure that is accessed from outside its defining module, class, or structure. For more information, see [Procedures](../../../../visual-basic/language-reference/procedures/index.md).  
+ You can define a `Sub` procedure in modules, classes, and structures. By default, it is `Public`, which means you can call it from anywhere in your application that has access to the module, class, or structure in which you defined it. The term, *method*, describes a `Sub` or `Function` procedure that is accessed from outside its defining module, class, or structure. For more information, see [Procedures](../../../visual-basic/language-reference/procedures/index.md).  
   
  A `Sub` procedure can take arguments, such as constants, variables, or expressions, which are passed to it by the calling code.  
   
@@ -58,7 +58,7 @@ A `Sub` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/programmin
   
  `End Sub`  
   
- The `modifiers` can specify access level and information about overloading, overriding, sharing, and shadowing. For more information, see [Sub Statement](../../../../visual-basic/language-reference/statements/sub-statement.md).  
+ The `modifiers` can specify access level and information about overloading, overriding, sharing, and shadowing. For more information, see [Sub Statement](../../../visual-basic/language-reference/statements/sub-statement.md).  
   
 ## Parameter Declaration  
  You declare each procedure parameter similarly to how you declare a variable, specifying the parameter name and data type. You can also specify the passing mechanism, and whether the parameter is optional or a parameter array.  
@@ -81,25 +81,25 @@ A `Sub` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/programmin
   
  `[Call]`  *subname* `[(` *argumentlist* `)]`  
   
- You can call a `Sub` method from outside the class that defines it. First, you have to use the `New` keyword to create an instance of the class, or call a method that returns an instance of the class. For more information, see [New Operator](../../../../visual-basic/language-reference/operators/new-operator.md). Then, you can use the following syntax to call the `Sub` method on the instance object:  
+ You can call a `Sub` method from outside the class that defines it. First, you have to use the `New` keyword to create an instance of the class, or call a method that returns an instance of the class. For more information, see [New Operator](../../../visual-basic/language-reference/operators/new-operator.md). Then, you can use the following syntax to call the `Sub` method on the instance object:  
   
  *Object*.*methodname*`[(`*argumentlist*`)]`  
   
 ### Illustration of Declaration and Call  
  The following `Sub` procedure tells the computer operator which task the application is about to perform, and also displays a time stamp. Instead of duplicating this code at the start of every task, the application just calls `tellOperator` from various locations. Each call passes a string in the `task` argument that identifies the task being started.  
   
- [!code-vb[VbVbcnProcedures#2](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/sub-procedures_1.vb)]  
+ [!code-vb[VbVbcnProcedures#2](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/sub-procedures_1.vb)]  
   
  The following example shows a typical call to `tellOperator`.  
   
- [!code-vb[VbVbcnProcedures#3](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/sub-procedures_2.vb)]  
+ [!code-vb[VbVbcnProcedures#3](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/sub-procedures_2.vb)]  
   
 ## See Also  
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [Function Procedures](../../../../visual-basic/language-reference/procedures/function-procedures.md)   
- [Property Procedures](../../../../visual-basic/language-reference/procedures/property-procedures.md)   
- [Operator Procedures](../../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Sub Statement](../../../../visual-basic/language-reference/statements/sub-statement.md)   
- [How to: Call a Procedure that Does Not Return a Value](../../../../visual-basic/language-reference/procedures/how-to-call-a-procedure-that-does-not-return-a-value.md)   
- [How to: Call an Event Handler in Visual Basic](../../../../visual-basic/language-reference/procedures/how-to-call-an-event-handler-in-visual-basic.md)
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [Function Procedures](../../../visual-basic/language-reference/procedures/function-procedures.md)   
+ [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md)   
+ [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Sub Statement](../../../visual-basic/language-reference/statements/sub-statement.md)   
+ [How to: Call a Procedure that Does Not Return a Value](../../../visual-basic/language-reference/procedures/how-to-call-a-procedure-that-does-not-return-a-value.md)   
+ [How to: Call an Event Handler in Visual Basic](../../../visual-basic/language-reference/procedures/how-to-call-an-event-handler.md)

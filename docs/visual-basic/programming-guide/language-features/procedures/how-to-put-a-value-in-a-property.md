@@ -40,15 +40,15 @@ translation.priority.ht:
 # How to: Put a Value in a Property (Visual Basic)
 You store a value in a property by putting the property name on the left side of an assignment statement.  
   
- The property's `Set` procedure stores a value, but you do not explicitly call it by name. You use the property just as you would use a variable. [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] makes the calls to the property's procedures.  
+ The property's `Set` procedure stores a value, but you do not explicitly call it by name. You use the property just as you would use a variable. [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] makes the calls to the property's procedures.  
   
 ### To store a value in a property  
   
 1.  Use the property name on the left side of an assignment statement.  
   
-     The following example sets the value of the [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] `TimeOfDay` property to noon, implicitly calling its `Set` procedure.  
+     The following example sets the value of the [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] `TimeOfDay` property to noon, implicitly calling its `Set` procedure.  
   
-     [!code-vb[VbVbcnProcedures#11](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-put-a-value-in-a-property_1.vb)]  
+     [!code-vb[VbVbcnProcedures#11](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-put-a-value-in-a-property_1.vb)]  
   
 2.  If the property takes arguments, follow the property name with parentheses to enclose the argument list. If there are no arguments, you can optionally omit the parentheses.  
   
@@ -58,12 +58,12 @@ You store a value in a property by putting the property name on the left side of
   
 ## See Also  
  <xref:Microsoft.VisualBasic.DateAndTime.TimeOfDay%2A>   
- [Property Procedures](../../../../visual-basic/language-reference/procedures/property-procedures.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Property Statement](../../../../visual-basic/language-reference/statements/property-statement.md)   
- [Differences Between Properties and Variables in Visual Basic](../../../../visual-basic/language-reference/procedures/differences-between-properties-and-variables-in-visual-basic.md)   
- [How to: Create a Property](../../../../visual-basic/language-reference/procedures/how-to-create-a-property.md)   
- [How to: Declare a Property with Mixed Access Levels](../../../../visual-basic/language-reference/procedures/how-to-declare-a-property-with-mixed-access-levels.md)   
- [How to: Call a Property Procedure](../../../../visual-basic/language-reference/procedures/how-to-call-a-property-procedure.md)   
- [How to: Declare and Call a Default Property in Visual Basic](../../../../visual-basic/language-reference/procedures/how-to-declare-and-call-a-default-property-in-visual-basic.md)   
- [How to: Get a Value from a Property](../../../../visual-basic/language-reference/procedures/how-to-get-a-value-from-a-property.md)
+ [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Property Statement](../../../visual-basic/language-reference/statements/property-statement.md)   
+ [Differences Between Properties and Variables in Visual Basic](../../../visual-basic/language-reference/procedures/differences-between-properties-and-variables.md)   
+ [How to: Create a Property](../../../visual-basic/language-reference/procedures/how-to-create-a-property.md)   
+ [How to: Declare a Property with Mixed Access Levels](../../../visual-basic/language-reference/procedures/how-to-declare-a-property-with-mixed-access-levels.md)   
+ [How to: Call a Property Procedure](../../../visual-basic/language-reference/procedures/how-to-call-a-property-procedure.md)   
+ [How to: Declare and Call a Default Property in Visual Basic](../../../visual-basic/language-reference/procedures/how-to-declare-and-call-a-default-property.md)   
+ [How to: Get a Value from a Property](../../../visual-basic/language-reference/procedures/how-to-get-a-value-from-a-property.md)

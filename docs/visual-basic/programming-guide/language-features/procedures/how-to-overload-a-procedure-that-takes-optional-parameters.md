@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Overload a Procedure that Takes Optional Parameters (Visual Basic)
-If a procedure has one or more [Optional](../../../../visual-basic/language-reference/modifiers/optional.md) parameters, you cannot define an overloaded version matching any of its implicit overloads. For more information, see "Implicit Overloads for Optional Parameters" in [Considerations in Overloading Procedures](../../../../visual-basic/language-reference/procedures/considerations-in-overloading-procedures.md).  
+If a procedure has one or more [Optional](../../../visual-basic/language-reference/modifiers/optional.md) parameters, you cannot define an overloaded version matching any of its implicit overloads. For more information, see "Implicit Overloads for Optional Parameters" in [Considerations in Overloading Procedures](../../../visual-basic/language-reference/procedures/considerations-in-overloading-procedures.md).  
   
 ## One Optional Parameter  
   
@@ -48,7 +48,7 @@ If a procedure has one or more [Optional](../../../../visual-basic/language-refe
   
 1.  Write a `Sub` or `Function` declaration statement that includes the optional parameter in the parameter list. Do not use the `Optional` keyword in this overloaded version.  
   
-2.  Precede the `Sub` or `Function` keyword with the [Overloads](../../../../visual-basic/language-reference/modifiers/overloads.md) keyword.  
+2.  Precede the `Sub` or `Function` keyword with the [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md) keyword.  
   
 3.  Write the procedure code that should execute when the calling code supplies the optional argument.  
   
@@ -60,11 +60,11 @@ If a procedure has one or more [Optional](../../../../visual-basic/language-refe
   
      The following example shows a procedure defined with an optional parameter,  an equivalent set of two overloaded procedures, and finally examples of both invalid and valid overloaded versions.  
   
-     [!code-vb[VbVbcnProcedures#59](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-overload-a-procedure-that-takes-optional-parameters_1.vb)]  
+     [!code-vb[VbVbcnProcedures#59](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-overload-a-procedure-that-takes-optional-parameters_1.vb)]  
   
-     [!code-vb[VbVbcnProcedures#60](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-overload-a-procedure-that-takes-optional-parameters_2.vb)]  
+     [!code-vb[VbVbcnProcedures#60](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-overload-a-procedure-that-takes-optional-parameters_2.vb)]  
   
-     [!code-vb[VbVbcnProcedures#61](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-overload-a-procedure-that-takes-optional-parameters_3.vb)]  
+     [!code-vb[VbVbcnProcedures#61](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-overload-a-procedure-that-takes-optional-parameters_3.vb)]  
   
 ## Multiple Optional Parameters  
  For a procedure with more than one optional parameter, you normally need more than two overloaded versions. For example, if there are two optional parameters, and the calling code can supply or omit each one independently of the other, you need four overloaded versions, one for each possible combination of supplied arguments.  
@@ -77,20 +77,20 @@ If a procedure has one or more [Optional](../../../../visual-basic/language-refe
   
 2.  For each acceptable combination of supplied optional arguments, write a `Sub` or `Function` declaration statement that defines the corresponding parameter list. Do not use the `Optional` keyword.  
   
-3.  In each declaration, precede the `Sub` or `Function` keyword with the [Overloads](../../../../visual-basic/language-reference/modifiers/overloads.md) keyword.  
+3.  In each declaration, precede the `Sub` or `Function` keyword with the [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md) keyword.  
   
 4.  Following each declaration, write the procedure code that should execute when the calling code supplies an argument list corresponding to that declaration's parameter list.  
   
 5.  Terminate each procedure with the `End Sub` or `End Function` statement as appropriate.  
   
 ## See Also  
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Optional Parameters](../../../../visual-basic/language-reference/procedures/optional-parameters.md)   
- [Parameter Arrays](../../../../visual-basic/language-reference/procedures/parameter-arrays.md)   
- [Procedure Overloading](../../../../visual-basic/language-reference/procedures/procedure-overloading.md)   
- [Troubleshooting Procedures](../../../../visual-basic/language-reference/procedures/troubleshooting-procedures.md)   
- [How to: Define Multiple Versions of a Procedure](../../../../visual-basic/language-reference/procedures/how-to-define-multiple-versions-of-a-procedure.md)   
- [How to: Call an Overloaded Procedure](../../../../visual-basic/language-reference/procedures/how-to-call-an-overloaded-procedure.md)   
- [How to: Overload a Procedure that Takes an Indefinite Number of Parameters](../../../../visual-basic/language-reference/procedures/how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters.md)   
- [Overload Resolution](../../../../visual-basic/language-reference/procedures/overload-resolution.md)
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Optional Parameters](../../../visual-basic/language-reference/procedures/optional-parameters.md)   
+ [Parameter Arrays](../../../visual-basic/language-reference/procedures/parameter-arrays.md)   
+ [Procedure Overloading](../../../visual-basic/language-reference/procedures/procedure-overloading.md)   
+ [Troubleshooting Procedures](../../../visual-basic/language-reference/procedures/troubleshooting-procedures.md)   
+ [How to: Define Multiple Versions of a Procedure](../../../visual-basic/language-reference/procedures/how-to-define-multiple-versions-of-a-procedure.md)   
+ [How to: Call an Overloaded Procedure](../../../visual-basic/language-reference/procedures/how-to-call-an-overloaded-procedure.md)   
+ [How to: Overload a Procedure that Takes an Indefinite Number of Parameters](../../../visual-basic/language-reference/procedures/how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters.md)   
+ [Overload Resolution](../../../visual-basic/language-reference/procedures/overload-resolution.md)

@@ -77,7 +77,7 @@ Used to declare a delegate. A delegate is a reference type that refers to a `Sha
   
  `Function` ([`parm` As `type`, `parm2` As `type2`, ...]) `expression`  
   
- The signature of the function must match that of the delegate type. For more information about lambda expressions, see [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md).  
+ The signature of the function must match that of the delegate type. For more information about lambda expressions, see [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md).  
   
  For more information about delegates, see [Delegates](../../../visual-basic/programming-guide/language-features/delegates/delegates.md).  
   

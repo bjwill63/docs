@@ -189,7 +189,7 @@ End Sub
   
 -   [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md)  
   
--   [Extension Methods](../../../visual-basic/language-reference/procedures/extension-methods.md)  
+-   [Extension Methods](../../../visual-basic/programming-guide/language-features/procedures/extension-methods.md)  
   
 ####  <a name="Constructors"></a> Constructors  
  Constructors are class methods that are executed automatically when an object of a given type is created. Constructors usually initialize the data members of the new object. A constructor can run only once when a class is created. Furthermore, the code in the constructor always runs before any other code in a class. However, you can create multiple constructor overloads in the same way as for any other method.  

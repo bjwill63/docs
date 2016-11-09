@@ -103,7 +103,7 @@ translation.priority.ht:
  [Arrays](../../../../visual-basic/programming-guide/language-features/arrays/index.md)   
  [Object Initializers: Named and Anonymous Types](../../../../visual-basic/programming-guide/language-features/objects-and-classes/object-initializers-named-and-anonymous-types.md)   
  [New Operator](../../../../visual-basic/language-reference/operators/new-operator.md)   
- [Auto-Implemented Properties](../../../../visual-basic/language-reference/procedures/auto-implemented-properties.md)   
+ [Auto-Implemented Properties](../../../../visual-basic/programming-guide/language-features/procedures/auto-implemented-properties.md)   
  [How to: Initialize an Array Variable in Visual Basic](../../../../visual-basic/programming-guide/language-features/arrays/how-to-initialize-an-array-variable.md)   
  [Local Type Inference](../../../../visual-basic/programming-guide/language-features/variables/local-type-inference.md)   
  [Anonymous Types](../../../../visual-basic/programming-guide/language-features/objects-and-classes/anonymous-types.md)   

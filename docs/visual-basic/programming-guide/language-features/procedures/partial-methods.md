@@ -70,7 +70,7 @@ Private Sub QuantityChanged()
 End Sub  
 ```  
   
- The previous example duplicates the signature in the declaration exactly, but variations are possible. In particular, other modifiers can be added, such as `Overloads` or `Overrides`. Only one `Overrides` modifier is permitted. For more information about method modifiers, see [Sub Statement](../../../../visual-basic/language-reference/statements/sub-statement.md).  
+ The previous example duplicates the signature in the declaration exactly, but variations are possible. In particular, other modifiers can be added, such as `Overloads` or `Overrides`. Only one `Overrides` modifier is permitted. For more information about method modifiers, see [Sub Statement](../../../visual-basic/language-reference/statements/sub-statement.md).  
   
 ## Use  
  You call a partial method as you would call any other `Sub` procedure. If the method has been implemented, the arguments are evaluated and the body of the method is executed. However, remember that implementing a partial method is optional. If the method is not implemented, a call to it has no effect, and expressions passed as arguments to the method are not evaluated.  
@@ -78,24 +78,24 @@ End Sub
 ## Example  
  In a file named Product.Designer.vb, define a `Product` class that has a `Quantity` property.  
   
- [!code-vb[VbVbalrPartialMeths#4](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/partial-methods_1.vb)]  
+ [!code-vb[VbVbalrPartialMeths#4](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/partial-methods_1.vb)]  
   
  In a file named Product.vb, provide an implementation for `QuantityChanged`.  
   
- [!code-vb[VbVbalrPartialMeths#5](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/partial-methods_2.vb)]  
+ [!code-vb[VbVbalrPartialMeths#5](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/partial-methods_2.vb)]  
   
  Finally, in the Main method of a project, declare a `Product` instance and provide an initial value for its `Quantity` property.  
   
- [!code-vb[VbVbalrPartialMeths#6](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/partial-methods_3.vb)]  
+ [!code-vb[VbVbalrPartialMeths#6](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/partial-methods_3.vb)]  
   
  A message box should appear that displays this message:  
   
  `Quantity was changed to 100`  
   
 ## See Also  
- [Sub Statement](../../../../visual-basic/language-reference/statements/sub-statement.md)   
- [Sub Procedures](../../../../visual-basic/language-reference/procedures/sub-procedures.md)   
- [Optional Parameters](../../../../visual-basic/language-reference/procedures/optional-parameters.md)   
- [Partial](../../../../visual-basic/language-reference/modifiers/partial.md)   
+ [Sub Statement](../../../visual-basic/language-reference/statements/sub-statement.md)   
+ [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md)   
+ [Optional Parameters](../../../visual-basic/language-reference/procedures/optional-parameters.md)   
+ [Partial](../../../visual-basic/language-reference/modifiers/partial.md)   
  [Code Generation in LINQ to SQL](../Topic/Code%20Generation%20in%20LINQ%20to%20SQL.md)   
  [Adding Business Logic By Using Partial Methods](../Topic/Adding%20Business%20Logic%20By%20Using%20Partial%20Methods.md)

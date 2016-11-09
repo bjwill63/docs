@@ -63,6 +63,6 @@ You cannot use a lambda expression for the test expression in a `Select Case` st
     ```  
   
 ## See Also  
- [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md)   
+ [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)   
  [If...Then...Else Statement](../../../visual-basic/language-reference/statements/if-then-else-statement.md)   
  [Select...Case Statement](../../../visual-basic/language-reference/statements/select-case-statement.md)

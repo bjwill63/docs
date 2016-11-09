@@ -43,7 +43,7 @@ Function evaluation is disabled because a previous function evaluation timed out
   
  Possible causes for a procedure call to time out include an infinite loop or *endless loop*. For more information, see [For...Next Statement](../../../visual-basic/language-reference/statements/for-next-statement.md).  
   
- A special case of an infinite loop is *recursion*. For more information, see [Recursive Procedures](../../../visual-basic/language-reference/procedures/recursive-procedures.md).  
+ A special case of an infinite loop is *recursion*. For more information, see [Recursive Procedures](../../../visual-basic/programming-guide/language-features/procedures/recursive-procedures.md).  
   
  **Error ID:** BC30957  
   

@@ -43,15 +43,15 @@ translation.priority.ht:
   
  With auto-implemented properties, a property, including a default value, can be declared in a single line. The following example shows three property declarations.  
   
- [!code-vb[VbVbalrAutoImplementedProperties#1](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_1.vb)]  
+ [!code-vb[VbVbalrAutoImplementedProperties#1](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_1.vb)]  
   
  An auto-implemented property is equivalent to a property for which the property value is stored in a private field. The following code example shows an auto-implemented property.  
   
- [!code-vb[VbVbalrAutoImplementedProperties#5](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_2.vb)]  
+ [!code-vb[VbVbalrAutoImplementedProperties#5](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_2.vb)]  
   
  The following code example shows the equivalent code for the previous auto-implemented property example.  
   
- [!code-vb[VbVbalrAutoImplementedProperties#2](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_3.vb)]  
+ [!code-vb[VbVbalrAutoImplementedProperties#2](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_3.vb)]  
   
  The following code show implementing readonly properties:  
   
@@ -86,7 +86,7 @@ End Class
 ## Initializing an Auto-Implemented Property  
  Any expression that can be used to initialize a field is valid for initializing an auto-implemented property. When you initialize an auto-implemented property, the expression is evaluated and passed to the `Set` procedure for the property. The following code examples show some auto-implemented properties that include initial values.  
   
- [!code-vb[VbVbalrAutoImplementedProperties#3](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_4.vb)]  
+ [!code-vb[VbVbalrAutoImplementedProperties#3](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_4.vb)]  
   
  You cannot initialize an auto-implemented property that is a member of an `Interface`, or one that is marked `MustOverride`.  
   
@@ -94,7 +94,7 @@ End Class
   
  When you declare an auto-implemented property as an array, you cannot specify explicit array bounds. However, you can supply a value by using an array initializer, as shown in the following examples.  
   
- [!code-vb[VbVbalrAutoImplementedProperties#4](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_5.vb)]  
+ [!code-vb[VbVbalrAutoImplementedProperties#4](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/auto-implemented-properties_5.vb)]  
   
 ## Property Definitions That Require Standard Syntax  
  Auto-implemented properties are convenient and support many programming scenarios. However, there are situations in which you cannot use an auto-implemented property and must instead use standard, or *expanded*, property syntax.  
@@ -117,9 +117,9 @@ End Class
  If you have to convert an auto-implemented property to an expanded property that contains a `Get` or `Set` procedure, the Visual Basic Code Editor can automatically generate the `Get` and `Set` procedures and `End Property` statement for the property. The code is generated if you put the cursor on a blank line following the `Property` statement, type a `G` (for `Get`) or an `S` (for `Set`) and press ENTER. The Visual Basic Code Editor automatically generates the `Get` or `Set` procedure for read-only and write-only properties when you press ENTER at the end of a `Property` statement.  
   
 ## See Also  
- [How to: Declare and Call a Default Property in Visual Basic](../../../../visual-basic/language-reference/procedures/how-to-declare-and-call-a-default-property-in-visual-basic.md)   
- [How to: Declare a Property with Mixed Access Levels](../../../../visual-basic/language-reference/procedures/how-to-declare-a-property-with-mixed-access-levels.md)   
- [Property Statement](../../../../visual-basic/language-reference/statements/property-statement.md)   
- [ReadOnly](../../../../visual-basic/language-reference/modifiers/readonly.md)   
- [WriteOnly](../../../../visual-basic/language-reference/modifiers/writeonly.md)   
- [Objects and Classes](../../../../visual-basic/programming-guide/language-features/objects-and-classes/index.md)
+ [How to: Declare and Call a Default Property in Visual Basic](../../../visual-basic/language-reference/procedures/how-to-declare-and-call-a-default-property.md)   
+ [How to: Declare a Property with Mixed Access Levels](../../../visual-basic/language-reference/procedures/how-to-declare-a-property-with-mixed-access-levels.md)   
+ [Property Statement](../../../visual-basic/language-reference/statements/property-statement.md)   
+ [ReadOnly](../../../visual-basic/language-reference/modifiers/readonly.md)   
+ [WriteOnly](../../../visual-basic/language-reference/modifiers/writeonly.md)   
+ [Objects and Classes](../../../visual-basic/programming-guide/language-features/objects-and-classes/index.md)

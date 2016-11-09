@@ -90,7 +90,7 @@ End Function
  [!code-vb[VbVbalrLambdas#3](../../../visual-basic/language-reference/operators/codesnippet/VisualBasic/function-expression_3.vb)]  
   
 ## Example  
- Following is an example of a lambda expression that increments its argument and returns the value. The example shows both the single-line and multiline lambda expression syntax for a function. For more examples, see [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md).  
+ Following is an example of a lambda expression that increments its argument and returns the value. The example shows both the single-line and multiline lambda expression syntax for a function. For more examples, see [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md).  
   
  [!code-vb[VbVbalrLambdas#14](../../../visual-basic/language-reference/operators/codesnippet/VisualBasic/function-expression_4.vb)]  
   
@@ -112,7 +112,7 @@ Dim londonCusts = db.Customers.
   
 ## See Also  
  [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md)   
- [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md)   
+ [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)   
  [Operators and Expressions](../../../visual-basic/programming-guide/language-features/operators-and-expressions/index.md)   
  [Statements](../../../visual-basic/programming-guide/language-features/statements.md)   
  [Value Comparisons](../../../visual-basic/programming-guide/language-features/operators-and-expressions/value-comparisons.md)   

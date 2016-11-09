@@ -48,4 +48,4 @@ An optional argument in a procedure declaration is followed by a required argume
 2.  If the argument is intended to be optional, use the `Optional` keyword.  
   
 ## See Also  
- [Optional Parameters](../../../visual-basic/language-reference/procedures/optional-parameters.md)
+ [Optional Parameters](../../../visual-basic/programming-guide/language-features/procedures/optional-parameters.md)

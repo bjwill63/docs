@@ -204,7 +204,7 @@ End Function
  If this procedure uses the `Implements` keyword, the containing class or structure must also have an `Implements` statement that immediately follows its `Class` or `Structure` statement. The `Implements` statement must include each interface that's specified in `implementslist`. However, the name by which an interface defines the `Function` (in `definedname`) doesn't need to match the name of this procedure (in `name`).  
   
 > [!NOTE]
->  You can use lambda expressions to define function expressions inline. For more information, see [Function Expression](../../../visual-basic/language-reference/operators/function-expression.md) and [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md).  
+>  You can use lambda expressions to define function expressions inline. For more information, see [Function Expression](../../../visual-basic/language-reference/operators/function-expression.md) and [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md).  
   
 ## Returning from a Function  
  When the `Function` procedure returns to the calling code, execution continues with the statement that follows the statement that called the procedure.  
@@ -276,13 +276,13 @@ End Function
   
 ## See Also  
  [Sub Statement](../../../visual-basic/language-reference/statements/sub-statement.md)   
- [Function Procedures](../../../visual-basic/language-reference/procedures/function-procedures.md)   
+ [Function Procedures](../../../visual-basic/programming-guide/language-features/procedures/function-procedures.md)   
  [Parameter List](../../../visual-basic/language-reference/statements/parameter-list.md)   
  [Dim Statement](../../../visual-basic/language-reference/statements/dim-statement.md)   
  [Call Statement](../../../visual-basic/language-reference/statements/call-statement.md)   
  [Of](../../../visual-basic/language-reference/statements/of-clause.md)   
- [Parameter Arrays](../../../visual-basic/language-reference/procedures/parameter-arrays.md)   
+ [Parameter Arrays](../../../visual-basic/programming-guide/language-features/procedures/parameter-arrays.md)   
  [How to: Use a Generic Class](../../../visual-basic/programming-guide/language-features/data-types/how-to-use-a-generic-class.md)   
- [Troubleshooting Procedures](../../../visual-basic/language-reference/procedures/troubleshooting-procedures.md)   
- [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md)   
+ [Troubleshooting Procedures](../../../visual-basic/programming-guide/language-features/procedures/troubleshooting-procedures.md)   
+ [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)   
  [Function Expression](../../../visual-basic/language-reference/operators/function-expression.md)

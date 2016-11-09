@@ -58,28 +58,28 @@ When you call a `Sub` or `Function` procedure, you can pass arguments *by positi
   
  For example, the following `Sub` procedure takes three arguments:  
   
- [!code-vb[VbVbcnProcedures#41](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_1.vb)]  
+ [!code-vb[VbVbcnProcedures#41](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_1.vb)]  
   
  When you call this procedure, you can supply the arguments by position, by name, or by using a mixture of both.  
   
 ## Passing Arguments by Position  
  You can call the procedure `studentInfo` with its arguments passed by position and delimited by commas, as shown in the following example:  
   
- [!code-vb[VbVbcnProcedures#42](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_2.vb)]  
+ [!code-vb[VbVbcnProcedures#42](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_2.vb)]  
   
  If you omit an optional argument in a positional argument list, you must hold its place with a comma. The following example calls `studentInfo` without the `age` argument:  
   
- [!code-vb[VbVbcnProcedures#43](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_3.vb)]  
+ [!code-vb[VbVbcnProcedures#43](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_3.vb)]  
   
 ## Passing Arguments by Name  
  Alternatively, you can call `studentInfo` with the arguments passed by name, also delimited by commas, as shown in the following example:  
   
- [!code-vb[VbVbcnProcedures#44](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_4.vb)]  
+ [!code-vb[VbVbcnProcedures#44](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_4.vb)]  
   
 ## Mixing Arguments by Position and by Name  
  You can supply arguments both by position and by name in a single procedure call, as shown in the following example:  
   
- [!code-vb[VbVbcnProcedures#45](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_5.vb)]  
+ [!code-vb[VbVbcnProcedures#45](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/passing-arguments-by-position-and-by-name_5.vb)]  
   
  In the preceding example, no extra comma is necessary to hold the place of the omitted `age` argument, since `birth` is passed by name.  
   
@@ -94,11 +94,11 @@ When you call a `Sub` or `Function` procedure, you can pass arguments *by positi
  You cannot pass a parameter array by name. This is because when you call the procedure, you supply an indefinite number of comma-separated arguments for the parameter array, and the compiler cannot associate more than one argument with a single name.  
   
 ## See Also  
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [How to: Pass Arguments to a Procedure](../../../../visual-basic/language-reference/procedures/how-to-pass-arguments-to-a-procedure.md)   
- [Passing Arguments by Value and by Reference](../../../../visual-basic/language-reference/procedures/passing-arguments-by-value-and-by-reference.md)   
- [Optional Parameters](../../../../visual-basic/language-reference/procedures/optional-parameters.md)   
- [Parameter Arrays](../../../../visual-basic/language-reference/procedures/parameter-arrays.md)   
- [Optional](../../../../visual-basic/language-reference/modifiers/optional.md)   
- [ParamArray](../../../../visual-basic/language-reference/modifiers/paramarray.md)
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [How to: Pass Arguments to a Procedure](../../../visual-basic/language-reference/procedures/how-to-pass-arguments-to-a-procedure.md)   
+ [Passing Arguments by Value and by Reference](../../../visual-basic/language-reference/procedures/passing-arguments-by-value-and-by-reference.md)   
+ [Optional Parameters](../../../visual-basic/language-reference/procedures/optional-parameters.md)   
+ [Parameter Arrays](../../../visual-basic/language-reference/procedures/parameter-arrays.md)   
+ [Optional](../../../visual-basic/language-reference/modifiers/optional.md)   
+ [ParamArray](../../../visual-basic/language-reference/modifiers/paramarray.md)

@@ -67,5 +67,5 @@ End Namespace
   
 ## See Also  
  [Attributes](../Topic/Attributes%20\(C%23%20and%20Visual%20Basic\).md)   
- [Extension Methods](../../../visual-basic/language-reference/procedures/extension-methods.md)   
+ [Extension Methods](../../../visual-basic/programming-guide/language-features/procedures/extension-methods.md)   
  [Module Statement](../../../visual-basic/language-reference/statements/module-statement.md)

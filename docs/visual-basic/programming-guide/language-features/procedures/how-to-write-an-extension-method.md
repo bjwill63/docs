@@ -106,7 +106,7 @@ End Module
   
 ## See Also  
  <xref:System.Runtime.CompilerServices.ExtensionAttribute>   
- [Extension Methods](../../../../visual-basic/language-reference/procedures/extension-methods.md)   
- [Module Statement](../../../../visual-basic/language-reference/statements/module-statement.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Scope in Visual Basic](../../../../visual-basic/programming-guide/language-features/declared-elements/scope.md)
+ [Extension Methods](../../../visual-basic/language-reference/procedures/extension-methods.md)   
+ [Module Statement](../../../visual-basic/language-reference/statements/module-statement.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Scope in Visual Basic](../../../visual-basic/programming-guide/language-features/declared-elements/scope.md)

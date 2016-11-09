@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Function Procedures (Visual Basic)
-A `Function` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] statements enclosed by the `Function` and `End Function` statements. The `Function` procedure performs a task and then returns control to the calling code. When it returns control, it also returns a value to the calling code.  
+A `Function` procedure is a series of [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] statements enclosed by the `Function` and `End Function` statements. The `Function` procedure performs a task and then returns control to the calling code. When it returns control, it also returns a value to the calling code.  
   
  Each time the procedure is called, its statements run, starting with the first executable statement after the `Function` statement and ending with the first `End Function`, `Exit Function`, or `Return` statement encountered.  
   
@@ -57,9 +57,9 @@ A `Function` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/progr
 End Function  
 ```  
   
- The *modifiers* can specify access level and information regarding overloading, overriding, sharing, and shadowing. For more information, see [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md).  
+ The *modifiers* can specify access level and information regarding overloading, overriding, sharing, and shadowing. For more information, see [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md).  
   
- You declare each parameter the same way you do for [Sub Procedures](../../../../visual-basic/language-reference/procedures/sub-procedures.md).  
+ You declare each parameter the same way you do for [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md).  
   
 ### Data Type  
  Every `Function` procedure has a data type, just as every variable does. This data type is specified by the `As` clause in the `Function` statement, and it determines the data type of the value the function returns to the calling code. The following sample declarations illustrate this.  
@@ -72,7 +72,7 @@ Function findSqrt(ByVal radicand As Single) As Single
 End Function  
 ```  
   
- For more information, see "Parts" in [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md).  
+ For more information, see "Parts" in [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md).  
   
 ## Returning Values  
  The value a `Function` procedure sends back to the calling code is called its return value. The procedure returns this value in one of two ways:  
@@ -99,7 +99,7 @@ End Function
   
  The advantage of assigning the return value to the function name is that control does not return from the procedure until it encounters an `Exit Function` or `End Function` statement. This allows you to assign a preliminary value and adjust it later if necessary.  
   
- For more information about returning values, see [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md). For information about returning arrays, see [Arrays](../../../../visual-basic/programming-guide/language-features/arrays/index.md).  
+ For more information about returning values, see [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md). For information about returning arrays, see [Arrays](../../../visual-basic/programming-guide/language-features/arrays/index.md).  
   
 ## Calling Syntax  
  You invoke a `Function` procedure by including its name and arguments either on the right side of an assignment statement or in an expression. You must provide values for all arguments that are not optional, and you must enclose the argument list in parentheses. If no arguments are supplied, you can optionally omit the parentheses.  
@@ -115,19 +115,19 @@ End Function
 ### Illustration of Declaration and Call  
  The following `Function` procedure calculates the longest side, or hypotenuse, of a right triangle, given the values for the other two sides.  
   
- [!code-vb[VbVbcnProcedures#1](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/function-procedures_1.vb)]  
+ [!code-vb[VbVbcnProcedures#1](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/function-procedures_1.vb)]  
   
  The following example shows a typical call to `hypotenuse`.  
   
- [!code-vb[VbVbcnProcedures#6](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/function-procedures_2.vb)]  
+ [!code-vb[VbVbcnProcedures#6](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/function-procedures_2.vb)]  
   
 ## See Also  
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [Sub Procedures](../../../../visual-basic/language-reference/procedures/sub-procedures.md)   
- [Property Procedures](../../../../visual-basic/language-reference/procedures/property-procedures.md)   
- [Operator Procedures](../../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md)   
- [How to: Create a Procedure that Returns a Value](../../../../visual-basic/language-reference/procedures/how-to-create-a-procedure-that-returns-a-value.md)   
- [How to: Return a Value from a Procedure](../../../../visual-basic/language-reference/procedures/how-to-return-a-value-from-a-procedure.md)   
- [How to: Call a Procedure That Returns a Value](../../../../visual-basic/language-reference/procedures/how-to-call-a-procedure-that-returns-a-value.md)
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md)   
+ [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md)   
+ [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md)   
+ [How to: Create a Procedure that Returns a Value](../../../visual-basic/language-reference/procedures/how-to-create-a-procedure-that-returns-a-value.md)   
+ [How to: Return a Value from a Procedure](../../../visual-basic/language-reference/procedures/how-to-return-a-value-from-a-procedure.md)   
+ [How to: Call a Procedure That Returns a Value](../../../visual-basic/language-reference/procedures/how-to-call-a-procedure-that-returns-a-value.md)

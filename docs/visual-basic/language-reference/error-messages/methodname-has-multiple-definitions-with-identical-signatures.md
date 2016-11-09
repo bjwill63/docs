@@ -47,4 +47,4 @@ A `Function` or `Sub` procedure declaration uses the identical procedure name an
   
 ## See Also  
  [References to Declared Elements](../../../visual-basic/programming-guide/language-features/declared-elements/references-to-declared-elements.md)   
- [Considerations in Overloading Procedures](../../../visual-basic/language-reference/procedures/considerations-in-overloading-procedures.md)
+ [Considerations in Overloading Procedures](../../../visual-basic/programming-guide/language-features/procedures/considerations-in-overloading-procedures.md)

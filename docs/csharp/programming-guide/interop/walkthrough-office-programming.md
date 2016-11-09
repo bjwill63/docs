@@ -90,7 +90,7 @@ translation.priority.ht:
   
 1.  In **Solution Explorer**, right-click your project's name, click **Add**, and then click **Class**. Name the class Account.vb if you are using Visual Basic or Account.cs if you are using C#. Click **Add**.  
   
-2.  Replace the definition of the `Account` class with the following code. The class definitions use *auto-implemented properties*, new to Visual Basic in Visual Studio 2010. For more information, see [Auto-Implemented Properties](../../../visual-basic/language-reference/procedures/auto-implemented-properties.md).  
+2.  Replace the definition of the `Account` class with the following code. The class definitions use *auto-implemented properties*, new to Visual Basic in Visual Studio 2010. For more information, see [Auto-Implemented Properties](../../../visual-basic/programming-guide/language-features/procedures/auto-implemented-properties.md).  
   
      [!code-cs[csOfficeWalkthrough#2](../../../csharp/programming-guide/interop/codesnippet/CSharp/walkthrough-office-programming_2.cs)]
      [!code-vb[csOfficeWalkthrough#2](../../../csharp/programming-guide/interop/codesnippet/VisualBasic/walkthrough-office-programming_2.vb)]  
@@ -140,7 +140,7 @@ translation.priority.ht:
   
 ### To invoke DisplayInExcel  
   
-1.  Add the following code at the end of the `ThisAddIn_StartUp` method. The call to `DisplayInExcel` contains two arguments. The first argument is the name of the list of accounts to be processed. The second argument is a multiline lambda expression that defines how the data is to be processed. The `ID` and `balance` values for each account are displayed in adjacent cells, and the row is displayed in red if the balance is less than zero. Multiline lambda expressions are a new feature in Visual Basic 2010. For more information, see [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md).  
+1.  Add the following code at the end of the `ThisAddIn_StartUp` method. The call to `DisplayInExcel` contains two arguments. The first argument is the name of the list of accounts to be processed. The second argument is a multiline lambda expression that defines how the data is to be processed. The `ID` and `balance` values for each account are displayed in adjacent cells, and the row is displayed in red if the balance is less than zero. Multiline lambda expressions are a new feature in Visual Basic 2010. For more information, see [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md).  
   
      [!code-cs[csOfficeWalkthrough#9](../../../csharp/programming-guide/interop/codesnippet/CSharp/walkthrough-office-programming_9.cs)]
      [!code-vb[csOfficeWalkthrough#9](../../../csharp/programming-guide/interop/codesnippet/VisualBasic/walkthrough-office-programming_9.vb)]  
@@ -206,17 +206,17 @@ translation.priority.ht:
 8.  In Visual Studio, click **Clean Solution** on the **Build** menu to clean up the completed project.  
   
 ## See Also  
- [Auto-Implemented Properties](../../../visual-basic/language-reference/procedures/auto-implemented-properties.md)   
+ [Auto-Implemented Properties](../../../visual-basic/programming-guide/language-features/procedures/auto-implemented-properties.md)   
  [Auto-Implemented Properties](../../../csharp/programming-guide/classes-and-structs/auto-implemented-properties.md)   
  [Collection Initializers](../../../visual-basic/programming-guide/language-features/collection-initializers/index.md)   
  [Object and Collection Initializers](../../../csharp/programming-guide/classes-and-structs/object-and-collection-initializers.md)   
- [Optional Parameters](../../../visual-basic/language-reference/procedures/optional-parameters.md)   
- [Passing Arguments by Position and by Name](../../../visual-basic/language-reference/procedures/passing-arguments-by-position-and-by-name.md)   
+ [Optional Parameters](../../../visual-basic/programming-guide/language-features/procedures/optional-parameters.md)   
+ [Passing Arguments by Position and by Name](../../../visual-basic/programming-guide/language-features/procedures/passing-arguments-by-position-and-by-name.md)   
  [Named and Optional Arguments](../../../csharp/programming-guide/classes-and-structs/named-and-optional-arguments.md)   
  [Early and Late Binding](../../../visual-basic/programming-guide/language-features/early-late-binding/early-and-late-binding.md)   
  [dynamic](../../../csharp/language-reference/keywords/dynamic.md)   
  [Using Type dynamic](../../../csharp/programming-guide/types/using-type-dynamic.md)   
- [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md)   
+ [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)   
  [Lambda Expressions](../../../csharp/programming-guide/statements-expressions-operators/lambda-expressions.md)   
  [How to: Use Indexed Properties in COM Interop Programming](../../../csharp/programming-guide/interop/how-to-use-indexed-properties-in-com-interop-rogramming.md)   
  [Walkthrough: Embedding Type Information from Microsoft Office Assemblies](../Topic/Walkthrough:%20Embedding%20Type%20Information%20from%20Microsoft%20Office%20Assemblies%20\(C%23%20and%20Visual%20Basic\).md)   

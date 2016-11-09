@@ -80,7 +80,7 @@ End Sub
   
 -   `Partial`  
   
-     Optional. Indicates definition of a partial method. See [Partial Methods](../../../visual-basic/language-reference/procedures/partial-methods.md).  
+     Optional. Indicates definition of a partial method. See [Partial Methods](../../../visual-basic/programming-guide/language-features/procedures/partial-methods.md).  
   
 -   `accessmodifier`  
   
@@ -253,7 +253,7 @@ End Sub
  [Dim Statement](../../../visual-basic/language-reference/statements/dim-statement.md)   
  [Call Statement](../../../visual-basic/language-reference/statements/call-statement.md)   
  [Of](../../../visual-basic/language-reference/statements/of-clause.md)   
- [Parameter Arrays](../../../visual-basic/language-reference/procedures/parameter-arrays.md)   
+ [Parameter Arrays](../../../visual-basic/programming-guide/language-features/procedures/parameter-arrays.md)   
  [How to: Use a Generic Class](../../../visual-basic/programming-guide/language-features/data-types/how-to-use-a-generic-class.md)   
- [Troubleshooting Procedures](../../../visual-basic/language-reference/procedures/troubleshooting-procedures.md)   
- [Partial Methods](../../../visual-basic/language-reference/procedures/partial-methods.md)
+ [Troubleshooting Procedures](../../../visual-basic/programming-guide/language-features/procedures/troubleshooting-procedures.md)   
+ [Partial Methods](../../../visual-basic/programming-guide/language-features/procedures/partial-methods.md)

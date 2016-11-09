@@ -41,26 +41,26 @@ translation.priority.ht:
 # How to: Define a Conversion Operator (Visual Basic)
 If you have defined a class or structure, you can define a type conversion operator between the type of your class or structure and another data type (such as `Integer`, `Double`, or `String`).  
   
- Define the type conversion as a [CType Function](../../../../visual-basic/language-reference/functions/ctype-function.md) procedure within the class or structure. All conversion procedures must be `Public Shared`, and each one must specify either [Widening](../../../../visual-basic/language-reference/modifiers/widening.md) or [Narrowing](../../../../visual-basic/language-reference/modifiers/narrowing.md).  
+ Define the type conversion as a [CType Function](../../../visual-basic/language-reference/functions/ctype-function.md) procedure within the class or structure. All conversion procedures must be `Public Shared`, and each one must specify either [Widening](../../../visual-basic/language-reference/modifiers/widening.md) or [Narrowing](../../../visual-basic/language-reference/modifiers/narrowing.md).  
   
  Defining an operator on a class or structure is also called *overloading* the operator.  
   
 ## Example  
  The following example defines conversion operators between a structure called `digit` and a `Byte`.  
   
- [!code-vb[VbVbcnProcedures#27](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-a-conversion-operator_1.vb)]  
+ [!code-vb[VbVbcnProcedures#27](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-a-conversion-operator_1.vb)]  
   
  You can test the structure `digit` with the following code.  
   
- [!code-vb[VbVbcnProcedures#28](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-a-conversion-operator_2.vb)]  
+ [!code-vb[VbVbcnProcedures#28](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-define-a-conversion-operator_2.vb)]  
   
 ## See Also  
- [Operator Procedures](../../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [How to: Define an Operator](../../../../visual-basic/language-reference/procedures/how-to-define-an-operator.md)   
- [How to: Call an Operator Procedure](../../../../visual-basic/language-reference/procedures/how-to-call-an-operator-procedure.md)   
- [How to: Use a Class that Defines Operators](../../../../visual-basic/language-reference/procedures/how-to-use-a-class-that-defines-operators.md)   
- [Operator Statement](../../../../visual-basic/language-reference/statements/operator-statement.md)   
- [Structure Statement](../../../../visual-basic/language-reference/statements/structure-statement.md)   
- [How to: Declare a Structure](../../../../visual-basic/programming-guide/language-features/data-types/how-to-declare-a-structure.md)   
- [Implicit and Explicit Conversions](../../../../visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions.md)   
- [Widening and Narrowing Conversions](../../../../visual-basic/programming-guide/language-features/data-types/widening-and-narrowing-conversions.md)
+ [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
+ [How to: Define an Operator](../../../visual-basic/language-reference/procedures/how-to-define-an-operator.md)   
+ [How to: Call an Operator Procedure](../../../visual-basic/language-reference/procedures/how-to-call-an-operator-procedure.md)   
+ [How to: Use a Class that Defines Operators](../../../visual-basic/language-reference/procedures/how-to-use-a-class-that-defines-operators.md)   
+ [Operator Statement](../../../visual-basic/language-reference/statements/operator-statement.md)   
+ [Structure Statement](../../../visual-basic/language-reference/statements/structure-statement.md)   
+ [How to: Declare a Structure](../../../visual-basic/programming-guide/language-features/data-types/how-to-declare-a-structure.md)   
+ [Implicit and Explicit Conversions](../../../visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions.md)   
+ [Widening and Narrowing Conversions](../../../visual-basic/programming-guide/language-features/data-types/widening-and-narrowing-conversions.md)

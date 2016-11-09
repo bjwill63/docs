@@ -89,12 +89,12 @@ translation.priority.ht:
 ## Multiple Versions of a Procedure  
  Suppose you are writing a `Sub` procedure to post a transaction against a customer's balance, and you want to be able to refer to the customer either by name or by account number. To accommodate this, you can define two different `Sub` procedures, as in the following example:  
   
- [!code-vb[VbVbcnProcedures#73](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_1.vb)]  
+ [!code-vb[VbVbcnProcedures#73](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_1.vb)]  
   
 ### Overloaded Versions  
- An alternative is to overload a single procedure name. You can use the [Overloads](../../../../visual-basic/language-reference/modifiers/overloads.md) keyword to define a version of the procedure for each parameter list, as follows:  
+ An alternative is to overload a single procedure name. You can use the [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md) keyword to define a version of the procedure for each parameter list, as follows:  
   
- [!code-vb[VbVbcnProcedures#72](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_2.vb)]  
+ [!code-vb[VbVbcnProcedures#72](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_2.vb)]  
   
 #### Additional Overloads  
  If you also wanted to accept a transaction amount in either `Decimal` or `Single`, you could further overload `post` to allow for this variation. If you did this to each of the overloads in the preceding example, you would have four `Sub` procedures, all with the same name but with four different signatures.  
@@ -102,17 +102,17 @@ translation.priority.ht:
 ## Advantages of Overloading  
  The advantage of overloading a procedure is in the flexibility of the call. To use the `post` procedure declared in the preceding example, the calling code can obtain the customer identification as either a `String` or an `Integer`, and then call the same procedure in either case. The following example illustrates this:  
   
- [!code-vb[VbVbcnProcedures#56](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_3.vb)]  
+ [!code-vb[VbVbcnProcedures#56](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_3.vb)]  
   
- [!code-vb[VbVbcnProcedures#57](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_4.vb)]  
+ [!code-vb[VbVbcnProcedures#57](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/procedure-overloading_4.vb)]  
   
 ## See Also  
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [How to: Define Multiple Versions of a Procedure](../../../../visual-basic/language-reference/procedures/how-to-define-multiple-versions-of-a-procedure.md)   
- [How to: Call an Overloaded Procedure](../../../../visual-basic/language-reference/procedures/how-to-call-an-overloaded-procedure.md)   
- [How to: Overload a Procedure that Takes Optional Parameters](../../../../visual-basic/language-reference/procedures/how-to-overload-a-procedure-that-takes-optional-parameters.md)   
- [How to: Overload a Procedure that Takes an Indefinite Number of Parameters](../../../../visual-basic/language-reference/procedures/how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters.md)   
- [Considerations in Overloading Procedures](../../../../visual-basic/language-reference/procedures/considerations-in-overloading-procedures.md)   
- [Overload Resolution](../../../../visual-basic/language-reference/procedures/overload-resolution.md)   
- [Overloads](../../../../visual-basic/language-reference/modifiers/overloads.md)   
- [Generic Types in Visual Basic](../../../../visual-basic/programming-guide/language-features/data-types/generic-types.md)
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [How to: Define Multiple Versions of a Procedure](../../../visual-basic/language-reference/procedures/how-to-define-multiple-versions-of-a-procedure.md)   
+ [How to: Call an Overloaded Procedure](../../../visual-basic/language-reference/procedures/how-to-call-an-overloaded-procedure.md)   
+ [How to: Overload a Procedure that Takes Optional Parameters](../../../visual-basic/language-reference/procedures/how-to-overload-a-procedure-that-takes-optional-parameters.md)   
+ [How to: Overload a Procedure that Takes an Indefinite Number of Parameters](../../../visual-basic/language-reference/procedures/how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters.md)   
+ [Considerations in Overloading Procedures](../../../visual-basic/language-reference/procedures/considerations-in-overloading-procedures.md)   
+ [Overload Resolution](../../../visual-basic/language-reference/procedures/overload-resolution.md)   
+ [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md)   
+ [Generic Types in Visual Basic](../../../visual-basic/programming-guide/language-features/data-types/generic-types.md)

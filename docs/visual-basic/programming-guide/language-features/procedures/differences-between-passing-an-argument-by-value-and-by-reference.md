@@ -41,13 +41,13 @@ translation.priority.ht:
 When you pass one or more arguments to a procedure, each argument corresponds to an underlying programming element in the calling code. You can pass either the value of this underlying element, or a reference to it. This is known as the *passing mechanism*.  
   
 ## Passing by Value  
- You pass an argument *by value* by specifying the [ByVal](../../../../visual-basic/language-reference/modifiers/byval.md) keyword for the corresponding parameter in the procedure definition. When you use this passing mechanism, [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] copies the value of the underlying programming element into a local variable in the procedure. The procedure code does not have any access to the underlying element in the calling code.  
+ You pass an argument *by value* by specifying the [ByVal](../../../visual-basic/language-reference/modifiers/byval.md) keyword for the corresponding parameter in the procedure definition. When you use this passing mechanism, [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] copies the value of the underlying programming element into a local variable in the procedure. The procedure code does not have any access to the underlying element in the calling code.  
   
 ## Passing by Reference  
- You pass an argument *by reference* by specifying the [ByRef](../../../../visual-basic/language-reference/modifiers/byref.md) keyword for the corresponding parameter in the procedure definition. When you use this passing mechanism, [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] gives the procedure a direct reference to the underlying programming element in the calling code.  
+ You pass an argument *by reference* by specifying the [ByRef](../../../visual-basic/language-reference/modifiers/byref.md) keyword for the corresponding parameter in the procedure definition. When you use this passing mechanism, [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] gives the procedure a direct reference to the underlying programming element in the calling code.  
   
 ## Passing Mechanism and Element Type  
- The choice of passing mechanism is not the same as the classification of the underlying element type. Passing by value or by reference refers to what [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] supplies to the procedure code. A value type or reference type refers to how a programming element is stored in memory.  
+ The choice of passing mechanism is not the same as the classification of the underlying element type. Passing by value or by reference refers to what [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] supplies to the procedure code. A value type or reference type refers to how a programming element is stored in memory.  
   
  However, the passing mechanism and element type are interrelated. The value of a reference type is a pointer to the data elsewhere in memory. This means that when you pass a reference type by value, the procedure code has a pointer to the underlying element's data, even though it cannot access the underlying element itself. For example, if the element is an array variable, the procedure code does not have access to the variable itself, but it can access the array members.  
   
@@ -62,13 +62,13 @@ When you pass one or more arguments to a procedure, each argument corresponds to
 |Reference type (contains a pointer to a class or structure instance)|The procedure cannot change the variable but can change members of the instance to which it points.|The procedure can change the variable and members of the instance to which it points.|  
   
 ## See Also  
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [How to: Pass Arguments to a Procedure](../../../../visual-basic/language-reference/procedures/how-to-pass-arguments-to-a-procedure.md)   
- [Passing Arguments by Value and by Reference](../../../../visual-basic/language-reference/procedures/passing-arguments-by-value-and-by-reference.md)   
- [Differences Between Modifiable and Nonmodifiable Arguments](../../../../visual-basic/language-reference/procedures/differences-between-modifiable-and-nonmodifiable-arguments.md)   
- [How to: Change the Value of a Procedure Argument](../../../../visual-basic/language-reference/procedures/how-to-change-the-value-of-a-procedure-argument.md)   
- [How to: Protect a Procedure Argument Against Value Changes](../../../../visual-basic/language-reference/procedures/how-to-protect-a-procedure-argument-against-value-changes.md)   
- [How to: Force an Argument to Be Passed by Value](../../../../visual-basic/language-reference/procedures/how-to-force-an-argument-to-be-passed-by-value.md)   
- [Passing Arguments by Position and by Name](../../../../visual-basic/language-reference/procedures/passing-arguments-by-position-and-by-name.md)   
- [Value Types and Reference Types](../../../../visual-basic/programming-guide/language-features/data-types/value-types-and-reference-types.md)
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [How to: Pass Arguments to a Procedure](../../../visual-basic/language-reference/procedures/how-to-pass-arguments-to-a-procedure.md)   
+ [Passing Arguments by Value and by Reference](../../../visual-basic/language-reference/procedures/passing-arguments-by-value-and-by-reference.md)   
+ [Differences Between Modifiable and Nonmodifiable Arguments](../../../visual-basic/language-reference/procedures/differences-between-modifiable-and-nonmodifiable-arguments.md)   
+ [How to: Change the Value of a Procedure Argument](../../../visual-basic/language-reference/procedures/how-to-change-the-value-of-a-procedure-argument.md)   
+ [How to: Protect a Procedure Argument Against Value Changes](../../../visual-basic/language-reference/procedures/how-to-protect-a-procedure-argument-against-value-changes.md)   
+ [How to: Force an Argument to Be Passed by Value](../../../visual-basic/language-reference/procedures/how-to-force-an-argument-to-be-passed-by-value.md)   
+ [Passing Arguments by Position and by Name](../../../visual-basic/language-reference/procedures/passing-arguments-by-position-and-by-name.md)   
+ [Value Types and Reference Types](../../../visual-basic/programming-guide/language-features/data-types/value-types-and-reference-types.md)

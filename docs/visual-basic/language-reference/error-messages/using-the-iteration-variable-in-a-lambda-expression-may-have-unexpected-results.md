@@ -106,4 +106,4 @@ End Module
     ```  
   
 ## See Also  
- [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md)
+ [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)

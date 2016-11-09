@@ -107,6 +107,6 @@ End Module
     ```  
   
 ## See Also  
- [Lambda Expressions](../../../visual-basic/language-reference/procedures/lambda-expressions.md)   
+ [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)   
  [Relaxed Delegate Conversion](../../../visual-basic/programming-guide/language-features/delegates/relaxed-delegate-conversion.md)   
  [Events](../../../visual-basic/programming-guide/language-features/events/events.md)

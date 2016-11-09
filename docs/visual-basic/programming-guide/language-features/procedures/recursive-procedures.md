@@ -40,11 +40,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Recursive Procedures (Visual Basic)
-A *recursive* procedure is one that calls itself. In general, this is not the most effective way to write [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] code.  
+A *recursive* procedure is one that calls itself. In general, this is not the most effective way to write [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] code.  
   
  The following procedure uses recursion to calculate the factorial of its original argument.  
   
- [!code-vb[VbVbcnProcedures#51](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/recursive-procedures_1.vb)]  
+ [!code-vb[VbVbcnProcedures#51](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/recursive-procedures_1.vb)]  
   
 ## Considerations with Recursive Procedures  
  **Limiting Conditions**. You must design a recursive procedure to test for at least one condition that can terminate the recursion, and you must also handle the case where no such condition is satisfied within a reasonable number of recursive calls. Without at least one condition that can be met without fail, your procedure runs a high risk of executing in an infinite loop.  
@@ -61,13 +61,13 @@ A *recursive* procedure is one that calls itself. In general, this is not the mo
   
 ## See Also  
  <xref:System.StackOverflowException>   
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [Sub Procedures](../../../../visual-basic/language-reference/procedures/sub-procedures.md)   
- [Function Procedures](../../../../visual-basic/language-reference/procedures/function-procedures.md)   
- [Property Procedures](../../../../visual-basic/language-reference/procedures/property-procedures.md)   
- [Operator Procedures](../../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Procedure Overloading](../../../../visual-basic/language-reference/procedures/procedure-overloading.md)   
- [Troubleshooting Procedures](../../../../visual-basic/language-reference/procedures/troubleshooting-procedures.md)   
- [Loop Structures](../../../../visual-basic/programming-guide/language-features/control-flow/loop-structures.md)   
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md)   
+ [Function Procedures](../../../visual-basic/language-reference/procedures/function-procedures.md)   
+ [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md)   
+ [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Procedure Overloading](../../../visual-basic/language-reference/procedures/procedure-overloading.md)   
+ [Troubleshooting Procedures](../../../visual-basic/language-reference/procedures/troubleshooting-procedures.md)   
+ [Loop Structures](../../../visual-basic/programming-guide/language-features/control-flow/loop-structures.md)   
  [Troubleshooting Exceptions: System.StackOverflowException](../Topic/Troubleshooting%20Exceptions:%20System.StackOverflowException.md)

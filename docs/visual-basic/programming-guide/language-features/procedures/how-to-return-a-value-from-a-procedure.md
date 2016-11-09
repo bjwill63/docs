@@ -48,31 +48,31 @@ A `Function` procedure returns a value to the calling code either by executing a
   
      The following `Function` procedure calculates the longest side, or hypotenuse, of a right triangle, and returns it to the calling code.  
   
-     [!code-vb[VbVbcnProcedures#1](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-return-a-value-from-a-procedure_1.vb)]  
+     [!code-vb[VbVbcnProcedures#1](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-return-a-value-from-a-procedure_1.vb)]  
   
      The following example shows a typical call to `hypotenuse`, which stores the returned value.  
   
-     [!code-vb[VbVbcnProcedures#6](../../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-return-a-value-from-a-procedure_2.vb)]  
+     [!code-vb[VbVbcnProcedures#6](../../../visual-basic/language-reference/procedures/codesnippet/VisualBasic/how-to-return-a-value-from-a-procedure_2.vb)]  
   
 ### To return a value using Exit Function or End Function  
   
 1.  In at least one place in the `Function` procedure, assign a value to the procedure's name.  
   
-2.  When you execute an `Exit Function` or `End Function` statement, [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] returns the value most recently assigned to the procedure's name.  
+2.  When you execute an `Exit Function` or `End Function` statement, [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] returns the value most recently assigned to the procedure's name.  
   
 3.  You can have more than one `Exit Function` statement in the same procedure, and you can mix `Return` and `Exit Function` statements in the same procedure.  
   
 4.  You can have only one `End Function` statement in a `Function` procedure.  
   
-     For more information and an example, see "Return Value" in [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md).  
+     For more information and an example, see "Return Value" in [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md).  
   
 ## See Also  
- [Procedures](../../../../visual-basic/language-reference/procedures/index.md)   
- [Sub Procedures](../../../../visual-basic/language-reference/procedures/sub-procedures.md)   
- [Property Procedures](../../../../visual-basic/language-reference/procedures/property-procedures.md)   
- [Operator Procedures](../../../../visual-basic/language-reference/procedures/operator-procedures.md)   
- [Procedure Parameters and Arguments](../../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
- [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md)   
- [Return Statement](../../../../visual-basic/language-reference/statements/return-statement.md)   
- [How to: Create a Procedure that Returns a Value](../../../../visual-basic/language-reference/procedures/how-to-create-a-procedure-that-returns-a-value.md)   
- [How to: Call a Procedure That Returns a Value](../../../../visual-basic/language-reference/procedures/how-to-call-a-procedure-that-returns-a-value.md)
+ [Procedures](../../../visual-basic/language-reference/procedures/index.md)   
+ [Sub Procedures](../../../visual-basic/language-reference/procedures/sub-procedures.md)   
+ [Property Procedures](../../../visual-basic/language-reference/procedures/property-procedures.md)   
+ [Operator Procedures](../../../visual-basic/language-reference/procedures/operator-procedures.md)   
+ [Procedure Parameters and Arguments](../../../visual-basic/language-reference/procedures/procedure-parameters-and-arguments.md)   
+ [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md)   
+ [Return Statement](../../../visual-basic/language-reference/statements/return-statement.md)   
+ [How to: Create a Procedure that Returns a Value](../../../visual-basic/language-reference/procedures/how-to-create-a-procedure-that-returns-a-value.md)   
+ [How to: Call a Procedure That Returns a Value](../../../visual-basic/language-reference/procedures/how-to-call-a-procedure-that-returns-a-value.md)

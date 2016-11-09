@@ -121,7 +121,7 @@ warningLabel.ForeColor = System.Drawing.Color.Red
   
 -   The property is a `String` data type, and there is no constraint on the size or value of the string.  
   
--   For more information, see [Property Procedures](../../../../visual-basic/language-reference/procedures/property-procedures.md).  
+-   For more information, see [Property Procedures](../../../../visual-basic/programming-guide/language-features/procedures/property-procedures.md).  
   
 ### Methods  
  A *method* is an action that an object can perform. For example, <xref:System.Windows.Forms.ComboBox.ObjectCollection.Add%2A> is a method of the <xref:System.Windows.Forms.ComboBox> object that adds a new entry to a combo box.  
@@ -135,7 +135,7 @@ safetyTimer.Start()
   
  Note that a method is simply a *procedure* that is exposed by an object.  
   
- For more information, see [Procedures](../../../../visual-basic/language-reference/procedures/index.md).  
+ For more information, see [Procedures](../../../../visual-basic/programming-guide/language-features/procedures/index.md).  
   
 ### Events  
  An event is an action recognized by an object, such as clicking the mouse or pressing a key, and for which you can write code to respond. Events can occur as a result of a user action or program code, or they can be caused by the system. Code that signals an event is said to *raise* the event, and code that responds to it is said to *handle* it.  

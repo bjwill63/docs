@@ -104,7 +104,7 @@ Dim urlContents As String = Await client.GetStringAsync()
   
     -   <xref:System.Threading.Tasks.Task> if your method has no return statement or has a return statement with no operand.  
   
-    -   [Sub](../../../../visual-basic/language-reference/procedures/sub-procedures.md) if you're writing an async event handler.  
+    -   [Sub](../../../../visual-basic/programming-guide/language-features/procedures/sub-procedures.md) if you're writing an async event handler.  
   
      For more information, see "Return Types and Parameters" later in this topic.  
   
