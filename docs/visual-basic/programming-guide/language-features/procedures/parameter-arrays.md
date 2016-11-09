@@ -70,7 +70,7 @@ Usually, you cannot call a procedure with more arguments than the procedure decl
 ## Example  
  The following example defines and calls the function `calcSum`. The `ParamArray` modifier for the parameter `args` enables the function to accept a variable number of arguments.  
   
- [!code-vb[VbVbalrStatements#26](../../../visual-basic/language-reference/error-messages/codesnippet/VisualBasic/parameter-arrays_1.vb)]  
+ [!code-vb[VbVbalrStatements#26](../../../../visual-basic/language-reference/error-messages/codesnippet/VisualBasic/parameter-arrays_1.vb)]  
   
  The following example defines a procedure with a parameter array, and outputs the values of all the array elements passed to the parameter array.  
   
