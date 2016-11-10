@@ -197,7 +197,7 @@ This walkthrough demonstrates the C# language features that are used to write LI
 ## Next Steps  
  After you are familiar with the basic aspects of working with queries in C#, you are ready to read the documentation and samples for the specific type of LINQ provider you are interested in:  
   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)  
+ [LINQ to SQL](https://msdn.microsoft.com/library/bb386976)  
   
  [LINQ to DataSet](../Topic/LINQ%20to%20DataSet.md)  
   

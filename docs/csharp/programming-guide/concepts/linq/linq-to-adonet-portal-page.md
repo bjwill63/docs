@@ -42,7 +42,7 @@ translation.priority.mt:
   
  [!INCLUDE[vbtecdlinq](../../../../csharp/includes/vbtecdlinq_md.md)] includes support for stored procedures and user-defined functions in the database, and for inheritance in the object model.  
   
- For more information, see [LINQ to SQL](../Topic/LINQ%20to%20SQL.md).  
+ For more information, see [LINQ to SQL](https://msdn.microsoft.com/library/bb386976).  
   
 ## LINQ to Entities  
  Through the [!INCLUDE[adonet_edm](../../../../csharp/programming-guide/concepts/linq/includes/adonet_edm_md.md)], relational data is exposed as objects in the .NET environment. This makes the object layer an ideal target for [!INCLUDE[vbteclinq](../../../../csharp/includes/vbteclinq_md.md)] support, allowing developers to formulate queries against the database from the language used to build the business logic. This capability is known as [!INCLUDE[linq_entities](../../../../csharp/programming-guide/concepts/linq/includes/linq_entities_md.md)]. See [LINQ to Entities](../Topic/LINQ%20to%20Entities.md) for more information.  

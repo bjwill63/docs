@@ -70,4 +70,4 @@ Specifies a default base address when creating a DLL.
  [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)   
  [/target (Visual Basic)](../../../visual-basic/reference/command-line-compiler/target.md)   
  [Sample Compilation Command Lines](../../../visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md)   
- [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md)
+ [Sn.exe (Strong Name Tool)](https://msdn.microsoft.com/library/k5b5tt23)

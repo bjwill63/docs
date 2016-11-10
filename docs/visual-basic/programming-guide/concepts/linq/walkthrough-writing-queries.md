@@ -159,7 +159,7 @@ This walkthrough demonstrates how you can use Visual Basic language features to 
   
  [LINQ to Objects](../Topic/LINQ%20to%20Objects.md)  
   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)  
+ [LINQ to SQL](https://msdn.microsoft.com/library/bb386976)  
   
  [LINQ to XML](../Topic/LINQ%20to%20XML.md)  
   
