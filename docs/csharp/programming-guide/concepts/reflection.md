@@ -79,4 +79,4 @@ System.Console.WriteLine(info);
   
 ## See Also  
  [C# Programming Guide](../../../csharp/programming-guide/index.md)   
- [Assemblies in the Common Language Runtime](../Topic/Assemblies%20in%20the%20Common%20Language%20Runtime.md)
+ [Assemblies in the Common Language Runtime](https://msdn.microsoft.com/library/k3677y81)

@@ -71,7 +71,7 @@ Visual Basic is engineered for productively building type-safe and object-orient
  [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md)  
  Provides links to topics that describe the various types of Windows applications that you can create with Visual Studio.  
   
- [ASP.NET Overview](../Topic/ASP.NET%20Overview.md)  
+ [ASP.NET Overview](https://msdn.microsoft.com/library/4w3ex9c2.aspx)  
  Provides general information about ASP.NET and discusses factors that you should consider when you create a website by using ASP.NET.  
   
  [Development Guide](https://msdn.microsoft.com/library/hh156542)  

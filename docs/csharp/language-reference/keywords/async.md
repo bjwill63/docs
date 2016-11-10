@@ -127,7 +127,7 @@ public async Task<int> ExampleMethodAsync()
   
  You use the `void` return type primarily to define event handlers, which require that return type. The caller of a `void`-returning async method can't await it and can't catch exceptions that the method throws.  
   
- For more information and examples, see [Async Return Types](../Topic/Async%20Return%20Types%20\(C%23%20and%20Visual%20Basic\).md).  
+ For more information and examples, see [Async Return Types](../../../csharp/programming-guide/concepts/async/async-return-types.md).  
   
 ## See Also  
  <xref:System.Runtime.CompilerServices.AsyncStateMachineAttribute>   

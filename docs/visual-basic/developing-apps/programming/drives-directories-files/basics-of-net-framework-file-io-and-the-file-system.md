@@ -1,5 +1,5 @@
 ---
-title: "Basics of .NET Framework File I-O and the File System (Visual Basic) | Microsoft Docs"
+title: "Basics of .NET Framework File I/O and the File System (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -61,7 +61,7 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
   
 -   **Seeking**. You can query and modify your position in the stream.  
   
- For more information, see [Composing Streams](../Topic/Composing%20Streams.md).  
+ For more information, see [Composing Streams](https://msdn.microsoft.com/library/e4y2dch9).  
   
 ## Types of Streams  
  In the [!INCLUDE[dnprdnshort](../../../../csharp/getting-started/includes/dnprdnshort_md.md)], a stream is represented by the <xref:System.IO.Stream> class, which forms the abstract class for all other streams. You cannot directly create an instance of the <xref:System.IO.Stream> class, but must use one of the classes it implements.  
@@ -122,7 +122,7 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
  The <xref:System.IO.FileSystemWatcher> component allows you to watch for changes in files and directories on your system or on any computer to which you have network access. For example, if a file is modified, you might want to send a user an alert that the change has taken place. When changes occur, one or more events are raised, stored in a buffer, and handed to the <xref:System.IO.FileSystemWatcher> component for processing.  
   
 ## See Also  
- [Composing Streams](../Topic/Composing%20Streams.md)   
- [File and Stream I-O](../Topic/File%20and%20Stream%20I-O.md)   
- [Asynchronous File I/O](../Topic/Asynchronous%20File%20I-O.md)   
+ [Composing Streams](https://msdn.microsoft.com/library/e4y2dch9)   
+ [File and Stream I/O](https://msdn.microsoft.com/library/k3352a4t)   
+ [Asynchronous File I/O](https://msdn.microsoft.com/library/kztecsys)   
  [Classes Used in .NET Framework File I/O and the File System (Visual Basic)](../../../../visual-basic/developing-apps/programming/drives-directories-files/classes-used-in-net-framework-file-io-and-the-file-system.md)

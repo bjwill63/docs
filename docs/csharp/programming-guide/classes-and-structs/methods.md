@@ -134,7 +134,7 @@ static void Main(string[] args)
   
  An async method can't declare any [ref](../../../csharp/language-reference/keywords/ref.md) or [out](../../../csharp/language-reference/keywords/out.md) parameters, but it can call methods that have such parameters.  
   
- For more information about async methods, see [Asynchronous Programming with Async and Await](../Topic/Asynchronous%20Programming%20with%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md), [Control Flow in Async Programs](../Topic/Control%20Flow%20in%20Async%20Programs%20\(C%23%20and%20Visual%20Basic\).md), and [Async Return Types](../Topic/Async%20Return%20Types%20\(C%23%20and%20Visual%20Basic\).md).  
+ For more information about async methods, see [Asynchronous Programming with Async and Await](../Topic/Asynchronous%20Programming%20with%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md), [Control Flow in Async Programs](../Topic/Control%20Flow%20in%20Async%20Programs%20\(C%23%20and%20Visual%20Basic\).md), and [Async Return Types](../../../csharp/programming-guide/concepts/async/async-return-types.md).  
   
 ## Expression Body Definitions  
  It is common to have method definitions that simply return immediately with the result of an expression, or that have a single statement as the body of the method.  There is a syntax shortcut for defining such methods using `=>`:  
@@ -164,13 +164,13 @@ public Customer this[long id] => store.LookupCustomer(id);
   
 ## See Also  
  [C# Programming Guide](../../../csharp/programming-guide/index.md)   
- [Classes and Structs](../../../csharp/programming-guide/classes-and-structs/index.md)   
- [Access Modifiers](../../../csharp/programming-guide/classes-and-structs/access-modifiers.md)   
- [Static Classes and Static Class Members](../../../csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members.md)   
- [Inheritance](../../../csharp/programming-guide/classes-and-structs/inheritance.md)   
- [Abstract and Sealed Classes and Class Members](../../../csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members.md)   
+ [Classes and Structs](index.md)   
+ [Access Modifiers](access-modifiers.md)   
+ [Static Classes and Static Class Members](static-classes-and-static-class-members.md)   
+ [Inheritance](inheritance.md)   
+ [Abstract and Sealed Classes and Class Members](abstract-and-sealed-classes-and-class-members.md)   
  [params](../../../csharp/language-reference/keywords/params.md)   
  [return](../../../csharp/language-reference/keywords/return.md)   
  [out](../../../csharp/language-reference/keywords/out.md)   
  [ref](../../../csharp/language-reference/keywords/ref.md)   
- [Passing Parameters](../../../csharp/programming-guide/classes-and-structs/passing-parameters.md)
+ [Passing Parameters](passing-parameters.md)

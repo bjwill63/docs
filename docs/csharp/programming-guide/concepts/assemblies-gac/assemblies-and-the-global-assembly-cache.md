@@ -50,7 +50,7 @@ Assemblies form the fundamental unit of deployment, version control, reuse, acti
   
  Because assemblies contain information about content, versioning, and dependencies, the applications you create with C# do not rely on Windows registry values to function properly. Assemblies reduce .dll conflicts and make your applications more reliable and easier to deploy. In many cases, you can install a .NET-based application simply by copying its files to the target computer.  
   
- For more information see [Assembly Manifest](../Topic/Assembly%20Manifest.md).  
+ For more information see [Assembly Manifest](https://msdn.microsoft.com/library/1w45z383).  
   
 ## Adding a Reference to an Assembly  
  To use an assembly, you must add a reference to it. Next, you use the [using directive](../../../../csharp/language-reference/keywords/using-directive.md) to choose the namespace of the items you want to use. Once an assembly is referenced and imported, all the accessible classes, properties, methods, and other members of its namespaces are available to your application as if their code were part of your source file.  
@@ -65,11 +65,11 @@ Assemblies form the fundamental unit of deployment, version control, reuse, acti
   
 ## See Also  
  [C# Programming Guide](../../../../csharp/programming-guide/index.md)   
- [Assemblies in the Common Language Runtime](../Topic/Assemblies%20in%20the%20Common%20Language%20Runtime.md)   
- [Friend Assemblies (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/friend-assemblies.md)   
- [How to: Share an Assembly with Other Applications (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/how-to-share-an-assembly-with-other-applications.md)   
- [How to: Load and Unload Assemblies (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/how-to-load-and-unload-assemblies.md)   
- [How to: Determine If a File Is an Assembly (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/how-to-determine-if-a-file-is-an-assembly.md)   
- [How to: Create and Use Assemblies Using the Command Line (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/how-to-create-and-use-assemblies-using-the-command-line.md)   
- [Walkthrough: Embedding Types from Managed Assemblies in Visual Studio (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/walkthrough-embedding-types-from-managed-assemblies-in-visual-studio.md)   
- [Walkthrough: Embedding Type Information from Microsoft Office Assemblies in Visual Studio (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/walkthrough-embedding-type-information-from-microsoft-office-assemblies.md)
+ [Assemblies in the Common Language Runtime](https://msdn.microsoft.com/library/k3677y81)   
+ [Friend Assemblies (C#)](friend-assemblies.md)   
+ [How to: Share an Assembly with Other Applications (C#)](how-to-share-an-assembly-with-other-applications.md)   
+ [How to: Load and Unload Assemblies (C#)](how-to-load-and-unload-assemblies.md)   
+ [How to: Determine If a File Is an Assembly (C#)](how-to-determine-if-a-file-is-an-assembly.md)   
+ [How to: Create and Use Assemblies Using the Command Line (C#)](how-to-create-and-use-assemblies-using-the-command-line.md)   
+ [Walkthrough: Embedding Types from Managed Assemblies in Visual Studio (C#)](walkthrough-embedding-types-from-managed-assemblies-in-visual-studio.md)   
+ [Walkthrough: Embedding Type Information from Microsoft Office Assemblies in Visual Studio (C#)](walkthrough-embedding-type-information-from-microsoft-office-assemblies.md)

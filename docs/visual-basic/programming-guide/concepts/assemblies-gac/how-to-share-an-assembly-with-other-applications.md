@@ -33,7 +33,7 @@ Assemblies can be private or shared: by default, most simple programs consist of
   
 2.  Assign a strong name to your assembly. For more information, see [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md).  
   
-3.  Assign version information to your assembly. For more information, see [Assembly Versioning](../Topic/Assembly%20Versioning.md).  
+3.  Assign version information to your assembly. For more information, see [Assembly Versioning](https://msdn.microsoft.com/library/51ket42z).  
   
 4.  Add your assembly to the Global Assembly Cache. For more information, see [How to: Install an Assembly into the Global Assembly Cache](../Topic/How%20to:%20Install%20an%20Assembly%20into%20the%20Global%20Assembly%20Cache.md).  
   

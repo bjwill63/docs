@@ -2096,7 +2096,7 @@
 #### [Default property access is ambiguous between the inherited interface members '<defaultpropertyname>' of interface '<interfacename1>' and '<defaultpropertyname>' of interface '<interfacename2>'](visual-basic/language-reference/error-messages/default-property-access-is-ambiguous.md)
 #### [Delegate class '<classname>' has no Invoke method, so an expression of this type cannot be the target of a method call](visual-basic/language-reference/error-messages/delegate-class-classname-has-no-invoke-method.md)
 #### [Derived classes cannot raise base class events](visual-basic/language-reference/error-messages/derived-classes-cannot-raise-base-class-events.md)
-#### [Device I-O error](visual-basic/language-reference/error-messages/device-i-o-error.md)
+#### [Device I/O error](visual-basic/language-reference/error-messages/device-i-o-error.md)
 #### ['Dir' function must first be called with a 'PathName' argument](visual-basic/language-reference/error-messages/dir-function-must-first-be-called-with-a-pathname-argument.md)
 #### [End of statement expected](visual-basic/language-reference/error-messages/end-of-statement-expected.md)
 #### [Error creating assembly manifest: <error message>](visual-basic/language-reference/error-messages/error-creating-assembly-manifest-error-message.md)
