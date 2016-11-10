@@ -68,4 +68,4 @@ By using a `finally` block, you can clean up any resources that are allocated in
  [Exception Handling Statements](../../../csharp/language-reference/keywords/exception-handling-statements.md)   
  [throw](../../../csharp/language-reference/keywords/throw.md)   
  [try-catch](../../../csharp/language-reference/keywords/try-catch.md)   
- [How to: Explicitly Throw Exceptions](../Topic/How%20to:%20Explicitly%20Throw%20Exceptions.md)
+ [How to: Explicitly Throw Exceptions](https://msdn.microsoft.com/library/xhcbs8fz)

@@ -141,7 +141,7 @@ End Try
  Ensure that code in `Catch` blocks can properly report exceptions to users, whether through thread-safe logging or appropriate messages. Otherwise, exceptions might remain unknown.  
   
 ## Async Methods  
- If you mark a method with the [Async](../../../visual-basic/language-reference/modifiers/async.md) modifier, you can use the [Await](../../../visual-basic/language-reference/operators/await-operator.md) operator in the method. A statement with the `Await` operator suspends execution of the method until the awaited task completes. The task represents ongoing work. When the task that's associated with the `Await` operator finishes, execution resumes in the same method. For more information, see [Control Flow in Async Programs](../Topic/Control%20Flow%20in%20Async%20Programs%20\(C%23%20and%20Visual%20Basic\).md).  
+ If you mark a method with the [Async](../../../visual-basic/language-reference/modifiers/async.md) modifier, you can use the [Await](../../../visual-basic/language-reference/operators/await-operator.md) operator in the method. A statement with the `Await` operator suspends execution of the method until the awaited task completes. The task represents ongoing work. When the task that's associated with the `Await` operator finishes, execution resumes in the same method. For more information, see [Control Flow in Async Programs](../../../visual-basic/programming-guide/concepts/async/control-flow-in-async-programs.md).  
   
  A task returned by an Async method may end in a faulted state, indicating that it completed due to an unhandled exception. A task may also end in a canceled state, which results in an `OperationCanceledException` being thrown out of the await expression. To catch either type of exception, place the `Await` expression that's associated with the task in a `Try` block, and catch the exception in the `Catch` block. An example is provided later in this topic.  
   
@@ -209,5 +209,5 @@ End Try
  [Exit Statement](../../../visual-basic/language-reference/statements/exit-statement.md)   
  [On Error Statement](../../../visual-basic/language-reference/statements/on-error-statement.md)   
  [Best Practices for Using Code Snippets](/visualstudio/ide/best-practices-for-using-code-snippets)   
- [Exception Handling](../Topic/Exception%20Handling%20\(Task%20Parallel%20Library\).md)   
+ [Exception Handling](https://msdn.microsoft.com/library/dd997415)   
  [Throw Statement](../../../visual-basic/language-reference/statements/throw-statement.md)
