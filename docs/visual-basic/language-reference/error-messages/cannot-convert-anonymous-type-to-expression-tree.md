@@ -55,7 +55,7 @@ End Module
   
  **Error ID:** BC36548  
   
-### To correct this error  
+## To correct this error  
   
 -   Assign the initial value for `Prop1` to a local variable. Assign that variable to both `Prop1` and `Prop2`, as shown in the following code.  
   

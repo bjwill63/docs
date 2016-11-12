@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;&lt;argumentname&gt;&#39; must be greater than zero
 An argument is not valid because it is less than or equal to zero.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Check the spelling of arguments in the expression. A misspelled variable name can implicitly create a numeric variable that is initialized to zero.  
   

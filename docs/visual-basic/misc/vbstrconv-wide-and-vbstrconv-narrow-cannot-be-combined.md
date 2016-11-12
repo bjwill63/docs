@@ -35,7 +35,7 @@ translation.priority.mt:
 # VbStrConv.Wide and VbStrConv.Narrow cannot be combined
 Your application is trying to combine the `VbStrConv` enumeration members `Wide` and `Narrow`, which are mutually exclusive.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Remove either `VbStrConv.Wide` or `VbStrConv.Narrow`.  
   

@@ -45,7 +45,7 @@ A class constructor does not explicitly call a base class constructor, and the i
   
  **Error ID:** BC30920  
   
-### To correct this error  
+## To correct this error  
   
 1.  Examine the quoted error message and take appropriate action.  
   

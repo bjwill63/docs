@@ -41,7 +41,7 @@ This single-instance application could not connect to the original instance. Som
   
      The base name for the kernel objects comes from concatenating the assembly's GUID, major version number, and minor version number. For example, the base name could be `3639f15d-9547-43da-8145-60da347829915.1`.  
   
-### To correct this error when developing the application  
+## To correct this error when developing the application  
   
 1.  Check that the application does not go into an unresponsive state.  
   

@@ -39,7 +39,7 @@ translation.priority.ht:
 # Visual Basic Language Walkthroughs
 Walkthroughs give step-by-step instructions for common scenarios, which makes them a good place to start learning about the product or a particular feature area.  
   
- [Writing an Async Program](../Topic/Walkthrough:%20Accessing%20the%20Web%20by%20Using%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md)  
+ [Writing an Async Program](./programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md)  
  Shows how to create an asynchronous solution by using [Async](../visual-basic/language-reference/modifiers/async.md) and [Await](../visual-basic/language-reference/operators/await-operator.md), which are introduced in [!INCLUDE[vs_dev11_long](../csharp/includes/vs_dev11_long_md.md)].  
   
  [Declaring and Raising Events](../visual-basic/programming-guide/language-features/events/walkthrough-declaring-and-raising-events.md)  

@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;Period&#39; must be less than or equal to argument &#39;Life&#39;
 The value of the `Period` argument, which specifies the period for which asset depreciation is calculated, is greater than the value of the `Life` argument.  
   
-### To correct this error  
+## To correct this error  
   
 -   Ensure that the `Life` and `Period` arguments are expressed in the same units. For example, if `Life` is measured in months, `Period` should be as well.  
   

@@ -47,7 +47,7 @@ Value of type '\<typename1>' cannot be converted to '\<typename2>'. Type mismatc
   
  **Error ID:** BC30961  
   
-### To correct this error  
+## To correct this error  
   
 -   If the referenced assemblies have the same assembly identity, then remove or replace one of the file references so that there is only a single file reference.  
   

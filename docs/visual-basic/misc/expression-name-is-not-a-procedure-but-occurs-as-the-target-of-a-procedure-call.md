@@ -35,7 +35,7 @@ translation.priority.mt:
 # Expression &#39;&lt;name&gt;&#39; is not a procedure, but occurs as the target of a procedure call
 You have made a procedure call to an expression that is not a procedure.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Make sure you did not misspell the name of the procedure.  
   

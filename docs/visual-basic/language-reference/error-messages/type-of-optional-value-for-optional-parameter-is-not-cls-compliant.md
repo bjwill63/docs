@@ -59,7 +59,7 @@ A procedure is marked as `<CLSCompliant(True)>` but declares an [Optional](../..
   
  **Error ID:** BC40042  
   
-### To correct this error  
+## To correct this error  
   
 -   If the optional parameter must have a default value of this particular type, remove <xref:System.CLSCompliantAttribute>. The procedure cannot be CLS-compliant.  
   

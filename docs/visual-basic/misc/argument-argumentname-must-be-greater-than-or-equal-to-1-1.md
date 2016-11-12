@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;&lt;argumentname&gt;&#39; must be greater than or equal to -1
 An argument's value is less than -1.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Ensure that the argument's value falls within the valid range.  
   

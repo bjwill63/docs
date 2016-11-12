@@ -35,7 +35,7 @@ translation.priority.mt:
 # This system does not contain support for the Locale specified
 You are attempting to use the `VbStrConv` enumeration, but your system does not support the specified locale.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Upgrade the machine to support the locale, or run the application on a machine that supports it.  
   

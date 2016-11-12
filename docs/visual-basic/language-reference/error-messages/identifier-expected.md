@@ -41,7 +41,7 @@ A programming element that is not a recognizable declared element name occurs wh
   
  **Error ID:** BC30203  
   
-### To correct this error  
+## To correct this error  
   
 -   Verify that any attributes in the statement are all placed at the beginning.  
   

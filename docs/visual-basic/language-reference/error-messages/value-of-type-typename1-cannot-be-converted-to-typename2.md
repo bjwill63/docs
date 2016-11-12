@@ -77,7 +77,7 @@ Value of type '\<typename1>' cannot be converted to '\<typename2>'. Type mismatc
   
  **Error ID:** BC30955  
   
-### To correct this error  
+## To correct this error  
   
 -   Change the file reference to a project reference.  
   

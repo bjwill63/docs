@@ -41,7 +41,7 @@ A statement uses the `AddressOf` operator with an operand that represents a proc
   
  **Error ID:** BC32126  
   
-### To correct this error  
+## To correct this error  
   
 -   Replace the procedure name in the `AddressOf` clause with an operand that is not a member of <xref:System.Nullable%601>.  
   

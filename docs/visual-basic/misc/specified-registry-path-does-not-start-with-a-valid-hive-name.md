@@ -47,7 +47,7 @@ The specified registry path does not begin with a valid hive name. Valid hive na
   
 -   `HKEY_USERS`  
   
-### To correct this error  
+## To correct this error  
   
 -   Verify that you are supplying a valid hive name.  
   

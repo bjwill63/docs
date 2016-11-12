@@ -53,7 +53,7 @@ A variable, property, or function return is declared with a data type that is no
   
  **Error ID:** BC40041  
   
-### To correct this error  
+## To correct this error  
   
 -   If your application needs to be CLS-compliant, change the data type of this element to the closest CLS-compliant type. For example, in place of `UInteger` you might be able to use `Integer` if you do not need the value range above 2,147,483,647. If you do need the extended range, you can replace `UInteger` with `Long`.  
   

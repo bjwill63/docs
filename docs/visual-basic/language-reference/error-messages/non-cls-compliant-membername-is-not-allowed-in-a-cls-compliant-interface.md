@@ -49,7 +49,7 @@ A property, procedure, or event in an interface is marked as `<CLSCompliant(True
   
  **Error ID:** BC40033  
   
-### To correct this error  
+## To correct this error  
   
 -   If you require CLS compliance and have control over the interface source code, mark the interface as `<CLSCompliant(True)>` if all its members are compliant.  
   

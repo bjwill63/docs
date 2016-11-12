@@ -45,7 +45,7 @@ A checksum value contains invalid hexadecimal digits or has an odd number of dig
   
  **Error ID:** BC42033  
   
-### To correct this error  
+## To correct this error  
   
 1.  If ASP.NET is generating the Visual Basic source file, restart the project build.  
   

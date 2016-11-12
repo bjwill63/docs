@@ -69,7 +69,7 @@ exitButton.Location = exitLocation
   
  **Error ID:** BC30068  
   
-### To correct this error  
+## To correct this error  
   
 -   If the statement assigns a value to an expression, replace the expression with a single writable variable, property, or array element.  
   

@@ -35,7 +35,7 @@ translation.priority.mt:
 # Locale ID &#39;&lt;name&gt;&#39; is not supported on this system
 You are attempting to use `VbStrConv`, but your system does not support the specified locale.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Upgrade the machine to support the locale, or run the application on a machine that supports the specified locale.  
   

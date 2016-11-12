@@ -49,7 +49,7 @@ A class or interface is marked as `<CLSCompliant(True)>` when it derives from or
   
  **Error ID:** BC40029  
   
-### To correct this error  
+## To correct this error  
   
 -   If you require CLS compliance, define this type within a different inheritance hierarchy or implementation scheme.  
   

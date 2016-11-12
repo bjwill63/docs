@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;&lt;argumentname&gt;&#39; must be in the range of -32768 to 65535
 An argument's value falls outside the allowable range of -32,768 to 65,535.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Ensure that the argument's value falls within the valid range.  
   

@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &lt;argumentname&gt; must be greater than or equal to zero
 An argument value is less than zero. Argument values must be greater than or equal to zero.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Ensure that the argument's value is greater than or equal to zero.  
   

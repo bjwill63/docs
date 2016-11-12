@@ -35,7 +35,7 @@ translation.priority.mt:
 # Arguments are not valid
 Arguments that are not valid are being passed to a function or subroutine.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Check the arguments to determine why they are invalid.  
   

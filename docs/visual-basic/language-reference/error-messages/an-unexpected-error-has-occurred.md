@@ -42,7 +42,7 @@ The application could not acquire a necessary operating system resource. Some of
   
 -   The application needs to access an operating-system object, but another process is using it.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Check that the application has sufficient permissions to create named operating-system objects.  
   

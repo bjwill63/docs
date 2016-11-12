@@ -41,7 +41,7 @@ There was a problem writing output to memory.
   
  **Error ID:** BC31020  
   
-### To correct this error  
+## To correct this error  
   
 1.  Compile the program again to see if the error reoccurs.  
   

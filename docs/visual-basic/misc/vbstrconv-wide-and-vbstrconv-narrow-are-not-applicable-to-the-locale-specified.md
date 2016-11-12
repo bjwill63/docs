@@ -35,7 +35,7 @@ translation.priority.mt:
 # VbStrConv.Wide and VbStrConv.Narrow are not applicable to the locale specified
 The application is attempting to use the `VbStrConv` enumeration members `Wide` or `Narrow`, which are not applicable to the specified locale.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Remove either `VbStrConv.Wide` or `VbStrConv.Narrow`.  
   

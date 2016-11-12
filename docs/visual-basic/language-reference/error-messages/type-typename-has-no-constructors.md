@@ -41,7 +41,7 @@ A type does not support a call to `Sub New()`. One possible cause is a corrupted
   
  **Error ID:** BC30251  
   
-### To correct this error  
+## To correct this error  
   
 1.  If the type is in a different project or in a referenced file, reinstall the project or file.  
   

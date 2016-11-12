@@ -35,7 +35,7 @@ translation.priority.mt:
 # Named argument &#39;&lt;argumentname&gt;&#39; specified multiple times
 You specified a named argument more than once.  
   
-### To correct this error  
+## To correct this error  
   
 -   Remove all but one of the specifications.  
   

@@ -81,7 +81,7 @@ End Class
   
  **Error ID:** BC42026  
   
-### To correct this error  
+## To correct this error  
   
 -   Rewrite the property definition to use the recommended approach as illustrated in the preceding example.  
   

@@ -41,7 +41,7 @@ A reference was made to a class that is not available.
   
  **Error ID:** BC30712  
   
-### To correct this error  
+## To correct this error  
   
 1.  Verify that the class is defined and that you spelled the name correctly.  
   

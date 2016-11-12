@@ -43,7 +43,7 @@ Errors occurred while compiling the XML schemas in the project. Because of this,
   
  **Error ID:** BC36810  
   
-### To correct this error  
+## To correct this error  
   
 -   Double-click the warning in the **Errors List** window. Visual Basic will take you to the location in the XSD file that is the source of the warning. Correct the error in the XSD schema.  
   

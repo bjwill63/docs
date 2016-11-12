@@ -51,7 +51,7 @@ Namespace or type specified in the project-level Imports '\<qualifiedelementname
   
  **Error ID:** BC40057  
   
-### To correct this error  
+## To correct this error  
   
 1.  Open the **Project Designer** and switch to the **Reference** page.  
   

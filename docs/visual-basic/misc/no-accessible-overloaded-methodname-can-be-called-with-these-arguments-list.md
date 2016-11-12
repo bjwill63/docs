@@ -35,7 +35,7 @@ translation.priority.mt:
 # No accessible overloaded &#39;&lt;methodname&gt;&#39; can be called with these arguments: &lt;list&gt;
 An overloaded method is called, but no method can be matched with the list of arguments provided.  
   
-### To correct this error  
+## To correct this error  
   
 -   Match the argument list against the overload you intended to call.  
   

@@ -36,7 +36,7 @@ translation.priority.ht:
 # Need property array index
 This property value consists of an array rather than a single value. You did not specify the index for the property array you tried to access.  
   
-### To correct this error  
+## To correct this error  
   
 -   Check the component's documentation to find the range for the indexes appropriate for the array. Specify an appropriate index in your property access statement.  
   

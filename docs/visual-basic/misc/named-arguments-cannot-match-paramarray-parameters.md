@@ -35,7 +35,7 @@ translation.priority.mt:
 # Named arguments cannot match ParamArray parameters
 Parameter arrays must be passed by value.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Pass the arguments `ByVal`, rather than by naming them.  
   

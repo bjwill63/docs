@@ -41,7 +41,7 @@ translation.priority.ht:
   
  **Error ID:** BC30698  
   
-### To correct this error  
+## To correct this error  
   
 1.  Restart [!INCLUDE[vsprvs](../../../csharp/includes/vsprvs_md.md)].  
   

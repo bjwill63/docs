@@ -47,7 +47,7 @@ A procedure is called with a [ByRef](../../../visual-basic/language-reference/mo
   
  **Error ID:** BC41999  
   
-### To correct this error  
+## To correct this error  
   
 -   If possible, use a calling argument of the same type as the procedure parameter, so [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] does not need to do any conversion.  
   

@@ -53,7 +53,7 @@ The data type specified for this member is not part of the [Language Independenc
   
  **Error ID:** BC40025  
   
-### To correct this error  
+## To correct this error  
   
 -   If your component interfaces only with other [!INCLUDE[dnprdnshort](../../../csharp/getting-started/includes/dnprdnshort_md.md)] components, or does not interface with any other components, you do not need to change anything.  
   

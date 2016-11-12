@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;&lt;argumentname&gt;&#39; is not a valid value
 An argument's value is not valid.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Check the value of the argument.  
   

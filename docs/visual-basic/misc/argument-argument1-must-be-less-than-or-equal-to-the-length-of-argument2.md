@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;&lt;argument1&gt;&#39; must be less than or equal to the length of argument &#39;&lt;argument2&gt;&#39;
 An argument's length exceeds the allowable limit, which is determined by the second argument's length.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Ensure that the length of the argument's value falls within the valid range.  
   

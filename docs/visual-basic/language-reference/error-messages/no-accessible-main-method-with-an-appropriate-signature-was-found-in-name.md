@@ -43,7 +43,7 @@ Command-line applications must have a `Sub Main` defined. `Main` must be declare
   
  **Error ID:** BC30737  
   
-### To correct this error  
+## To correct this error  
   
 -   Define a `Public Sub Main` procedure for your project. Declare it as `Shared` if and only if you define it inside a class.  
   

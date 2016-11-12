@@ -36,7 +36,7 @@ translation.priority.ht:
 # Out of stack space (Visual Basic)
 The stack is a working area of memory that grows and shrinks dynamically with the demands of your executing program. Its limits have been exceeded.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Check that procedures are not nested too deeply.  
   

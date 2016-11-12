@@ -49,7 +49,7 @@ An assembly is marked as `<CLSCompliant(True)>`, but an element of the root name
   
  **Error ID:** BC40039  
   
-### To correct this error  
+## To correct this error  
   
 -   If you require CLS compliance, change the root namespace name so that none of its elements begins with an underscore.  
   

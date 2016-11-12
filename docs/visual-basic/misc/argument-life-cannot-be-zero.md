@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;Life&#39; cannot be zero
 An argument for `Life`, which must be a `Double` that specifies the length of useful life of the asset, is not valid.  
   
-### To correct this error  
+## To correct this error  
   
 -   Check the spelling of arguments in the expression. A misspelled variable name can implicitly create a numeric variable that is initialized to zero.  
   

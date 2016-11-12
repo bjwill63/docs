@@ -38,7 +38,7 @@ The application uses the <xref:Microsoft.VisualBasic.ApplicationServices.Windows
   
  This can occur if the **Enable application framework** check box is selected in the project designer but the **Startup form** is not specified. For more information, see [Application Page, Project Designer (Visual Basic)](/visualstudio/ide/reference/application-page-project-designer-visual-basic).  
   
-### To correct this error  
+## To correct this error  
   
 1.  Specify a startup object for the application.  
   

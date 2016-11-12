@@ -47,7 +47,7 @@ Variable '\<variablename>' is used before it has been assigned a value. A null r
   
  **Error ID:** BC42104  
   
-### To correct this error  
+## To correct this error  
   
 -   Check your control flow logic and make sure the variable has a valid value before control passes to any statement that reads it.  
   

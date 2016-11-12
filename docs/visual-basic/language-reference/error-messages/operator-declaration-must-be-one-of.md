@@ -49,7 +49,7 @@ You can declare only an operator that is eligible for overloading. The following
   
  **Error ID:** BC33000  
   
-### To correct this error  
+## To correct this error  
   
 1.  Select an operator from the set of overloadable operators.  
   

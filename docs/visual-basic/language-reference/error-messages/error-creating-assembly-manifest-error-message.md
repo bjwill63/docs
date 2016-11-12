@@ -43,7 +43,7 @@ The [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/v
   
  **Error ID:** BC30140  
   
-### To correct this error  
+## To correct this error  
   
 1.  Examine the quoted error message and consult the topic [Al.exe Tool Errors and Warnings](http://msdn.microsoft.com/en-us/7f125d49-0a03-47a6-9ba9-d61a679a7d4b) for error AL1019 further explanation and advice  
   

@@ -53,7 +53,7 @@ Delegate Function Del(ByVal p As Integer, ByVal q As Integer) As Integer
   
  **Error ID:** BC36532  
   
-### To correct this error  
+## To correct this error  
   
 -   Adjust either the delegate definition or the assigned lambda expression so that the signatures are compatible.  
   

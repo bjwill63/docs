@@ -35,7 +35,7 @@ translation.priority.mt:
 # Method &#39;&lt;methodname&gt;&#39; has no parameter named &#39;&lt;parametername&gt;&#39;
 A supplied named argument does not match any of the arguments of the target method.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Ensure that the named argument was supplied correctly.  
   

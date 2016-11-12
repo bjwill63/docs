@@ -59,7 +59,7 @@ A `Function` procedure is marked as `<CLSCompliant(True)>` but returns a type th
   
  **Error ID:** BC40027  
   
-### To correct this error  
+## To correct this error  
   
 -   If the `Function` procedure must return this particular type, remove the <xref:System.CLSCompliantAttribute>. The procedure cannot be CLS-compliant.  
   

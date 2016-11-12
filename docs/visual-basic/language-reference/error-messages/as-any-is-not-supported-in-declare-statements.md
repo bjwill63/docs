@@ -41,7 +41,7 @@ The `Any` data type was used with `Declare` statements in Visual Basic 6.0 and e
   
  **Error ID:** BC30828  
   
-### To correct this error  
+## To correct this error  
   
 1.  Declare parameters of the specific type you want to use; for example.  
   

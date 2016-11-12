@@ -41,7 +41,7 @@ A variable declared as nullable has been compared to an expression other than `N
   
  **Error ID:** BC32128  
   
-### To correct this error  
+## To correct this error  
   
 1.  To compare a nullable type to an expression other than `Nothing` by using the `IsNot` operator, call the `GetType` method on the nullable type and compare the result to the expression, as shown in the following example.  
   

@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;Per&#39; is not valid
 An argument supplied for `Per`, which must be a `Double` specifying payment period in the range 1 through `NPer`, is not valid.  
   
-### To correct this error  
+## To correct this error  
   
 -   Ensure that the argument falls within the valid range.  
   

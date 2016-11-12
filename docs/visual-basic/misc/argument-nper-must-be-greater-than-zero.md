@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;NPer&#39; must be greater than zero
 The `NPer` function, which returns a `Double` specifying the number of periods for an annuity based on periodic fixed payments and a fixed interest rate, requires an argument greater than zero.  
   
-### To correct this error  
+## To correct this error  
   
 -   Check the spelling of arguments in the expression. A misspelled variable name can implicitly create a numeric variable that is initialized to zero.  
   

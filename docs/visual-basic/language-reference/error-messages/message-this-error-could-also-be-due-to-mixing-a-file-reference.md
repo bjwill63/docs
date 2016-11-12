@@ -46,7 +46,7 @@ translation.priority.mt:
   
  **Error ID:** BC30971  
   
-### To correct this error  
+## To correct this error  
   
 1.  Determine which project produces the best assembly for your project to reference. For this decision, you might use criteria such as ease of file access and frequency of updates.  
   

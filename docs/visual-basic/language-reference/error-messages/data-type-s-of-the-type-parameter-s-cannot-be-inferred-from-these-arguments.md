@@ -75,7 +75,7 @@ End Interface
   
  **Error ID:** BC36647 and BC36644  
   
-### To correct this error  
+## To correct this error  
   
 -   You may be able to specify a data type for the type parameter or parameters instead of relying on type inference.  
   

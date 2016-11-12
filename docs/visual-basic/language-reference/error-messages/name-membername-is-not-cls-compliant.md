@@ -49,7 +49,7 @@ An assembly is marked as `<CLSCompliant(True)>` but exposes a member with a name
   
  **Error ID:** BC40031  
   
-### To correct this error  
+## To correct this error  
   
 -   If you have control over the source code, change the member name so that it does not begin with an underscore.  
   

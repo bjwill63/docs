@@ -35,7 +35,7 @@ translation.priority.mt:
 # Length of argument &#39;&lt;argumentname&gt;&#39; must be greater than zero
 An argument has a value that is equal to or less than zero.  
   
-### To correct this error  
+## To correct this error  
   
 -   Supply an argument that is greater than zero.  
   

@@ -66,7 +66,7 @@ Dim booleanVar = True
   
  **Error ID:** BC33107  
   
-### To correct this error  
+## To correct this error  
   
 -   If you cannot change the code so that the first argument is a nullable type or reference type, consider converting to a three-argument `If` expression, or to an `If...Then...Else` statement.  
   

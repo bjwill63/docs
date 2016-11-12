@@ -43,7 +43,7 @@ A `COMClassAttribute` attribute block specifies a globally unique identifier (GU
   
  **Error ID:** BC32500  
   
-### To correct this error  
+## To correct this error  
   
 1.  Determine the correct GUID or GUIDs necessary to identify the COM object.  
   

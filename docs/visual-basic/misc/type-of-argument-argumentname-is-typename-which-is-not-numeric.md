@@ -35,7 +35,7 @@ translation.priority.mt:
 # Type of argument &#39;&lt;argumentname&gt;&#39; is &#39;&lt;typename&gt;&#39;, which is not numeric
 A non-numeric argument occurs in a situation in which a numeric argument is expected.  
   
-### To correct this error  
+## To correct this error  
   
 -   Ensure that the argument is numeric.  
   

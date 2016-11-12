@@ -41,7 +41,7 @@ A `Function` or `Sub` procedure declaration uses the identical procedure name an
   
  **Error ID:** BC30269  
   
-### To correct this error  
+## To correct this error  
   
 -   Change the procedure name or the argument list, or remove the duplicate declaration.  
   

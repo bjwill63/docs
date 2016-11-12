@@ -47,7 +47,7 @@ An object is assigned to a variable declared to be of the [Object Data Type](../
   
  **Error ID:** BC42017  
   
-### To correct this error  
+## To correct this error  
   
 -   If possible, declare the variable to be of a specific type.  
   

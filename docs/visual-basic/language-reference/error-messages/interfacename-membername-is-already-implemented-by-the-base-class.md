@@ -45,7 +45,7 @@ A property, procedure, or event in a derived class uses an `Implements` clause s
   
  **Error ID:** BC42015  
   
-### To correct this error  
+## To correct this error  
   
 -   If you intend to reimplement the interface member, you do not need to take any action. Code in your derived class accesses the reimplemented member unless you use the `MyBase` keyword to access the base class implementation.  
   

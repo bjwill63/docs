@@ -49,7 +49,7 @@ Expression of type \<type> is not queryable. Make sure you are not missing an as
   
  **Error ID:** BC36593  
   
-### To correct this error  
+## To correct this error  
   
 1.  Add an `Import` statement for the <xref:System.Linq>, <xref:System.Data.Linq>, or <xref:System.Xml.Linq> namespace to your code file. You can also import namespaces for your project by using the **References** page of the Project Designer (**My Project**).  
   

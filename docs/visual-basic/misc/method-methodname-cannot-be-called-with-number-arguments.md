@@ -35,7 +35,7 @@ translation.priority.mt:
 # Method &#39;&lt;methodname&gt;&#39; cannot be called with &lt;number&gt; arguments
 A method call contains the wrong number of arguments.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Count the arguments that you have supplied.  
   

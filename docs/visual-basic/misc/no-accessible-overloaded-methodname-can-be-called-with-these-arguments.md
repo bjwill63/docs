@@ -35,7 +35,7 @@ translation.priority.mt:
 # No accessible overloaded &#39;&lt;methodname&gt;&#39; can be called with these arguments without a narrowing conversion
 An overloaded method was called, but no method was matched with the list of provided arguments without a narrowing conversion.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Specify `Option Strict Off`.  
   

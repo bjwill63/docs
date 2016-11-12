@@ -49,7 +49,7 @@ A statement attempts to store the value of a property when it does not have acce
   
  **Error ID:** BC31102  
   
-### To correct this error  
+## To correct this error  
   
 -   If you have control of the source code defining the property, consider declaring the `Set` procedure with the same access level as the property itself.  
   

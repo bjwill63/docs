@@ -44,7 +44,7 @@ The compiler is attempting to resolve a reference to an overloaded property or p
   
  **Error ID:** BC30933  
   
-### To correct this error  
+## To correct this error  
   
 -   Use `CType` to cast the argument from `Object` to the type specified by the signature of the overload you want to call.  
   

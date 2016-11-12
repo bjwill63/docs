@@ -49,7 +49,7 @@ Dim numbers() As Integer = {1, 2, 3, 4, 5}
   
  **Error ID:** BC36556  
   
-### To correct this error  
+## To correct this error  
   
 -   Assign the expression to a member name, as shown in the following code:  
   

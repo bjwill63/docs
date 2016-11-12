@@ -48,7 +48,7 @@ You apply the `Await` operator to an operand in an asynchronous method or lambda
   
 <CodeContentPlaceHolder>0</CodeContentPlaceHolder>  
 > [!IMPORTANT]
->  For the complete example, see [Walkthrough: Accessing the Web by Using Async and Await](../Topic/Walkthrough:%20Accessing%20the%20Web%20by%20Using%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md). You can download the sample from [Developer Code Samples](http://go.microsoft.com/fwlink/?LinkID=255191&clcid=0x409) on the Microsoft website. The example is in the AsyncWalkthrough_HttpClient project.  
+>  For the complete example, see [Walkthrough: Accessing the Web by Using Async and Await](../../../visual-basic/programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md). You can download the sample from [Developer Code Samples](http://go.microsoft.com/fwlink/?LinkID=255191&clcid=0x409) on the Microsoft website. The example is in the AsyncWalkthrough_HttpClient project.  
   
  If `Await` is applied to the result of a method call that returns a `Task(Of TResult)`, the type of the `Await` expression is TResult. If `Await` is applied to the result of a method call that returns a `Task`, the `Await` expression doesn't return a value. The following example illustrates the difference.  
   
@@ -103,5 +103,5 @@ End Function
   
 ## See Also  
  [Asynchronous Programming with Async and Await](../../../visual-basic/programming-guide/concepts/async/asynchronous-programming-with-async-and-await.md)   
- [Walkthrough: Accessing the Web by Using Async and Await](../Topic/Walkthrough:%20Accessing%20the%20Web%20by%20Using%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md)   
+ [Walkthrough: Accessing the Web by Using Async and Await](../../../visual-basic/programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md)   
  [Async](../../../visual-basic/language-reference/modifiers/async.md)

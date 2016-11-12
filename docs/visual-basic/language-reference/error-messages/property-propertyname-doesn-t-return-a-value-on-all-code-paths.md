@@ -55,7 +55,7 @@ Property '\<propertyname>' doesn't return a value on all code paths. A null refe
   
  **Error ID:** BC42107  
   
-### To correct this error  
+## To correct this error  
   
 -   Check your control flow logic and make sure you assign a value before every statement that causes a return.  
   

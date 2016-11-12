@@ -43,7 +43,7 @@ A nondeclarative statement, such as an assignment or loop statement, occurs outs
   
  **Error ID:** BC30188  
   
-### To correct this error  
+## To correct this error  
   
 -   Move the nondeclarative statement to the body of a procedure.  
   

@@ -41,7 +41,7 @@ The statement has made reference to a type that has not been defined. You can de
   
  **Error ID:** BC30002  
   
-### To correct this error  
+## To correct this error  
   
 -   Ensure that the type definition and its reference both use the same spelling.  
   

@@ -54,7 +54,7 @@ Dim b As Integer?
   
  **Error ID:** BC36629  
   
-### To correct this error  
+## To correct this error  
   
 -   Use an `As` clause to declare the variable as nullable.  
   

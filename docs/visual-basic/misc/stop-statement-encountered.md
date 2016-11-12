@@ -35,7 +35,7 @@ translation.priority.mt:
 # Stop statement encountered
 A `Stop` statement, which suspends execution, was encountered.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Remove the `Stop` statement.  
   

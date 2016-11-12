@@ -45,7 +45,7 @@ A statement attempts to access a programming element which has been marked with 
   
  **Error ID:** BC40008  
   
-### To correct this error  
+## To correct this error  
   
 -   Ensure that the source-code reference is spelling the element name correctly.  
   

@@ -49,7 +49,7 @@ A statement attempts to retrieve the value of a property when it does not have a
   
  **Error ID:** BC31103  
   
-### To correct this error  
+## To correct this error  
   
 -   If you have control of the source code defining the property, consider declaring the `Get` procedure with the same access level as the property itself.  
   

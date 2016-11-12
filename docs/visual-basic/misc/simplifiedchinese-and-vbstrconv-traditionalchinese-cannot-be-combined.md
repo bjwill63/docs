@@ -35,7 +35,7 @@ translation.priority.mt:
 # SimplifiedChinese and VbStrConv.TraditionalChinese cannot be combined
 Your application is attempting to combine the `VbStrConv` enumeration members `SimplifiedChinese` and `TraditionalChinese`, which are mutually exclusive.  
   
-### To correct this error  
+## To correct this error  
   
 -   Remove either `VbStrConv.SimplifiedChinese` or `VbStrConv.TraditionalChinese`.  
   

@@ -49,7 +49,7 @@ You cannot use a lambda expression for the test expression in a `Select Case` st
   
  **Error ID:** BC36635  
   
-### To correct this error  
+## To correct this error  
   
 -   Examine your code to determine whether a different conditional construction, such as an `If...Then...Else` statement, would work for you.  
   

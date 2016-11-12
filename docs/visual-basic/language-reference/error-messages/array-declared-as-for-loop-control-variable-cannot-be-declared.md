@@ -51,7 +51,7 @@ For Each listElement(1) As Integer In arrayList
   
  **Error ID:** BC32039  
   
-### To correct this error  
+## To correct this error  
   
 -   Remove the initialization from the declaration of the *element* iteration variable.  
   

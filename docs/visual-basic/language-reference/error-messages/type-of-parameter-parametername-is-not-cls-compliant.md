@@ -59,7 +59,7 @@ A procedure is marked as `<CLSCompliant(True)>` but declares a parameter with a 
   
  **Error ID:** BC40028  
   
-### To correct this error  
+## To correct this error  
   
 -   If the procedure must take a parameter of this particular type, remove the <xref:System.CLSCompliantAttribute>. The procedure cannot be CLS-compliant.  
   

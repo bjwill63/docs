@@ -35,7 +35,7 @@ translation.priority.mt:
 # Argument &#39;&lt;argumentname&gt;&#39; must be within the range 0 to 99
 An argument is not valid because it falls outside of the range 0 to 99.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Check the spelling of arguments in the expression. A misspelled variable name can implicitly create a numeric variable that is initialized to zero.  
   

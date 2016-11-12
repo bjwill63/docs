@@ -44,7 +44,7 @@ A `Sub` or `Function` must be defined in order to be called. Possible causes of 
   
 -   Declaring a Windows dynamic-link library (DLL) routine or Macintosh code-resource routine that is not in the specified library or code resource.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Make sure that the procedure name is spelled correctly.  
   

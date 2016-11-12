@@ -33,7 +33,7 @@ translation.priority.mt:
 # Property &lt;propertyname&gt; cannot be set to an empty string or Nothing
 The property requires a value other than an empty string ("") or `Nothing`. This may be a result of incorrectly calculating the value.  
   
-### To correct this error  
+## To correct this error  
   
 -   Supply a valid value.  
   

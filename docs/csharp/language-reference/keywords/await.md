@@ -50,7 +50,7 @@ The `await` operator is applied to a task in an asynchronous method to suspend t
   
 <CodeContentPlaceHolder>0</CodeContentPlaceHolder>  
 > [!IMPORTANT]
->  For the complete example, see [Walkthrough: Accessing the Web by Using Async and Await](../Topic/Walkthrough:%20Accessing%20the%20Web%20by%20Using%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md). You can download the sample from [Developer Code Samples](http://go.microsoft.com/fwlink/?LinkID=255191&clcid=0x409) on the Microsoft website. The example is in the AsyncWalkthrough_HttpClient project.  
+>  For the complete example, see [Walkthrough: Accessing the Web by Using Async and Await](../../../csharp/programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md). You can download the sample from [Developer Code Samples](http://go.microsoft.com/fwlink/?LinkID=255191&clcid=0x409) on the Microsoft website. The example is in the AsyncWalkthrough_HttpClient project.  
   
  As shown in the previous example, if `await` is applied to the result of a method call that returns a `Task<TResult>`, then the type of the `await` expression is TResult. If `await` is applied to the result of a method call that returns a `Task`, then the type of the `await` expression is void. The following example illustrates the difference.  
   
@@ -109,5 +109,5 @@ public async Task<string> WaitSynchronously()
   
 ## See Also  
  [Asynchronous Programming with async and await](../../../csharp/programming-guide/concepts/async/asynchronous-programming-with-async-and-await.md)   
- [Walkthrough: Accessing the Web by Using Async and Await](../Topic/Walkthrough:%20Accessing%20the%20Web%20by%20Using%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md)   
+ [Walkthrough: Accessing the Web by Using Async and Await](../../../csharp/programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md)   
  [async](../../../csharp/language-reference/keywords/async.md)

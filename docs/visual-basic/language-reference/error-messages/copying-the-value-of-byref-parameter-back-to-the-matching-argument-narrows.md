@@ -47,7 +47,7 @@ A procedure is called with an argument that widens to the corresponding paramete
   
  **Error ID:** BC32053  
   
-### To correct this error  
+## To correct this error  
   
 -   If possible, use a calling argument of the same type as the procedure parameter, so [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] does not need to do any conversion.  
   

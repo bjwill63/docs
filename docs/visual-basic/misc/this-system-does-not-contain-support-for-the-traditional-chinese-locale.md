@@ -35,7 +35,7 @@ translation.priority.mt:
 # This system does not contain support for the Traditional Chinese locale
 You attempted to use the `VbStrConv.TraditionalChinese` enumeration member, but your system does not support the Traditional Chinese locale.  
   
-### To correct this error  
+## To correct this error  
   
 1.  Upgrade the machine to support the Traditional Chinese locale, or run the application on a machine that supports the locale.  
   

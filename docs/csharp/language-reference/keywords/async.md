@@ -118,7 +118,7 @@ public async Task<int> ExampleMethodAsync()
 ```  
   
 > [!IMPORTANT]
->  For more information about tasks and the code that executes while waiting for a task, see [Asynchronous Programming with async and await](../../../csharp/programming-guide/concepts/async/asynchronous-programming-with-async-and-await.md). For a full WPF example that uses similar elements, see [Walkthrough: Accessing the Web by Using Async and Await](../Topic/Walkthrough:%20Accessing%20the%20Web%20by%20Using%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md). You can download the walkthrough code from [Developer Code Samples](http://go.microsoft.com/fwlink/?LinkId=255191).  
+>  For more information about tasks and the code that executes while waiting for a task, see [Asynchronous Programming with async and await](../../../csharp/programming-guide/concepts/async/asynchronous-programming-with-async-and-await.md). For a full WPF example that uses similar elements, see [Walkthrough: Accessing the Web by Using Async and Await](../../../csharp/programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md). You can download the walkthrough code from [Developer Code Samples](http://go.microsoft.com/fwlink/?LinkId=255191).  
   
 ## Return Types  
  An async method can have a return type of <xref:System.Threading.Tasks.Task>, <xref:System.Threading.Tasks.Task%601>, or [void](../../../csharp/language-reference/keywords/void.md). The method can't declare any [ref](../../../csharp/language-reference/keywords/ref.md) or [out](../../../csharp/language-reference/keywords/out.md) parameters, but it can call methods that have such parameters.  
@@ -132,5 +132,5 @@ public async Task<int> ExampleMethodAsync()
 ## See Also  
  <xref:System.Runtime.CompilerServices.AsyncStateMachineAttribute>   
  [await](../../../csharp/language-reference/keywords/await.md)   
- [Walkthrough: Accessing the Web by Using Async and Await](../Topic/Walkthrough:%20Accessing%20the%20Web%20by%20Using%20Async%20and%20Await%20\(C%23%20and%20Visual%20Basic\).md)   
+ [Walkthrough: Accessing the Web by Using Async and Await](../../../csharp/programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md)   
  [Asynchronous Programming with async and await](../../../csharp/programming-guide/concepts/async/asynchronous-programming-with-async-and-await.md)

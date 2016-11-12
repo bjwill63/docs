@@ -34,7 +34,7 @@ translation.priority.ht:
 # Unable to get serial port names because of an internal system error
 An internal error occurred when the `My.Computer.Ports.SerialPortNames` property was called.  
   
-### To correct this error  
+## To correct this error  
   
 1.  See [Debugger Basics](/visualstudio/debugger/debugger-basics) for more troubleshooting information.  
   
