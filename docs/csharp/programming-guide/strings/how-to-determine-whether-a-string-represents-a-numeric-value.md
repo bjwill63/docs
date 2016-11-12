@@ -65,4 +65,4 @@ bool result = int.TryParse(s, out i); //i now = 108
  [How to: Convert a String to a Number](../../../csharp/programming-guide/types/how-to-convert-a-string-to-a-number.md)   
  [How to: Convert Between Hexadecimal Strings and Numeric Types](../../../csharp/programming-guide/types/how-to-convert-between-hexadecimal-strings-and-numeric-types.md)   
  [Parsing Numeric Strings](../Topic/Parsing%20Numeric%20Strings%20in%20the%20.NET%20Framework.md)   
- [Formatting Types](../Topic/Formatting%20Types%20in%20the%20.NET%20Framework.md)
+ [Formatting Types](../../../standard/base-types/formatting-types.md)

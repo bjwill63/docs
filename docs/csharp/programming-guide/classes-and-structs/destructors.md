@@ -105,4 +105,4 @@ protected override void Finalize()
  <xref:System.IDisposable>   
  [C# Programming Guide](../../../csharp/programming-guide/index.md)   
  [Constructors](../../../csharp/programming-guide/classes-and-structs/constructors.md)   
- [Garbage Collection](../Topic/Garbage%20Collection.md)
+ [Garbage Collection](../../../standard/garbagecollection/index.md)
