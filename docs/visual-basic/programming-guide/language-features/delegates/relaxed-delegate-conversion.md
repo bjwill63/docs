@@ -72,7 +72,7 @@ Relaxed delegate conversion enables you to assign subs and functions to delegate
   
  The ability to omit parameters is helpful in a situation such as defining an event handler, where several complex parameters are involved. The arguments to some event handlers are not used. Instead, the handler directly accesses the state of the control on which the event is registered, and ignores the arguments. Relaxed delegates allow you to omit the arguments in such declarations when no ambiguities result. In the following example, the fully specified method `OnClick` can be rewritten as `RelaxedOnClick`.  
   
-```vb#  
+```vb  
 Sub OnClick(ByVal sender As Object, ByVal e As EventArgs) Handles b.Click  
     MessageBox.Show("Hello World from" + b.Text)  
 End Sub  

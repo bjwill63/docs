@@ -114,7 +114,7 @@ UtilityMethods.MultiplyClass.Multiply(num1, num2)
 ## Compiling the Code  
  To build the file `MathLibrary.DLL`, compile the two files `Add` and `Mult` by using the following command line.  
   
-```vb#  
+```vb  
 vbc /target:library /out:MathLibrary.DLL Add.vb Mult.vb  
 ```  
   
@@ -122,7 +122,7 @@ vbc /target:library /out:MathLibrary.DLL Add.vb Mult.vb
   
  To build the executable file, `TestCode.exe`, use the following command line:  
   
-```vb#  
+```vb  
 vbc /out:TestCode.exe /reference:MathLibrary.DLL TestCode.vb  
 ```  
   

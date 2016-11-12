@@ -97,7 +97,7 @@ End Function
 ## Example  
  Lambda expressions underlie many of the query operators in [!INCLUDE[vbteclinqext](../../../csharp/getting-started/includes/vbteclinqext_md.md)], and can be used explicitly in method-based queries. The following example shows a typical [!INCLUDE[vbteclinq](../../../csharp/includes/vbteclinq_md.md)] query, followed by the translation of the query into method format.  
   
-```vb#  
+```vb  
 Dim londonCusts = From cust In db.Customers  
                        Where cust.City = "London"  
                        Select cust  

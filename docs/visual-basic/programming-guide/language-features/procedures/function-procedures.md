@@ -79,23 +79,23 @@ End Function
   
 -   It uses the `Return` statement to specify the return value, and returns control immediately to the calling program. The following example illustrates this.  
   
-    ```vb  
-    Function FunctionName [(ParameterList)] As ReturnType  
-        ' The following statement immediately transfers control back  
-        ' to the calling code and returns the value of Expression.  
-        Return Expression  
-    End Function  
-    ```  
+```vb  
+Function FunctionName [(ParameterList)] As ReturnType  
+    ' The following statement immediately transfers control back  
+    ' to the calling code and returns the value of Expression.  
+    Return Expression  
+End Function  
+```  
   
 -   It assigns a value to its own function name in one or more statements of the procedure. Control does not return to the calling program until an `Exit Function` or `End Function` statement is executed. The following example illustrates this.  
   
-    ```vb  
-    Function FunctionName [(ParameterList)] As ReturnType  
-        ‘ The following statement does not transfer control back to the calling code.  
-        FunctionName = Expression  
-        ' When control returns to the calling code, Expression is the return value.  
-    End Function  
-    ```  
+```vb  
+Function FunctionName [(ParameterList)] As ReturnType  
+    ' The following statement does not transfer control back to the calling code.  
+    FunctionName = Expression  
+    ' When control returns to the calling code, Expression is the return value.  
+End Function  
+```  
   
  The advantage of assigning the return value to the function name is that control does not return from the procedure until it encounters an `Exit Function` or `End Function` statement. This allows you to assign a preliminary value and adjust it later if necessary.  
   

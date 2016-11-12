@@ -41,7 +41,7 @@ Lambda expression will not be removed from this event handler. Assign the lambda
   
  When lambda expressions are used with event handlers, you may not see the behavior you expect. The compiler generates a new method for each lambda expression definition, even if they are identical. Therefore, the following code displays `False`.  
   
-```vb#  
+```vb  
 Module Module1  
   
     Sub Main()  
@@ -57,7 +57,7 @@ End Module
   
  When lambda expressions are used with event handlers, this may cause unexpected results. In the following example, the lambda expression added by `AddHandler` is not removed by the `RemoveHandler` statement.  
   
-```vb#  
+```vb  
 Module Module1  
   
     Event ProcessInteger(ByVal x As Integer)  
@@ -84,27 +84,27 @@ End Module
   
 -   To avoid the warning and remove the lambda expression, assign the lambda expression to a variable and use the variable in both the `AddHandler` and `RemoveHandler` statements, as shown in the following example.  
   
-    ```vb#  
-    Module Module1  
+```vb  
+Module Module1  
   
-        Event ProcessInteger(ByVal x As Integer)  
+    Event ProcessInteger(ByVal x As Integer)  
   
-        Dim PrintHandler As ProcessIntegerEventHandler  
+    Dim PrintHandler As ProcessIntegerEventHandler  
   
-        Sub Main()  
+    Sub Main()  
   
-            ' Assign the lambda expression to a variable.  
-            PrintHandler = Function(m As Integer) m  
+        ' Assign the lambda expression to a variable.  
+        PrintHandler = Function(m As Integer) m  
   
-            ' Use the variable to add the listener.  
-            AddHandler ProcessInteger, PrintHandler  
+        ' Use the variable to add the listener.  
+        AddHandler ProcessInteger, PrintHandler  
   
-            ' Use the variable again when you want to remove the listener.  
-            RemoveHandler ProcessInteger, PrintHandler  
+        ' Use the variable again when you want to remove the listener.  
+        RemoveHandler ProcessInteger, PrintHandler  
   
-        End Sub  
-    End Module  
-    ```  
+    End Sub  
+End Module  
+```  
   
 ## See Also  
  [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)   

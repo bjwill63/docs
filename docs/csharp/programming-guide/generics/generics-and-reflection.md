@@ -70,4 +70,4 @@ Because the Common Language Runtime (CLR) has access to generic type information
  [C# Programming Guide](../../../csharp/programming-guide/index.md)   
  [Generics](../../../csharp/programming-guide/generics/index.md)   
  [Reflection and Generic Types](../Topic/Reflection%20and%20Generic%20Types.md)   
- [Generics](../Topic/Generics%20in%20the%20.NET%20Framework.md)
+ [Generics](https://msdn.microsoft.com/library/ms172192)

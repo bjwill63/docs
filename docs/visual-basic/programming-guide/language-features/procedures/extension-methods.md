@@ -68,7 +68,7 @@ Extension methods enable developers to add custom functionality to data types th
   
 ### Code  
   
-```vb#  
+```vb  
 Imports System.Runtime.CompilerServices  
   
 Module StringExtensions  
@@ -89,7 +89,7 @@ End Module
   
  Next, the extension methods are brought into scope and called.  
   
-```vb#  
+```vb  
 Imports ConsoleApplication2.StringExtensions  
 Module Module1  
   

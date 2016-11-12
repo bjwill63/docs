@@ -405,7 +405,7 @@ sampleObject.Field = "Sample string";
   
  For more information, see:  
   
--   [Generics](../Topic/Generics%20in%20the%20.NET%20Framework.md)  
+-   [Generics](https://msdn.microsoft.com/library/ms172192)  
   
 -   [Generics](../../../csharp/programming-guide/generics/index.md)  
   

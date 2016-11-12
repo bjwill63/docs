@@ -201,7 +201,7 @@ End Sub
   
  The following example shows a return from a `Sub` procedure.  
   
-```vb#  
+```vb  
 Sub mySub(ByVal q As String)  
     Return  
 End Sub   

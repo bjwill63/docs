@@ -84,25 +84,25 @@ End Function
 <CodeContentPlaceHolder>2</CodeContentPlaceHolder>  
 4.  Call `WhenAny` on the collection of tasks. `WhenAny` returns a `Task(Of Task(Of Integer))` or `Task<Task<int>>`.  That is, `WhenAny` returns a task that evaluates to a single `Task(Of Integer)` or `Task<int>` when it’s awaited. That single task is the first task in the collection to finish. The task that finished first is assigned to `firstFinishedTask`. The type of `firstFinishedTask` is <xref:System.Threading.Tasks.Task%601> where `TResult` is an integer because that's the return type of `ProcessURLAsync`.  
   
-    ```vb  
-    ' ***Call WhenAny and then await the result. The task that finishes   
-    ' first is assigned to firstFinishedTask.  
-    Dim firstFinishedTask As Task(Of Integer) = Await Task.WhenAny(downloadTasks)  
-    ```  
+```vb  
+' ***Call WhenAny and then await the result. The task that finishes   
+' first is assigned to firstFinishedTask.  
+Dim firstFinishedTask As Task(Of Integer) = Await Task.WhenAny(downloadTasks)  
+```  
   
 5.  In this example, you’re interested only in the task that finishes first. Therefore, use <xref:System.Threading.CancellationTokenSource.Cancel%2A?displayProperty=fullName> to cancel the remaining tasks.  
   
-    ```vb  
-    ' ***Cancel the rest of the downloads. You just want the first one.  
-    cts.Cancel()  
-    ```  
+```vb  
+' ***Cancel the rest of the downloads. You just want the first one.  
+cts.Cancel()  
+```  
   
 6.  Finally, await `firstFinishedTask` to retrieve the length of the downloaded content.  
   
-    ```vb  
-    Dim length = Await firstFinishedTask  
-    resultsTextBox.Text &= String.Format(vbCrLf & "Length of the downloaded website:  {0}" & vbCrLf, length)  
-    ```  
+```vb  
+Dim length = Await firstFinishedTask  
+resultsTextBox.Text &= String.Format(vbCrLf & "Length of the downloaded website:  {0}" & vbCrLf, length)  
+```  
   
  Run the program several times to verify that different downloads finish first.  
   

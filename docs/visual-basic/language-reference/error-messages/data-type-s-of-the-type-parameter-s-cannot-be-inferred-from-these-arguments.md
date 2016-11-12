@@ -49,7 +49,7 @@ Data type(s) of the type parameter(s) cannot be inferred from these arguments. S
   
  The following code demonstrates the error.  
   
-```vb#  
+```vb  
 Module Module1  
   
     Sub Main()  

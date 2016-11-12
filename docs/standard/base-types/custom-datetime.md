@@ -1734,12 +1734,12 @@ There are two ways to indicate that characters are to be interpreted as literal 
   
   The following example includes the literal characters "pst" (for Pacific Standard time) to represent the local time zone in a format string. Because both "s" and "t" are custom format strings, both characters must be escaped to be interpreted as character literals. 
   
-  ```csharp
-  using System;
-  using System.Globalization;
+```csharp
+using System;
+using System.Globalization;
 
-  public class Example
-  {
+public class Example
+{
   public static void Main()
   {
       String format = "dd MMM yyyy hh:mm tt p\\s\\t";
@@ -1756,93 +1756,93 @@ There are two ways to indicate that characters are to be interpreted as literal 
       else
           Console.WriteLine("Unable to parse '{0}'", value);
   }
-  }
-  // The example displays the following output:
-  //       18 Aug 2016 04:50 PM PDT
-  //       12/25/2016 12:00:00 PM
-  ```
+}
+// The example displays the following output:
+//       18 Aug 2016 04:50 PM PDT
+//       12/25/2016 12:00:00 PM
+```
 
-  ```vb
-  Imports System.Globalization
+```vb
+Imports System.Globalization
 
-  Module Example
-     Public Sub Main()
-        Dim fmt As String = "dd MMM yyyy hh:mm tt p\s\t" 
-        Dim dat As New Date(2016, 8, 18, 16, 50, 0)
-        ' Display the result string. 
-       Console.WriteLine(dat.ToString(fmt))
+Module Example
+   Public Sub Main()
+      Dim fmt As String = "dd MMM yyyy hh:mm tt p\s\t" 
+      Dim dat As New Date(2016, 8, 18, 16, 50, 0)
+      ' Display the result string. 
+      Console.WriteLine(dat.ToString(fmt))
 
-        ' Parse a string. 
-        Dim value As String = "25 Dec 2016 12:00 pm pst"
-        Dim newDate As Date
-        If Date.TryParseExact(value, fmt, Nothing, 
-                              DateTimeStyles.None, newDate) Then 
-           Console.WriteLine(newDate)
-        Else
-           Console.WriteLine("Unable to parse '{0}'", value)
-        End If                               
-     End Sub
-  End Module
-  ' The example displays the following output:
-  '       18 Aug 2016 04:50 PM pst
-  '       12/25/2016 12:00:00 PM
-  ```
+      ' Parse a string. 
+      Dim value As String = "25 Dec 2016 12:00 pm pst"
+      Dim newDate As Date
+      If Date.TryParseExact(value, fmt, Nothing, 
+                            DateTimeStyles.None, newDate) Then 
+         Console.WriteLine(newDate)
+      Else
+         Console.WriteLine("Unable to parse '{0}'", value)
+      End If                               
+   End Sub
+End Module
+' The example displays the following output:
+'       18 Aug 2016 04:50 PM pst
+'       12/25/2016 12:00:00 PM
+```
   
 * By enclosing the entire literal string in quotation marks or apostrophes. The following example is like the previous one, except that "pst" is enclosed in quotation marks to indicate that the entire delimited string should be interpreted as character literals. 
 
-  ```csharp
-  using System;
-  using System.Globalization;
+```csharp
+using System;
+using System.Globalization;
 
-  public class Example
-  {
-     public static void Main()
-     {
-        String format = "dd MMM yyyy hh:mm tt \"pst\"";
-        var dat = new DateTime(2016, 8, 18, 16, 50, 0);
-        // Display the result string. 
-        Console.WriteLine(dat.ToString(format));
+public class Example
+{
+   public static void Main()
+   {
+      String format = "dd MMM yyyy hh:mm tt \"pst\"";
+      var dat = new DateTime(2016, 8, 18, 16, 50, 0);
+      // Display the result string. 
+      Console.WriteLine(dat.ToString(format));
 
-        // Parse a string. 
-        String value = "25 Dec 2016 12:00 pm pst";
-        DateTime newDate;
-        if (DateTime.TryParseExact(value, format, null, 
-                                   DateTimeStyles.None, out newDate)) 
-           Console.WriteLine(newDate);
-        else
-           Console.WriteLine("Unable to parse '{0}'", value);
-     }
-  }
-  // The example displays the following output:
-  //       18 Aug 2016 04:50 PM PDT
-  //       12/25/2016 12:00:00 PM
-  ```
+      // Parse a string. 
+      String value = "25 Dec 2016 12:00 pm pst";
+      DateTime newDate;
+      if (DateTime.TryParseExact(value, format, null, 
+                                 DateTimeStyles.None, out newDate)) 
+         Console.WriteLine(newDate);
+      else
+         Console.WriteLine("Unable to parse '{0}'", value);
+   }
+}
+// The example displays the following output:
+//       18 Aug 2016 04:50 PM PDT
+//       12/25/2016 12:00:00 PM
+```
 
-  ```vb
-  Imports System.Globalization
+```vb
+Imports System.Globalization
 
-  Module Example
-     Public Sub Main()
-        Dim fmt As String = "dd MMM yyyy hh:mm tt ""pst"""  
-        Dim dat As New Date(2016, 8, 18, 16, 50, 0)
-        ' Display the result string. 
-        Console.WriteLine(dat.ToString(fmt))
+Module Example
+   Public Sub Main()
+      Dim fmt As String = "dd MMM yyyy hh:mm tt ""pst"""  
+      Dim dat As New Date(2016, 8, 18, 16, 50, 0)
+      ' Display the result string. 
+      Console.WriteLine(dat.ToString(fmt))
 
-        ' Parse a string. 
-        Dim value As String = "25 Dec 2016 12:00 pm pst"
-        Dim newDate As Date
-        If Date.TryParseExact(value, fmt, Nothing, 
-                              DateTimeStyles.None, newDate) Then 
-           Console.WriteLine(newDate)
-        Else
-           Console.WriteLine("Unable to parse '{0}'", value)
-        End If                               
-     End Sub
-  End Module
-  ' The example displays the following output:
-  '       18 Aug 2016 04:50 PM pst
-  '       12/25/2016 12:00:00 PM
-  ```
+      ' Parse a string. 
+      Dim value As String = "25 Dec 2016 12:00 pm pst"
+      Dim newDate As Date
+      If Date.TryParseExact(value, fmt, Nothing, 
+                            DateTimeStyles.None, newDate) Then 
+         Console.WriteLine(newDate)
+      Else
+         Console.WriteLine("Unable to parse '{0}'", value)
+      End If                               
+   End Sub
+End Module
+' The example displays the following output:
+'       18 Aug 2016 04:50 PM pst
+'       12/25/2016 12:00:00 PM
+```
 
 ## Notes
 

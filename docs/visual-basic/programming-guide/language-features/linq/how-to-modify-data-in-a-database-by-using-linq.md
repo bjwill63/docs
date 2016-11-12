@@ -88,7 +88,7 @@ Language-Integrated Query (LINQ) queries make it easy to access database informa
   
      Double-click the Windows Form, Form1, to add code to the <xref:System.Windows.Forms.Form.Load> event to query the Customers table that is exposed as a property of your <xref:System.Data.Linq.DataContext>. Add the following code:  
   
-    ```vb#  
+    ```vb  
     Private db As northwindDataContext  
   
     Private Sub Form1_Load(ByVal sender As System.Object,   
@@ -112,7 +112,7 @@ Language-Integrated Query (LINQ) queries make it easy to access database informa
   
 4.  Double-click the **Add** button to add code to its `Click` event. Add the following code:  
   
-    ```vb#  
+    ```vb  
     Private Sub AddButton_Click(ByVal sender As System.Object,   
                                 ByVal e As System.EventArgs  
                                ) Handles AddButton.Click  
@@ -137,7 +137,7 @@ Language-Integrated Query (LINQ) queries make it easy to access database informa
   
 5.  Double-click the **Update** button to add code to its `Click` event. Add the following code:  
   
-    ```vb#  
+    ```vb  
     Private Sub UpdateButton_Click(ByVal sender As System.Object, _  
                                    ByVal e As System.EventArgs  
                                   ) Handles UpdateButton.Click  
@@ -158,7 +158,7 @@ Language-Integrated Query (LINQ) queries make it easy to access database informa
   
 6.  Double-click the **Delete** button to add code to its `Click` event. Add the following code:  
   
-    ```vb#  
+    ```vb  
     Private Sub DeleteButton_Click(ByVal sender As System.Object, _  
                                    ByVal e As System.EventArgs  
                                   ) Handles DeleteButton.Click  

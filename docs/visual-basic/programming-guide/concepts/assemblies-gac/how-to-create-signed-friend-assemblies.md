@@ -64,7 +64,7 @@ This example shows how to use friend assemblies with assemblies that have strong
   
 4.  Compile and sign friend_signed_A by using the following command.  
   
-    ```vb#  
+    ```vb  
     Vbc /target:library /keyfile:FriendAssemblies.snk friend_signed_A.vb  
     ```  
   
@@ -84,7 +84,7 @@ This example shows how to use friend assemblies with assemblies that have strong
   
 6.  Compile and sign friend_signed_B by using the following command.  
   
-    ```vb#  
+    ```vb  
     Vbc /keyfile:FriendAssemblies.snk /r:friend_signed_A.dll friend_signed_B.vb  
     ```  
   

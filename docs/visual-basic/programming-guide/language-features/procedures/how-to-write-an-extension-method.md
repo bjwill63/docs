@@ -66,7 +66,7 @@ Extension methods enable you to add methods to an existing class. The extension 
 ## Example  
  The following example declares an extension method in module `StringExtensions`. A second module, `Module1`, imports `StringExtensions` and calls the method. The extension method must be in scope when it is called. Extension method `PrintAndPunctuate` extends the <xref:System.String> class with a method that displays the string instance followed by a string of punctuation symbols sent in as a parameter.  
   
-```vb#  
+```vb  
 ' Declarations will typically be in a separate module.  
 Imports System.Runtime.CompilerServices  
   
@@ -80,7 +80,7 @@ Module StringExtensions
 End Module  
 ```  
   
-```vb#  
+```vb  
 ' Import the module that holds the extension method you want to use,   
 ' and call it.  
   

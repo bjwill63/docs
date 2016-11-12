@@ -39,7 +39,7 @@ translation.priority.ht:
 # Cannot convert anonymous type to expression tree because it contains a field that is used in the initialization of another field
 The compiler does not accept conversion of an anonymous to an expression tree when one property of the anonymous type is used to initialize another property of the anonymous type. For example, in the following code, `Prop1` is declared in the initialization list and then used as the initial value for `Prop2`.  
   
-```vb#  
+```vb  
 Module M2  
   
     Sub ExpressionExample(Of T)(ByVal x As Expressions.Expression(Of Func(Of T)))  

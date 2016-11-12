@@ -72,7 +72,7 @@ Visual Basic provides full support for object-oriented programming including enc
   
  To define a class:  
   
-```vb#  
+```vb  
 Class SampleClass  
 End Class  
 ```  
@@ -81,7 +81,7 @@ End Class
   
  To define a structure:  
   
-```vb#  
+```vb  
 Structure SampleStructure  
 End Structure  
 ```  
@@ -100,7 +100,7 @@ End Structure
   
  To define a field:  
   
-```vb#  
+```vb  
 Class SampleClass  
     Public SampleField As String  
 End Class  
@@ -112,7 +112,7 @@ End Class
   
  To define an auto-implemented property:  
   
-```vb#  
+```vb  
 Class SampleClass  
     Public Property SampleProperty as String  
 End Class  
@@ -120,7 +120,7 @@ End Class
   
  If you need to perform some additional operations for reading and writing the property value, define a field for storing the property value and provide the basic logic for storing and retrieving it:  
   
-```vb#  
+```vb  
 Class SampleClass  
     Private m_Sample As String  
     Public Property Sample() As String  
@@ -158,7 +158,7 @@ End Class
   
  To define a method of a class:  
   
-```vb#  
+```vb  
 Class SampleClass  
     Public Function SampleFunc(ByVal SampleParam As String)  
         ' Add code here  
@@ -170,7 +170,7 @@ End Class
   
  To overload a method:  
   
-```vb#  
+```vb  
 Overloads Sub Display(ByVal theChar As Char)  
     ' Add code that displays Char data.  
 End Sub  
@@ -196,7 +196,7 @@ End Sub
   
  To define a constructor for a class:  
   
-```vb#  
+```vb  
 Class SampleClass  
     Sub New(ByVal s As String)  
         // Add code here.  
@@ -225,7 +225,7 @@ End Class
 ####  <a name="NestedClasses"></a> Nested Classes  
  A class defined within another class is called *nested*. By default, the nested class is private.  
   
-```vb#  
+```vb  
 Class Container  
     Class Nested  
     ' Add code here.  
@@ -235,7 +235,7 @@ End Class
   
  To create an instance of the nested class, use the name of the container class followed by the dot and then followed by the name of the nested class:  
   
-```vb#  
+```vb  
 Dim nestedInstance As Container.Nested = New Container.Nested()  
 ```  
   
@@ -257,13 +257,13 @@ Dim nestedInstance As Container.Nested = New Container.Nested()
 ###  <a name="InstantiatingClasses"></a> Instantiating Classes  
  To create an object, you need to instantiate a class, or create a class instance.  
   
-```vb#  
+```vb  
 Dim sampleObject as New SampleClass()  
 ```  
   
  After instantiating a class, you can assign values to the instance's properties and fields and invoke class methods.  
   
-```vb#  
+```vb  
 ' Set a property value.  
 sampleObject.SampleProperty = "Sample String"  
 ' Call a method.  
@@ -272,7 +272,7 @@ sampleObject.SampleMethod()
   
  To assign values to properties during the class instantiation process, use object initializers:  
   
-```vb#  
+```vb  
 Dim sampleObject = New SampleClass With   
     {.FirstProperty = "A", .SecondProperty = "B"}  
 ```  
@@ -288,7 +288,7 @@ Dim sampleObject = New SampleClass With
   
  To define a shared member:  
   
-```vb#  
+```vb  
 Class SampleClass  
     Public Shared SampleString As String = "Sample String"  
 End Class  
@@ -296,7 +296,7 @@ End Class
   
  To access the shared member, use the name of the class without creating an object of this class:  
   
-```vb#  
+```vb  
 MsgBox(SampleClass.SampleString)  
 ```  
   
@@ -313,7 +313,7 @@ MsgBox(SampleClass.SampleString)
   
  To create an instance of an anonymous type:  
   
-```vb#  
+```vb  
 ' sampleObject is an instance of a simple anonymous type.  
 Dim sampleObject =   
     New With {Key .FirstProperty = "A", .SecondProperty = "B"}  
@@ -329,7 +329,7 @@ Dim sampleObject =
   
  To inherit from a base class:  
   
-```vb#  
+```vb  
 Class DerivedClass  
     Inherits BaseClass  
 End Class  
@@ -339,14 +339,14 @@ End Class
   
  To specify that a class cannot be used as a base class:  
   
-```vb#  
+```vb  
 NotInheritable Class SampleClass  
 End Class  
 ```  
   
  To specify that a class can be used as a base class only and cannot be instantiated:  
   
-```vb#  
+```vb  
 MustInherit Class BaseClass  
 End Class  
 ```  
@@ -377,7 +377,7 @@ End Class
   
  To define an interface:  
   
-```vb#  
+```vb  
 Public Interface ISampleInterface  
     Sub DoSomething()  
 End Interface  
@@ -385,7 +385,7 @@ End Interface
   
  To implement an interface in a class:  
   
-```vb#  
+```vb  
 Class SampleClass  
     Implements ISampleInterface  
     Sub DoSomething  
@@ -407,7 +407,7 @@ End Class
   
  To define a generic class:  
   
-```vb#  
+```vb  
 Class SampleGeneric(Of T)  
     Public Field As T  
 End Class  
@@ -415,14 +415,14 @@ End Class
   
  To create an instance of a generic class:  
   
-```vb#  
+```vb  
 Dim sampleObject As New SampleGeneric(Of String)  
 sampleObject.Field = "Sample string"  
 ```  
   
  For more information, see:  
   
--   [Generics](../Topic/Generics%20in%20the%20.NET%20Framework.md)  
+-   [Generics](https://msdn.microsoft.com/library/ms172192)  
   
 -   [Generic Types in Visual Basic](../../../visual-basic/programming-guide/language-features/data-types/generic-types.md)  
   
@@ -434,13 +434,13 @@ sampleObject.Field = "Sample string"
   
  To create a delegate:  
   
-```vb#  
+```vb  
 Delegate Sub SampleDelegate(ByVal str As String)  
 ```  
   
  To create a reference to a method that matches the signature specified by the delegate:  
   
-```vb#  
+```vb  
 Class SampleClass  
     ' Method that matches the SampleDelegate signature.  
     Sub SampleSub(ByVal str As String)  

@@ -39,7 +39,7 @@ Extension methods enable you to add methods to an existing class. After an exten
   
  The following instructions refer to extension method `PrintAndPunctuate`, which will display the string instance that invokes it, followed by whatever value is sent in for the second parameter, `punc`.  
   
-```vb#  
+```vb  
 Imports System.Runtime.CompilerServices  
   
 Module StringExtensions  
@@ -88,7 +88,7 @@ End Module
 ## Example  
  The following code is a complete example of the creation and use of a simple extension method.  
   
-```vb#  
+```vb  
 Imports System.Runtime.CompilerServices  
 Imports ConsoleApplication1.StringExtensions  
   

@@ -41,7 +41,7 @@ Using the iteration variable in a lambda expression may have unexpected results.
   
  This warning appears when you use a loop iteration variable in a lambda expression that is declared inside the loop. For example, the following example causes the warning to appear.  
   
-```vb#  
+```vb  
 For i As Integer = 1 To 10  
     ' The warning is given for the use of i.  
     Dim exampleFunc As Func(Of Integer) = Function() i  
@@ -50,7 +50,7 @@ Next
   
  The following example shows the unexpected results that might occur.  
   
-```vb#  
+```vb  
 Module Module1  
     Sub Main()  
         Dim array1 As Func(Of Integer)() = New Func(Of Integer)(4) {}  
@@ -87,23 +87,23 @@ End Module
   
 -   Assign the value of the iteration variable to a local variable, and use the local variable in the lambda expression.  
   
-    ```vb#  
-    Module Module1  
-        Sub Main()  
-            Dim array1 As Func(Of Integer)() = New Func(Of Integer)(4) {}  
+```vb  
+Module Module1  
+    Sub Main()  
+        Dim array1 As Func(Of Integer)() = New Func(Of Integer)(4) {}  
   
-            For i As Integer = 0 To 4  
-                Dim j = i  
-                array1(i) = Function() j  
-            Next  
+        For i As Integer = 0 To 4  
+            Dim j = i  
+            array1(i) = Function() j  
+        Next  
   
-            For Each funcElement In array1  
-                System.Console.WriteLine(funcElement())  
-            Next  
+        For Each funcElement In array1  
+            System.Console.WriteLine(funcElement())  
+        Next  
   
-        End Sub  
-    End Module  
-    ```  
+    End Sub  
+End Module  
+```  
   
 ## See Also  
  [Lambda Expressions](../../../visual-basic/programming-guide/language-features/procedures/lambda-expressions.md)

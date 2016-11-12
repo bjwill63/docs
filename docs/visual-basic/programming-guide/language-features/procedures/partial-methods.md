@@ -48,7 +48,7 @@ Partial methods enable developers to insert custom logic into code. Typically, t
 ## Declaration  
  The generated code marks the definition of a partial method by placing the keyword `Partial` at the start of the signature line.  
   
-```vb#  
+```vb  
 Partial Private Sub QuantityChanged()  
 End Sub  
 ```  
@@ -64,7 +64,7 @@ End Sub
 ## Implementation  
  The implementation consists primarily of filling in the body of the partial method. The implementation is typically in a separate partial class from the definition, and is written by a developer who wants to extend the generated code.  
   
-```vb#  
+```vb  
 Private Sub QuantityChanged()  
 '    Code for executing the desired action.  
 End Sub  
