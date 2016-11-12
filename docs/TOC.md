@@ -422,7 +422,7 @@
 #### [How to: Identify a Nullable Type](csharp/programming-guide/nullable-types/how-to-identify-a-nullable-type.md)
 #### [How to: Safely Cast from bool? to bool](csharp/programming-guide/nullable-types/how-to-safely-cast-from-bool-to-bool.md)
 ### [Programming Concepts](csharp/programming-guide/concepts/index.md)
-#### [Assemblies and the Global Assembly Cache](csharp/programming-guide/concepts/assemblies-gac/assemblies-and-the-global-assembly-cache.md)
+#### [Assemblies and the Global Assembly Cache](csharp/programming-guide/concepts/assemblies-gac/index.md)
 ##### [Friend Assemblies](csharp/programming-guide/concepts/assemblies-gac/friend-assemblies.md)
 ###### [How to: Create Unsigned Friend Assemblies](csharp/programming-guide/concepts/assemblies-gac/how-to-create-unsigned-friend-assemblies.md)
 ###### [How to: Create Signed Friend Assemblies](csharp/programming-guide/concepts/assemblies-gac/how-to-create-signed-friend-assemblies.md)

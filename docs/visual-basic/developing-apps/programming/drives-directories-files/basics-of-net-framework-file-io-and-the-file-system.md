@@ -80,13 +80,13 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
   
 |To|See|
 |---|---|   
-|Read and write to a data file|[How to: Read and Write to a Newly Created Data File](../Topic/How%20to:%20Read%20and%20Write%20to%20a%20Newly%20Created%20Data%20File.md)|  
-|Read text from a file|[How to: Read Text from a File](../Topic/How%20to:%20Read%20Text%20from%20a%20File.md)|  
-|Write text to a file|[How to: Write Text to a File](../Topic/How%20to:%20Write%20Text%20to%20a%20File.md)|  
-|Read characters from a string|[How to: Read Characters from a String](../Topic/How%20to:%20Read%20Characters%20from%20a%20String.md)|  
-|Write characters to a string|[How to: Write Characters to a String](../Topic/How%20to:%20Write%20Characters%20to%20a%20String.md)|  
-|Encrypt data|[Encrypting Data](../Topic/Encrypting%20Data.md)|  
-|Decrypt data|[Decrypting Data](../Topic/Decrypting%20Data.md)|  
+|Read and write to a data file|[How to: Read and Write to a Newly Created Data File](https://msdn.microsoft.com/library/36b93480.aspx)|  
+|Read text from a file|[How to: Read Text from a File](https://msdn.microsoft.com/library/db5x7c0d.aspx)|  
+|Write text to a file|[How to: Write Text to a File](https://msdn.microsoft.com/library/6ka1wd3w.aspx)|  
+|Read characters from a string|[How to: Read Characters from a String](https://msdn.microsoft.com/library/9yyz8a6c.aspx)|  
+|Write characters to a string|[How to: Write Characters to a String](https://msdn.microsoft.com/library/z4kzt0dd.aspx)|  
+|Encrypt data|[Encrypting Data](https://msdn.microsoft.com/library/as0w18af.aspx)|  
+|Decrypt data|[Decrypting Data](https://msdn.microsoft.com/library/te15te69.aspx)|  
   
 ## File Access and Attributes  
  You can control how files are created, opened, and shared with the <xref:System.IO.FileAccess>, <xref:System.IO.FileMode>, and <xref:System.IO.FileShare> enumerations, which contain the flags used by the constructors of the <xref:System.IO.FileStream> class. For example, when you open or create a new <xref:System.IO.FileStream>, the <xref:System.IO.FileMode> enumeration allows you to specify whether the file is opened for appending, whether a new file is created if the specified file does not exist, whether the file is overwritten, and so forth.  
@@ -97,7 +97,7 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
   
 |To|See|  
 |---|---|
-|Open and append text to a log file|[How to: Open and Append to a Log File](../Topic/How%20to:%20Open%20and%20Append%20to%20a%20Log%20File.md)|  
+|Open and append text to a log file|[How to: Open and Append to a Log File](https://msdn.microsoft.com/library/3zc0w663.aspx)|  
 |Determine the attributes of a file|<xref:System.IO.FileAttributes>|  
   
 ## File Permissions  
@@ -110,13 +110,13 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
   
 |To|See|
 |---|---|  
-|Create an isolated store|[How to: Obtain Stores for Isolated Storage](../Topic/How%20to:%20Obtain%20Stores%20for%20Isolated%20Storage.md)|  
-|Enumerate isolated stores|[How to: Enumerate Stores for Isolated Storage](../Topic/How%20to:%20Enumerate%20Stores%20for%20Isolated%20Storage.md)|  
-|Delete an isolated store|[How to: Delete Stores in Isolated Storage](../Topic/How%20to:%20Delete%20Stores%20in%20Isolated%20Storage.md)|  
-|Create a file or directory in isolated storage|[How to: Create Files and Directories in Isolated Storage](../Topic/How%20to:%20Create%20Files%20and%20Directories%20in%20Isolated%20Storage.md)|  
-|Find a file in isolated storage|[How to: Find Existing Files and Directories in Isolated Storage](../Topic/How%20to:%20Find%20Existing%20Files%20and%20Directories%20in%20Isolated%20Storage.md)|  
-|Read from or write to a file in insolated storage|[How to: Read and Write to Files in Isolated Storage](../Topic/How%20to:%20Read%20and%20Write%20to%20Files%20in%20Isolated%20Storage.md)|  
-|Delete a file or directory in isolated storage|[How to: Delete Files and Directories in Isolated Storage](../Topic/How%20to:%20Delete%20Files%20and%20Directories%20in%20Isolated%20Storage.md)|  
+|Create an isolated store|[How to: Obtain Stores for Isolated Storage](https://msdn.microsoft.com/library/k48a6h13.aspx)|  
+|Enumerate isolated stores|[How to: Enumerate Stores for Isolated Storage](https://msdn.microsoft.com/library/c3dy613a.aspx)|  
+|Delete an isolated store|[How to: Delete Stores in Isolated Storage](https://msdn.microsoft.com/library/5w71t104.aspx)|  
+|Create a file or directory in isolated storage|[How to: Create Files and Directories in Isolated Storage](https://msdn.microsoft.com/library/6h2ws3ft.aspx)|  
+|Find a file in isolated storage|[How to: Find Existing Files and Directories in Isolated Storage](https://msdn.microsoft.com/library/zd5e2z84.aspx)|  
+|Read from or write to a file in insolated storage|[How to: Read and Write to Files in Isolated Storage](https://msdn.microsoft.com/library/xf96a1wz.aspx)|  
+|Delete a file or directory in isolated storage|[How to: Delete Files and Directories in Isolated Storage](https://msdn.microsoft.com/library/kx3852wf.aspx)|  
   
 ## File Events  
  The <xref:System.IO.FileSystemWatcher> component allows you to watch for changes in files and directories on your system or on any computer to which you have network access. For example, if a file is modified, you might want to send a user an alert that the change has taken place. When changes occur, one or more events are raised, stored in a buffer, and handed to the <xref:System.IO.FileSystemWatcher> component for processing.  
