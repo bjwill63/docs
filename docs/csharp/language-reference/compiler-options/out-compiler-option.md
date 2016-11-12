@@ -65,7 +65,7 @@ The **/out** option specifies the name of the output file.
   
  When producing multiple output files in a command-line compilation, keep in mind that only one of the output files can be an assembly and that only the first output file specified (implicitly or explicitly with **/out**) can be the assembly.  
   
- Any modules produced as part of a compilation become files associated with any assembly also produced in the compilation. Use [ildasm.exe](../Topic/Ildasm.exe%20\(IL%20Disassembler\).md) to view the assembly manifest to see the associated files.  
+ Any modules produced as part of a compilation become files associated with any assembly also produced in the compilation. Use [ildasm.exe](https://msdn.microsoft.com/library/f7dy01k1) to view the assembly manifest to see the associated files.  
   
  The /out compiler option is required in order for an exe to be the target of a friend assembly. For more information see [Friend Assemblies](../Topic/Friend%20Assemblies%20\(C%23%20and%20Visual%20Basic\).md).  
   

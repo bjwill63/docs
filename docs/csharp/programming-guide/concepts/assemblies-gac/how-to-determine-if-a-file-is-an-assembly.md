@@ -27,7 +27,7 @@ A file is an assembly if and only if it is managed, and contains an assembly ent
   
 ### How to manually determine if a file is an assembly  
   
-1.  Start the [Ildasm.exe (IL Disassembler)](../Topic/Ildasm.exe%20\(IL%20Disassembler\).md).  
+1.  Start the [Ildasm.exe (IL Disassembler)](https://msdn.microsoft.com/library/f7dy01k1).  
   
 2.  Load the file you wish to test.  
   

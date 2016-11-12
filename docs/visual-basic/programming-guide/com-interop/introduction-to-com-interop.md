@@ -76,7 +76,7 @@ The Component Object Model (COM) lets an object expose its functionality to othe
 ## See Also  
  [COM Interop](../../../visual-basic/programming-guide/com-interop/index.md)   
  [Walkthrough: Implementing Inheritance with COM Objects](../../../visual-basic/programming-guide/com-interop/walkthrough-implementing-inheritance-with-com-objects.md)   
- [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)   
+ [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/sd10k43k)   
  [Troubleshooting Interoperability](../../../visual-basic/programming-guide/com-interop/troubleshooting-interoperability.md)   
  [Assemblies and the Global Assembly Cache](../../../visual-basic/programming-guide/concepts/assemblies-gac/index.md)   
  [Tlbimp.exe (Type Library Importer)](../Topic/Tlbimp.exe%20\(Type%20Library%20Importer\).md)   

@@ -49,7 +49,7 @@ When you want to use COM objects and .NET Framework objects in the same applicat
  [COM Interop Wrapper Error](/cpp/misc/com-interop-wrapper-error)  
  Describes the consequences and options if the project system cannot create a COM interoperability wrapper for a particular component.  
   
- [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)  
+ [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/sd10k43k)  
  Briefly describes some of the interaction issues between managed and unmanaged code, and provides links for further study.  
   
  [COM Wrappers](../Topic/COM%20Wrappers.md)  

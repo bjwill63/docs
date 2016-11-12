@@ -58,7 +58,7 @@ Specifies the format of compiler output.
   
  Unless you specify `/target:module`, `/target` causes a [!INCLUDE[dnprdnshort](../../../csharp/getting-started/includes/dnprdnshort_md.md)] assembly manifest to be added to an output file.  
   
- Each instance of Vbc.exe produces, at most, one output file. If you specify a compiler option such as `/out` or `/target` more than one time, the last one the compiler processes is put into effect. Information about all files in a compilation is added to the manifest. All output files except those created with `/target:module` contain assembly metadata in the manifest. Use [Ildasm.exe (IL Disassembler)](../Topic/Ildasm.exe%20\(IL%20Disassembler\).md) to view the metadata in an output file.  
+ Each instance of Vbc.exe produces, at most, one output file. If you specify a compiler option such as `/out` or `/target` more than one time, the last one the compiler processes is put into effect. Information about all files in a compilation is added to the manifest. All output files except those created with `/target:module` contain assembly metadata in the manifest. Use [Ildasm.exe (IL Disassembler)](https://msdn.microsoft.com/library/f7dy01k1) to view the metadata in an output file.  
   
  The short form of `/target` is `/t`.  
   

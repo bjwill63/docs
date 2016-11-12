@@ -71,5 +71,5 @@ vbc /rootnamespace:mynamespace in.vb
   
 ## See Also  
  [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)   
- [Ildasm.exe (IL Disassembler)](../Topic/Ildasm.exe%20\(IL%20Disassembler\).md)   
+ [Ildasm.exe (IL Disassembler)](https://msdn.microsoft.com/library/f7dy01k1)   
  [Sample Compilation Command Lines](../../../visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md)
