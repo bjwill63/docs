@@ -60,7 +60,7 @@ The Component Object Model (COM) lets an object expose its functionality to othe
   
 -   Permissions required for the assembly to run correctly.  
   
- For more information about assemblies and assembly manifests, see [Assemblies and the Global Assembly Cache](../Topic/Assemblies%20and%20the%20Global%20Assembly%20Cache%20\(C%23%20and%20Visual%20Basic\).md).  
+ For more information about assemblies and assembly manifests, see [Assemblies and the Global Assembly Cache](../../../visual-basic/programming-guide/concepts/assemblies-gac/index.md).  
   
 ### Importing and Exporting Type Libraries  
  [!INCLUDE[vsprvs](../../../csharp/includes/vsprvs_md.md)] contains a utility, Tlbimp, that lets you import information from a type library into a [!INCLUDE[dnprdnshort](../../../csharp/getting-started/includes/dnprdnshort_md.md)] application. You can generate type libraries from assemblies by using the Tlbexp utility.  
@@ -78,7 +78,7 @@ The Component Object Model (COM) lets an object expose its functionality to othe
  [Walkthrough: Implementing Inheritance with COM Objects](../../../visual-basic/programming-guide/com-interop/walkthrough-implementing-inheritance-with-com-objects.md)   
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)   
  [Troubleshooting Interoperability](../../../visual-basic/programming-guide/com-interop/troubleshooting-interoperability.md)   
- [Assemblies and the Global Assembly Cache](../Topic/Assemblies%20and%20the%20Global%20Assembly%20Cache%20\(C%23%20and%20Visual%20Basic\).md)   
+ [Assemblies and the Global Assembly Cache](../../../visual-basic/programming-guide/concepts/assemblies-gac/index.md)   
  [Tlbimp.exe (Type Library Importer)](../Topic/Tlbimp.exe%20\(Type%20Library%20Importer\).md)   
  [Tlbexp.exe (Type Library Exporter)](../Topic/Tlbexp.exe%20\(Type%20Library%20Exporter\).md)   
  [Interop Marshaling](../Topic/Interop%20Marshaling.md)   

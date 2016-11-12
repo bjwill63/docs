@@ -187,4 +187,4 @@ int Method3() { return 0; }
 ## See Also  
  [C# Programming Guide](../../../../csharp/programming-guide/index.md)   
  [Reflection (C#)](../../../../csharp/programming-guide/concepts/reflection.md)   
- [Attributes](../Topic/Extending%20Metadata%20Using%20Attributes.md)
+ [Attributes](https://msdn.microsoft.com/library/5x6cd29c)

@@ -84,5 +84,5 @@ vbc /target:library in.vb
  [/reference (Visual Basic)](../../../visual-basic/reference/command-line-compiler/reference.md)   
  [/addmodule](../../../visual-basic/reference/command-line-compiler/addmodule.md)   
  [/moduleassemblyname](../../../visual-basic/reference/command-line-compiler/moduleassemblyname.md)   
- [Assemblies and the Global Assembly Cache](../Topic/Assemblies%20and%20the%20Global%20Assembly%20Cache%20\(C%23%20and%20Visual%20Basic\).md)   
+ [Assemblies and the Global Assembly Cache](../../../visual-basic/programming-guide/concepts/assemblies-gac/index.md)   
  [Sample Compilation Command Lines](../../../visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md)

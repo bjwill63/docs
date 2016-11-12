@@ -161,8 +161,8 @@ A2
  <xref:System.Attribute>   
  <xref:System.Reflection>   
  [C# Programming Guide](../../../../csharp/programming-guide/index.md)   
- [Attributes](../Topic/Extending%20Metadata%20Using%20Attributes.md)   
+ [Attributes](https://msdn.microsoft.com/library/5x6cd29c)   
  [Reflection (C#)](../../../../csharp/programming-guide/concepts/reflection.md)   
- [Attributes](../Topic/Attributes%20\(C%23%20and%20Visual%20Basic\).md)   
+ [Attributes](../../../../csharp/programming-guide/concepts/attributes/index.md)   
  [Creating Custom Attributes (C#)](../../../../csharp/programming-guide/concepts/attributes/creating-custom-attributes.md)   
  [Accessing Attributes by Using Reflection (C#)](../../../../csharp/programming-guide/concepts/attributes/accessing-attributes-by-using-reflection.md)

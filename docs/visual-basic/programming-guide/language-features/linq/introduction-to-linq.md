@@ -167,7 +167,7 @@ Language-Integrated Query (LINQ) adds query capabilities to [!INCLUDE[vbprvb](..
   
  Queries can also be executed when they are defined, which is referred to as *immediate execution*. You can trigger immediate execution by applying a method that requires access to individual elements of the query result. This can be the result of including an aggregate function, such as `Count`, `Sum`, `Average`, `Min`, or `Max`. For more information about aggregate functions, see [Aggregate Clause](../../../../visual-basic/language-reference/queries/aggregate-clause.md).  
   
- Using the `ToList` or `ToArray` methods will also force immediate execution. This can be useful when you want to execute the query immediately and cache the results. For more information about these methods, see [Converting Data Types](../Topic/Converting%20Data%20Types.md).  
+ Using the `ToList` or `ToArray` methods will also force immediate execution. This can be useful when you want to execute the query immediately and cache the results. For more information about these methods, see [Converting Data Types](../../../../visual-basic/programming-guide/concepts/linq/converting-data-types.md).  
   
  For more information about query execution, see [Writing Your First LINQ Query](../../../../visual-basic/programming-guide/concepts/linq/writing-your-first-linq-query.md).  
   
@@ -193,21 +193,21 @@ Language-Integrated Query (LINQ) adds query capabilities to [!INCLUDE[vbprvb](..
 |[LINQ to XML](../Topic/LINQ%20to%20XML.md)|Includes general information, programming guidance, and samples for LINQ to XML.|  
   
 ##  <a name="HowToAndWalkthroughTopics"></a> How To and Walkthrough Topics  
- [How to: Query a Database](../../../../visual-basic/programming-guide/language-features/linq/how-to-query-a-database-by-using-linq.md)  
+ [How to: Query a Database](how-to-query-a-database-by-using-linq.md)  
   
- [How to: Call a Stored Procedure](../../../../visual-basic/programming-guide/language-features/linq/how-to-call-a-stored-procedure-by-using-linq.md)  
+ [How to: Call a Stored Procedure](how-to-call-a-stored-procedure-by-using-linq.md)  
   
- [How to: Modify Data in a Database](../../../../visual-basic/programming-guide/language-features/linq/how-to-modify-data-in-a-database-by-using-linq.md)  
+ [How to: Modify Data in a Database](how-to-modify-data-in-a-database-by-using-linq.md)  
   
- [How to: Combine Data with Joins](../../../../visual-basic/programming-guide/language-features/linq/how-to-combine-data-with-linq-by-using-joins.md)  
+ [How to: Combine Data with Joins](how-to-combine-data-with-linq-by-using-joins.md)  
   
- [How to: Sort Query Results](../../../../visual-basic/programming-guide/language-features/linq/how-to-sort-query-results-by-using-linq.md)  
+ [How to: Sort Query Results](how-to-sort-query-results-by-using-linq.md)  
   
- [How to: Filter Query Results](../../../../visual-basic/programming-guide/language-features/linq/how-to-filter-query-results-by-using-linq.md)  
+ [How to: Filter Query Results](how-to-filter-query-results-by-using-linq.md)  
   
- [How to: Count, Sum, or Average Data](../../../../visual-basic/programming-guide/language-features/linq/how-to-count-sum-or-average-data-by-using-linq.md)  
+ [How to: Count, Sum, or Average Data](how-to-count-sum-or-average-data-by-using-linq.md)  
   
- [How to: Find the Minimum or Maximum Value in a Query Result](../../../../visual-basic/programming-guide/language-features/linq/how-to-find-the-minimum-or-maximum-value-in-a-query-result.md)  
+ [How to: Find the Minimum or Maximum Value in a Query Result](how-to-find-the-minimum-or-maximum-value-in-a-query-result.md)  
   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)  
   

@@ -83,7 +83,7 @@ By using attributes you can customize how structs are laid out in memory. For ex
  <xref:System.Reflection>   
  <xref:System.Attribute>   
  [C# Programming Guide](../../../../csharp/programming-guide/index.md)   
- [Attributes](../Topic/Extending%20Metadata%20Using%20Attributes.md)   
+ [Attributes](https://msdn.microsoft.com/library/5x6cd29c)   
  [Reflection (C#)](../../../../csharp/programming-guide/concepts/reflection.md)   
  [Attributes (C#)](../../../../csharp/programming-guide/concepts/attributes/index.md)   
  [Creating Custom Attributes (C#)](../../../../csharp/programming-guide/concepts/attributes/creating-custom-attributes.md)   

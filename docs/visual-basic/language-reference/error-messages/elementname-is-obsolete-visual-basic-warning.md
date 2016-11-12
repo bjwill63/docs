@@ -50,4 +50,4 @@ A statement attempts to access a programming element which has been marked with 
 -   Ensure that the source-code reference is spelling the element name correctly.  
   
 ## See Also  
- [Attributes](../Topic/Attributes%20\(C%23%20and%20Visual%20Basic\).md)
+ [Attributes](../../../../visual-basic/programming-guide/concepts/attributes/index.md)

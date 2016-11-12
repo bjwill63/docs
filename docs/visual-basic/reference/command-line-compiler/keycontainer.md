@@ -59,7 +59,7 @@ Specifies a key container name for a key pair to give an assembly a strong name.
   
  You can also pass your encryption information to the compiler with [/keyfile](../../../visual-basic/reference/command-line-compiler/keyfile.md). Use [/delaysign](../../../visual-basic/reference/command-line-compiler/delaysign.md) if you want a partially signed assembly.  
   
- See [Creating and Using Strong-Named Assemblies](../Topic/Creating%20and%20Using%20Strong-Named%20Assemblies.md) for more information on signing an assembly.  
+ See [Creating and Using Strong-Named Assemblies](https://msdn.microsoft.com/library/xwb8f617) for more information on signing an assembly.  
   
 > [!NOTE]
 >  The `/keycontainer` option is not available from within the Visual Studio development environment; it is available only when compiling from the command line.  
@@ -72,7 +72,7 @@ vbc /keycontainer:key1 input.vb
 ```  
   
 ## See Also  
- [Assemblies and the Global Assembly Cache](../Topic/Assemblies%20and%20the%20Global%20Assembly%20Cache%20\(C%23%20and%20Visual%20Basic\).md)   
+ [Assemblies and the Global Assembly Cache](../../../visual-basic/programming-guide/concepts/assemblies-gac/index.md)   
  [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)   
  [/keyfile](../../../visual-basic/reference/command-line-compiler/keyfile.md)   
  [Sample Compilation Command Lines](../../../visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md)

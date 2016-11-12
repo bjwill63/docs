@@ -86,7 +86,7 @@ translation.priority.ht:
  [Saving Data](/visualstudio/data-tools/saving-data)  
  Provides links to pages explaining how to send updated data from an application to the database.  
   
- [ADO.NET](../Topic/ADO.NET.md)  
+ [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx.aspx)  
  Describes the ADO.NET classes, which expose data-access services to the .NET Framework programmer.  
   
  [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  

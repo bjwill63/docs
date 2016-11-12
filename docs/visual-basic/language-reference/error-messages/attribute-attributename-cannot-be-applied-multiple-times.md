@@ -47,11 +47,11 @@ The attribute can only be applied once. The `AttributeUsage` attribute determine
   
 2.  If you are using custom attributes you developed, consider changing their `AttributeUsage` attribute to allow multiple attribute usage, as with the following example.  
   
-    ```  
+    ```vb  
     <AttributeUsage(AllowMultiple := True)>  
     ```  
   
 ## See Also  
  <xref:System.AttributeUsageAttribute>   
- [Creating Custom Attributes](../Topic/Creating%20Custom%20Attributes%20\(C%23%20and%20Visual%20Basic\).md)   
- [AttributeUsage](../Topic/AttributeUsage%20\(C%23%20and%20Visual%20Basic\).md)
+ [Creating Custom Attributes](../../../visual-basic/programming-guide/concepts/attributes/creating-custom-attributes.md)   
+ [AttributeUsage](../../../visual-basic/programming-guide/concepts/attributes/attributeusage.md)
