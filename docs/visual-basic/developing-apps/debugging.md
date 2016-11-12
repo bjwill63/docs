@@ -46,7 +46,7 @@ This page provides links to documentation for the debugging features that are bu
 |Start to debug a Visual Studio project, attach to a process, break into code, step through code, run to the cursor, run to a function on the call stack, set the next statement, step through Just My Code, stop debugging, restart debugging, or detach from a debugged process.|[Navigating through Code with the Debugger](/visualstudio/debugger/navigating-through-code-with-the-debugger)|  
 |Specify the configurations for the debug and release versions of a program.|[Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)|  
 |Set start options (command-line arguments, working directory, remote machine)|[How to: Set Start Options for Application Debugging](http://msdn.microsoft.com/en-us/ce792058-7bac-4dd6-858b-466e872687b8)|  
-|Debug at design time.|[Walkthrough: Debugging at Design Time](visualstudio/debugger/walkthrough-debugging-at-design-time)|  
+|Debug at design time.|[Walkthrough: Debugging at Design Time](/visualstudio/debugger/walkthrough-debugging-at-design-time)|  
 |Enable just-in-time debugging, which launches the Visual Studio debugger when a program running outside Visual Studio encounters a fatal error.|[Just-In-Time Debugging](/visualstudio/debugger/just-in-time-debugging-in-visual-studio)|  
 |Set breakpoints for source lines, assembly instructions, and call stack function. Specify conditions, hit counts, and execution location.|[Using Breakpoints](/visualstudio/debugger/using-breakpoints)|  
   
