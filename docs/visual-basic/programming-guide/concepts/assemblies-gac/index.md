@@ -1,5 +1,5 @@
 ---
-title: "Assemblies and the Global Assembly Cache (Visual Basic)1 | Microsoft Docs"
+title: "Assemblies and the Global Assembly Cache (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

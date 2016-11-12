@@ -1,5 +1,5 @@
 ---
-title: "LINQ to ADO.NET (Portal Page)2 | Microsoft Docs"
+title: "LINQ to ADO.NET (Portal Page) | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
