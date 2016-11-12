@@ -40,7 +40,7 @@
           "files": ["**/*.md"],
           "src": "docs",
           "dest": "articles",
-          "exclude": ["**/includes/**", "**/StructuredTOC.md"] 
+          "exclude": ["**/includes/**"] 
         },
         {
           "files": ["*.md"],
