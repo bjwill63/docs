@@ -50,7 +50,7 @@ Specifies a namespace for all type declarations.
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`namespace`|The name of the namespace in which to enclose all type declarations for the current project.|  
   
 ## Remarks  
@@ -59,7 +59,7 @@ Specifies a namespace for all type declarations.
  Use the common language runtime MSIL Disassembler (I`ldasm.exe`) to view the namespace names in your output file.  
   
 |To set /rootnamespace in the Visual Studio integrated development environment|  
-|-|  
+|---|  
 |1.  Have a project selected in **Solution Explorer**. On the **Project** menu, click **Properties**. For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).<br />2.  Click the **Application** tab.<br />3.  Modify the value in the **Root Namespace** box.|  
   
 ## Example  

@@ -60,7 +60,7 @@ XML IntelliSense
  After you type a period (.) to delimit an instance of an <xref:System.Xml.Linq.XElement> or <xref:System.Xml.Linq.XDocument> object (or an instance of `IEnumerable(Of XElement)` or `IEnumerable(Of XDocument)`), Visual Basic IntelliSense displays a list of possible object members. The initial list includes three options that represent XML axis properties, as described in the following list.  
   
 |Option|Description|  
-|-|-|  
+|---|---|  
 |**\< >**|Select this option to show a list of possible child elements. For more information, see [XML Element Literal](../../../../visual-basic/language-reference/xml-literals/xml-element-literal.md) and the <xref:System.Xml.Linq.XContainer.Elements%2A> method.|  
 |**@**|Select this option to show a list of possible attributes. For more information, see [XML Axis Properties](../../../../visual-basic/language-reference/xml-axis/xml-axis-properties.md).This option is available only for objects of type <xref:System.Xml.Linq.XElement>.|  
 |**…\< >**|Select this option to show a list of possible descendant elements. For more information, see [How to: Access XML Descendant Elements](../../../../visual-basic/programming-guide/language-features/xml/how-to-access-xml-descendant-elements.md) and the <xref:System.Xml.Linq.XContainer.Elements%2A> method.|  

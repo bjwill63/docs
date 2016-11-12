@@ -53,7 +53,7 @@ Collapses and hides sections of code in Visual Basic files.
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`identifier_string`|Required. String that acts as the title of a region when it is collapsed. Regions are collapsed by default.|  
 |`#End Region`|Terminates the `#Region` block.|  
   

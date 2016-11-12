@@ -79,7 +79,7 @@ Provides properties for accessing an instance of each Windows form declared in t
 ### Availability by Project Type  
   
 |Project type|Available|  
-|-|-|  
+|---|---|  
 |Windows Application|**Yes**|  
 |Class Library|No|  
 |Console Application|No|  

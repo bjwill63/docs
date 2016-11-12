@@ -69,7 +69,7 @@ End Try
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`tryStatements`|Optional. Statement(s) where an error can occur. Can be a compound statement.|  
 |`Catch`|Optional. Multiple `Catch` blocks permitted. If an exception occurs when processing the `Try` block, each `Catch` statement is examined in textual order to determine whether it handles the exception, with `exception` representing the exception that has been thrown.|  
 |`exception`|Optional. Any variable name. The initial value of `exception` is the value of the thrown error. Used with `Catch` to specify the error caught. If omitted, the `Catch` statement catches any exception.|  

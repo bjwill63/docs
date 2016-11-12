@@ -58,7 +58,7 @@ Provides properties and methods for accessing the application's settings.
 ## Methods  
   
 |Method|Description|  
-|-|-|  
+|---|---|  
 |`Reload`|Reloads the user settings from the last saved values.|  
 |`Save`|Saves the current user settings.|  
   
@@ -68,7 +68,7 @@ Provides properties and methods for accessing the application's settings.
  The following table lists examples of tasks involving the `My.Settings` object.  
   
 |To|See|  
-|-|-|  
+|---|---|  
 |Read an application setting|[How to: Read Application Settings in Visual Basic](../../../visual-basic/developing-apps/programming/app-settings/how-to-read-application-settings.md)|  
 |Change a user setting|[How to: Change User Settings in Visual Basic](../../../visual-basic/developing-apps/programming/app-settings/how-to-change-user-settings.md)|  
 |Persist user settings|[How to: Persist User Settings in Visual Basic](../../../visual-basic/developing-apps/programming/app-settings/how-to-persist-user-settings.md)|  

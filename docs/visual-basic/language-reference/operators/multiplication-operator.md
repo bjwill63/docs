@@ -52,7 +52,7 @@ number1 * number2
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`number1`|Required. Any numeric expression.|  
 |`number2`|Required. Any numeric expression.|  
   
@@ -66,7 +66,7 @@ number1 * number2
  The data type of the result depends on the types of the operands. The following table shows how the data type of the result is determined.  
   
 |Operand data types|Result data type|  
-|-|-|  
+|---|---|  
 |Both expressions are integral data types ([SByte](../../../visual-basic/language-reference/data-types/sbyte-data-type.md), [Byte](../../../visual-basic/language-reference/data-types/byte-data-type.md), [Short](../../../visual-basic/language-reference/data-types/short-data-type.md), [UShort](../../../visual-basic/language-reference/data-types/ushort-data-type.md), [Integer](../../../visual-basic/language-reference/data-types/integer-data-type.md), [UInteger](../../../visual-basic/language-reference/data-types/uinteger-data-type.md), [Long](../../../visual-basic/language-reference/data-types/long-data-type.md), [ULong](../../../visual-basic/language-reference/data-types/ulong-data-type.md))|A numeric data type appropriate for the data types of `number1` and `number2`. See the "Integer Arithmetic" tables in [Data Types of Operator Results](../../../visual-basic/language-reference/operators/data-types-of-operator-results.md).|  
 |Both expressions are [Decimal](../../../visual-basic/language-reference/data-types/decimal-data-type.md)|`Decimal`|  
 |Both expressions are [Single](../../../visual-basic/language-reference/data-types/single-data-type.md)|`Single`|  

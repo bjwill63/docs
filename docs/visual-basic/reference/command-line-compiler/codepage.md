@@ -47,7 +47,7 @@ Specifies the code page to use for all source-code files in the compilation.
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`id`|Required. The compiler uses the code page specified by `id` to interpret the encoding of the source files.|  
   
 ## Remarks  

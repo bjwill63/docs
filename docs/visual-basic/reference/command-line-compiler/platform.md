@@ -47,7 +47,7 @@ Specifies which platform version of common language runtime (CLR) can run the ou
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`x86`|Compiles your assembly to be run by the 32-bit, x86-compatible CLR.|  
 |`x64`|Compiles your assembly to be run by the 64-bit CLR on a computer that supports the AMD64 or EM64T instruction set.|  
 |`Itanium`|Compiles your assembly to be run by the 64-bit CLR on a computer with an Itanium processor.|  

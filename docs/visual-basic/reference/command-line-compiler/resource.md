@@ -52,7 +52,7 @@ Embeds a managed resource in an assembly.
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`filename`|Required. The name of the resource file to embed in the output file. By default, `filename` is public in the assembly. Enclose the file name in quotation marks (" ") if it contains a space.|  
 |`identifier`|Optional. The logical name for the resource; the name used to load it. The default is the name of the file. Optionally, you can specify whether the resource is public or private in the assembly manifest, as with the following: `/res:``filename.res`,`myname.res`,`public`|  
   

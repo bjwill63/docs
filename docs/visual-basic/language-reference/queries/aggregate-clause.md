@@ -54,7 +54,7 @@ Aggregate element [As type] In collection _
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`element`|Required. Variable used to iterate through the elements of the collection.|  
 |`type`|Optional. The type of `element`. If no type is specified, the type of `element` is inferred from `collection`.|  
 |`collection`|Required. Refers to the collection to operate on.|  
@@ -72,7 +72,7 @@ Aggregate element [As type] In collection _
  The following list describes the standard aggregate functions that can be used with the `Aggregate` clause.  
   
 |Function|Description|  
-|-|-|  
+|---|---|  
 |`All`|Returns `true` if all elements in the collection satisfy a specified condition; otherwise returns `false`. Following is an example:<br /><br /> [!code-vb[VbSimpleQuerySamples#5](../../../visual-basic/language-reference/queries/codesnippet/VisualBasic/aggregate-clause_1.vb)]|  
 |`Any`|Returns `true` if any element in the collection satisfies a specified condition; otherwise returns `false`. Following is an example:<br /><br /> [!code-vb[VbSimpleQuerySamples#6](../../../visual-basic/language-reference/queries/codesnippet/VisualBasic/aggregate-clause_2.vb)]|  
 |`Average`|Computes the average of all elements in the collection, or a computes supplied expression for all elements in the collection. Following is an example:<br /><br /> [!code-vb[VbSimpleQuerySamples#7](../../../visual-basic/language-reference/queries/codesnippet/VisualBasic/aggregate-clause_3.vb)]|  

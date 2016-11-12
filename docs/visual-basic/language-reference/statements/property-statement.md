@@ -154,7 +154,7 @@ Property name ( [ parameterlist ] ) [ As returntype ] [ Implements impl
      `interface.definedname`  
   
     |Part|Description|  
-    |-|-|  
+    |---|---|  
     |`interface`|Required. Name of an interface implemented by this property's containing class or structure.|  
     |`definedname`|Required. Name by which the property is defined in `interface`.|  
   

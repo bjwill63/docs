@@ -155,7 +155,7 @@ End Sub
      `interface.definedname`  
   
     |Part|Description|  
-    |-|-|  
+    |---|---|  
     |`interface`|Required. Name of an interface implemented by this procedure's containing class or structure.|  
     |`definedname`|Required. Name by which the procedure is defined in `interface`.|  
   
@@ -174,7 +174,7 @@ End Sub
      `eventvariable.event`  
   
     |Part|Description|  
-    |-|-|  
+    |---|---|  
     |`eventvariable`|Required. Object variable declared with the data type of the class or structure that raises the event.|  
     |`event`|Required. Name of the event this procedure handles.|  
   

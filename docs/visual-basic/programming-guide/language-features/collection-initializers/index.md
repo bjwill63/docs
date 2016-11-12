@@ -94,7 +94,7 @@ translation.priority.ht:
 ## Related Topics  
   
 |Title|Description|  
-|-|-|  
+|---|---|  
 |[How to: Create an Add Extension Method Used by a Collection Initializer](../../../../visual-basic/programming-guide/language-features/collection-initializers/how-to-create-an-add-extension-method-used-by-a-collection-initializer.md)|Shows how to create an extension method called `Add` that can be used to populate a collection with values from a collection initializer.|  
 |[How to: Create a Collection Used by a Collection Initializer](../../../../visual-basic/programming-guide/language-features/collection-initializers/how-to-create-a-collection-used-by-a-collection-initializer.md)|Shows how to enable use of a collection initializer by including an `Add` method in a collection class that implements `IEnumerable`.|  
   

@@ -54,7 +54,7 @@ Adds two numbers or returns the positive value of a numeric expression. Can also
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`expression1`|Required. Any numeric or string expression.|  
 |`expression2`|Required unless the `+` operator is calculating a negative value. Any numeric or string expression.|  
   
@@ -76,7 +76,7 @@ Adds two numbers or returns the positive value of a numeric expression. Can also
  If neither expression is an `Object`, Visual Basic takes the following actions.  
   
 |Data types of expressions|Action by compiler|  
-|-|-|  
+|---|---|  
 |Both expressions are numeric data types (`SByte`, `Byte`, `Short`, `UShort`, `Integer`, `UInteger`, `Long`, `ULong`, `Decimal`, `Single`, or `Double`)|Add. The result data type is a numeric type appropriate for the data types of `expression1` and `expression2`. See the "Integer Arithmetic" tables in [Data Types of Operator Results](../../../visual-basic/language-reference/operators/data-types-of-operator-results.md).|  
 |Both expressions are of type `String`|Concatenate.|  
 |One expression is a numeric data type and the other is a string|If `Option Strict` is `On`, then generate a compiler error.<br /><br /> If `Option Strict` is `Off`, then implicitly convert the `String` to `Double` and add.<br /><br /> If the `String` cannot be converted to `Double`, then throw an <xref:System.InvalidCastException> exception.|  
@@ -86,7 +86,7 @@ Adds two numbers or returns the positive value of a numeric expression. Can also
  If one expression is an `Object` expression, Visual Basic takes the following actions.  
   
 |Data types of expressions|Action by compiler|  
-|-|-|  
+|---|---|  
 |`Object` expression holds a numeric value and the other is a numeric data type|If `Option Strict` is `On`, then generate a compiler error.<br /><br /> If `Option Strict` is `Off`, then add.|  
 |`Object` expression holds a numeric value and the other is of type `String`|If `Option Strict` is `On`, then generate a compiler error.<br /><br /> If `Option Strict` is `Off`, then implicitly convert the `String` to `Double` and add.<br /><br /> If the `String` cannot be converted to `Double`, then throw an <xref:System.InvalidCastException> exception.|  
 |`Object` expression holds a string and the other is a numeric data type|If `Option Strict` is `On`, then generate a compiler error.<br /><br /> If `Option Strict` is `Off`, then implicitly convert the string `Object` to `Double` and add.<br /><br /> If the string `Object` cannot be converted to `Double`, then throw an <xref:System.InvalidCastException> exception.|  
@@ -95,7 +95,7 @@ Adds two numbers or returns the positive value of a numeric expression. Can also
  If both expressions are `Object` expressions, Visual Basic takes the following actions (`Option Strict Off` only).  
   
 |Data types of expressions|Action by compiler|  
-|-|-|  
+|---|---|  
 |Both `Object` expressions hold numeric values|Add.|  
 |Both `Object` expressions are of type `String`|Concatenate.|  
 |One `Object` expression holds a numeric value and the other holds a string|Implicitly convert the string `Object` to `Double` and add.<br /><br /> If the string `Object` cannot be converted to a numeric value, then throw an <xref:System.InvalidCastException> exception.|  

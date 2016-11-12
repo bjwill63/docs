@@ -75,7 +75,7 @@ k = CInt(q)
  The following table shows the available conversion keywords.  
   
 |Type conversion keyword|Converts an expression to data type|Allowable data types of expression to be converted|  
-|-|-|-|  
+|---|---|---|  
 |`CBool`|[Boolean Data Type](../../../../visual-basic/language-reference/data-types/boolean-data-type.md)|Any numeric type (including `Byte`, `SByte`, and enumerated types), `String`, `Object`|  
 |`CByte`|[Byte Data Type](../../../../visual-basic/language-reference/data-types/byte-data-type.md)|Any numeric type (including `SByte` and enumerated types), `Boolean`, `String`, `Object`|  
 |`CChar`|[Char Data Type](../../../../visual-basic/language-reference/data-types/char-data-type.md)|`String`, `Object`|  

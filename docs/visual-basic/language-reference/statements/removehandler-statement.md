@@ -50,7 +50,7 @@ RemoveHandler event, AddressOf eventhandler
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`event`|The name of the event being handled.|  
 |`eventhandler`|The name of the procedure currently handling the event.|  
   

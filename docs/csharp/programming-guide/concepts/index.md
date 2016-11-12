@@ -46,5 +46,5 @@ This section explains programming concepts in the C# language.
 ## Related Sections  
   
 |||  
-|-|-|  
+|---|---|  
 |[Performance Tips](https://msdn.microsoft.com/library/ms173196(VS.110).aspx) | Discusses several basic rules that may help you increase the performance of your application.|

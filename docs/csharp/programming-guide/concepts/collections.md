@@ -204,7 +204,7 @@ public class Galaxy
  The following table lists some of the frequently used classes of the <xref:System.Collections.Generic?displayProperty=fullName> namespace:  
 
 |Class|Description| 
-|-|-|  
+|---|---|  
 |<xref:System.Collections.Generic.Dictionary%602>|Represents a collection of key/value pairs that are organized based on the key.|  
 |<xref:System.Collections.Generic.List%601>|Represents a list of objects that can be accessed by index. Provides methods to search, sort, and modify lists.|  
 |<xref:System.Collections.Generic.Queue%601>|Represents a first in, first out (FIFO) collection of objects.|  
@@ -228,7 +228,7 @@ public class Galaxy
  The following table lists some of the frequently used classes in the `System.Collections` namespace:  
   
 |Class|Description|  
-|-|-|  
+|---|---|  
 |<xref:System.Collections.ArrayList>|Represents an array of objects whose size is dynamically increased as required.|  
 |<xref:System.Collections.Hashtable>|Represents a collection of key/value pairs that are organized based on the hash code of the key.|  
 |<xref:System.Collections.Queue>|Represents a first in, first out (FIFO) collection of objects.|  

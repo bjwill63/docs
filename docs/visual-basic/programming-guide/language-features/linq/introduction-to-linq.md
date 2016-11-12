@@ -83,7 +83,7 @@ Language-Integrated Query (LINQ) adds query capabilities to [!INCLUDE[vbprvb](..
  [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] includes the following LINQ providers.  
   
 |Provider|Description|  
-|-|-|  
+|---|---|  
 |LINQ to Objects|The LINQ to Objects provider enables you to query in-memory collections and arrays. If an object supports either the <xref:System.Collections.IEnumerable> or <xref:System.Collections.Generic.IEnumerable%601> interface, the LINQ to Objects provider enables you to query it.<br /><br /> You can enable the LINQ to Objects provider by importing the <xref:System.Linq> namespace, which is imported by default for all [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] projects.<br /><br /> For more information about the LINQ to Objects provider, see [LINQ to Objects](../Topic/LINQ%20to%20Objects.md).|  
 |LINQ to SQL|The LINQ to SQL provider enables you to query and modify data in a SQL Server database. This makes it easy to map the object model for an application to the tables and objects in a database.<br /><br /> [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] makes it easier to work with LINQ to SQL by including the Object Relational Designer (O/R Designer). This designer is used to create an object model in an application that maps to objects in a database. The O/R Designer also provides functionality to map stored procedures and functions to the <xref:System.Data.Linq.DataContext> object, which manages communication with the database and stores state for optimistic concurrency checks.<br /><br /> For more information about the LINQ to SQL provider, see [LINQ to SQL](https://msdn.microsoft.com/library/bb386976). For more information about the Object Relational Designer, see [LINQ to SQL Tools in Visual Studio](/visualstudio/data-tools/linq-to-sql-tools-in-visual-studio2).|  
 |LINQ to XML|The LINQ to XML provider enables you to query and modify XML. You can modify in-memory XML, or you can load XML from and save XML to a file.<br /><br /> Additionally, the LINQ to XML provider enables XML literals and XML axis properties that enable you to write XML directly in your [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] code. For more information, see [XML](../../../../visual-basic/programming-guide/language-features/xml/index.md).|  
@@ -118,7 +118,7 @@ Language-Integrated Query (LINQ) adds query capabilities to [!INCLUDE[vbprvb](..
  The classes in the <xref:System.Linq> namespace and the other namespaces that support LINQ queries include methods that you can call to create and refine queries based on the needs of your application. [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] includes keywords for the most common query clauses, as described by the following table.  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |[From Clause](../../../../visual-basic/language-reference/queries/from-clause.md)|Either a `From` clause or an `Aggregate` clause is required to begin a query. A `From` clause specifies a source collection and an iteration variable for a query. For example:<br /><br /> [!code-vb[VbVbalrIntroToLINQ#7](../../../../visual-basic/programming-guide/language-features/linq/codesnippet/VisualBasic/introduction-to-linq_8.vb)]|  
 |[Select Clause](../../../../visual-basic/language-reference/queries/select-clause.md)|Optional. Declares a set of iteration variables for a query. For example:<br /><br /> [!code-vb[VbVbalrIntroToLINQ#8](../../../../visual-basic/programming-guide/language-features/linq/codesnippet/VisualBasic/introduction-to-linq_9.vb)]<br /><br /> If a `Select` clause is not specified, the iteration variables for the query consist of the iteration variables specified by the `From` or `Aggregate` clause.|  
 |[Where Clause](../../../../visual-basic/language-reference/queries/where-clause.md)|Optional. Specifies a filtering condition for a query. For example:<br /><br /> [!code-vb[VbVbalrIntroToLINQ#9](../../../../visual-basic/programming-guide/language-features/linq/codesnippet/VisualBasic/introduction-to-linq_10.vb)]|  
@@ -183,7 +183,7 @@ Language-Integrated Query (LINQ) adds query capabilities to [!INCLUDE[vbprvb](..
 ##  <a name="RelatedResources"></a> Related Resources  
   
 |Topic|Description|  
-|-|-|  
+|---|---|  
 |[XML](../../../../visual-basic/programming-guide/language-features/xml/index.md)|Describes the XML features in [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] that can be queried and that enable you to include XML as first-class data objects in your [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] code.|  
 |[Queries](../../../../visual-basic/language-reference/queries/queries.md)|Provides reference information about the query clauses that are available in [!INCLUDE[vbprvb](../../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)].|  
 |[LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md)|Includes general information, programming guidance, and samples for LINQ.|  

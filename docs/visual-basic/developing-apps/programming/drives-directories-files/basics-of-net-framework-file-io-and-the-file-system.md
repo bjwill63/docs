@@ -79,7 +79,7 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
  The following table lists tasks commonly accomplished with a stream:  
   
 |To|See|
-|-|-|   
+|---|---|   
 |Read and write to a data file|[How to: Read and Write to a Newly Created Data File](../Topic/How%20to:%20Read%20and%20Write%20to%20a%20Newly%20Created%20Data%20File.md)|  
 |Read text from a file|[How to: Read Text from a File](../Topic/How%20to:%20Read%20Text%20from%20a%20File.md)|  
 |Write text to a file|[How to: Write Text to a File](../Topic/How%20to:%20Write%20Text%20to%20a%20File.md)|  
@@ -96,7 +96,7 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
  The following table lists tasks involving file access and file attributes:  
   
 |To|See|  
-|-|-|
+|---|---|
 |Open and append text to a log file|[How to: Open and Append to a Log File](../Topic/How%20to:%20Open%20and%20Append%20to%20a%20Log%20File.md)|  
 |Determine the attributes of a file|<xref:System.IO.FileAttributes>|  
   
@@ -109,7 +109,7 @@ Classes in the <xref:System.IO> namespace are used to work with drives, files, a
  The following table lists tasks commonly associated with isolated file storage.  
   
 |To|See|
-|-|-|  
+|---|---|  
 |Create an isolated store|[How to: Obtain Stores for Isolated Storage](../Topic/How%20to:%20Obtain%20Stores%20for%20Isolated%20Storage.md)|  
 |Enumerate isolated stores|[How to: Enumerate Stores for Isolated Storage](../Topic/How%20to:%20Enumerate%20Stores%20for%20Isolated%20Storage.md)|  
 |Delete an isolated store|[How to: Delete Stores in Isolated Storage](../Topic/How%20to:%20Delete%20Stores%20in%20Isolated%20Storage.md)|  

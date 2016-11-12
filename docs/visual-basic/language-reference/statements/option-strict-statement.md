@@ -52,7 +52,7 @@ Option Strict { On | Off }
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`On`|Optional. Enables `Option Strict` checking.|  
 |`Off`|Optional. Disables `Option Strict` checking.|  
   
@@ -117,7 +117,7 @@ Option Strict { On | Off }
  The following table describes the results of various combinations of specifying the data type and initializer in a [Dim Statement](../../../visual-basic/language-reference/statements/dim-statement.md).  
   
 |Data type specified?|Initializer specified?|Example|Result|  
-|-|-|-|-|  
+|---|---|---|---|  
 |No|No|`Dim qty`|If `Option Strict` is off (the default), the variable is set to `Nothing`.<br /><br /> If `Option Strict` is on, a compile-time error occurs.|  
 |No|Yes|`Dim qty = 5`|If `Option Infer` is on (the default), the variable takes the data type of the initializer. See [Local Type Inference](../../../visual-basic/programming-guide/language-features/variables/local-type-inference.md).<br /><br /> If `Option Infer` is off and `Option Strict` is off, the variable takes the data type of `Object`.<br /><br /> If `Option Infer` is off and `Option Strict` is on, a compile-time error occurs.|  
 |Yes|No|`Dim qty As Integer`|The variable is initialized to the default value for the data type. For more information, see [Dim Statement](../../../visual-basic/language-reference/statements/dim-statement.md).|  

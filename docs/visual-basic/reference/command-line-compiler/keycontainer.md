@@ -47,7 +47,7 @@ Specifies a key container name for a key pair to give an assembly a strong name.
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`container`|Required. Container file that contains the key. Enclose the file name in quotation marks ("") if the name contains a space.|  
   
 ## Remarks  

@@ -49,7 +49,7 @@ Let variable = expression [, ...]
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`variable`|Required. An alias that can be used to reference the results of the supplied expression.|  
 |`expression`|Required. An expression that will be evaluated and assigned to the specified variable.|  
   

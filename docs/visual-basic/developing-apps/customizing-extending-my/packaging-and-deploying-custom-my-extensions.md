@@ -76,7 +76,7 @@ Visual Basic provides an easy way for you to deploy your custom `My` namespace e
  The CustomData file contains a <`VBMyExtensionTemplate>` element that has attributes as listed in the following table.  
   
 |Attribute|Description|  
-|-|-|  
+|---|---|  
 |`ID`|Required. A unique identifier for the extension. If the extension that has this ID has already been added to the project, the user will not be prompted to add it again.|  
 |`Version`|Required. A version number for the item template.|  
 |`AssemblyFullName`|Optional. An assembly name. When a reference to this assembly is added to the project, the user will be prompted to add the `My` extension from this item template.|  

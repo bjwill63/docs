@@ -52,7 +52,7 @@ End Function
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`parameterlist`|Optional. A list of local variable names that represent the parameters of this procedure. The parentheses must be present even when the list is empty. See [Parameter List](../../../visual-basic/language-reference/statements/parameter-list.md).|  
 |`expression`|Required. A single expression. The type of the expression is the return type of the function.|  
 |`statements`|Required. A list of statements that returns a value by using the `Return` statement. (See [Return Statement](../../../visual-basic/language-reference/statements/return-statement.md).) The type of the value returned is the return type of the function.|  

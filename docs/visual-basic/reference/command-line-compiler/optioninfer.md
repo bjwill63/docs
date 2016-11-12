@@ -49,7 +49,7 @@ Enables the use of local type inference in variable declarations.
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`+` &#124; `-`|Optional. Specify `/optioninfer+` to enable local type inference, or `/optioninfer-` to block it. The `/optioninfer` option, with no value specified, is the same as `/optioninfer+`. The default value when the `/optioninfer` switch is not present is also `/optioninfer+`. The default value is set in the Vbc.rsp response file.|  
   
 > [!NOTE]

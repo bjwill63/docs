@@ -155,7 +155,7 @@ A statement in [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq
  In many cases, you can continue a statement on the next consecutive line without using the underscore character (_). The following table lists the syntax elements that implicitly continue the statement on the next line of code.  
   
 |Syntax element|Example|  
-|-|-|  
+|---|---|  
 |After a comma (`,`).|[!code-vb[VbVbalrLineContinuation#1](../../../visual-basic/programming-guide/language-features/codesnippet/VisualBasic/statements_14.vb)]|  
 |After an open parenthesis (`(`) or before a closing parenthesis (`)`).|[!code-vb[VbVbalrLineContinuation#2](../../../visual-basic/programming-guide/language-features/codesnippet/VisualBasic/statements_15.vb)]|  
 |After an open curly brace (`{`) or before a closing curly brace (`}`).|[!code-vb[VbVbalrLineContinuation#3](../../../visual-basic/programming-guide/language-features/codesnippet/VisualBasic/statements_16.vb)]<br /><br /> For more information, see [Object Initializers: Named and Anonymous Types](../../../visual-basic/programming-guide/language-features/objects-and-classes/object-initializers-named-and-anonymous-types.md) or [Collection Initializers](../../../visual-basic/programming-guide/language-features/collection-initializers/index.md).|  
@@ -184,7 +184,7 @@ A statement in [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq
 ## Related Sections  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |[Assignment Operators](../../../visual-basic/language-reference/operators/assignment-operators.md)|Provides links to language reference pages covering assignment operators such as `=`, `*=`, and `&=`.|  
 |[Operators and Expressions](../../../visual-basic/programming-guide/language-features/operators-and-expressions/index.md)|Shows how to combine elements with operators to yield new values.|  
 |[How to: Break and Combine Statements in Code](../../../visual-basic/programming-guide/program-structure/how-to-break-and-combine-statements-in-code.md)|Shows how to break a single statement into multiple lines and how to place multiple statements on the same line.|  

@@ -79,7 +79,7 @@ End Event
 ## Parts  
   
 |Part|Description|  
-|-|-|  
+|---|---|  
 |`attrlist`|Optional. List of attributes that apply to this event. Multiple attributes are separated by commas. You must enclose the [Attribute List](../../../visual-basic/language-reference/statements/attribute-list.md) in angle brackets ("`<`" and "`>`").|  
 |`accessmodifier`|Optional. Specifies what code can access the event. Can be one of the following:<br /><br /> -   [Public](../../../visual-basic/language-reference/modifiers/public.md)—any code that can access the element that declares it can access it.<br />-   [Protected](../../../visual-basic/language-reference/modifiers/protected.md)—only code within its class or a derived class can access it.<br />-   [Friend](../../../visual-basic/language-reference/modifiers/friend.md)—only code in the same assembly can access it.<br />-   [Private](../../../visual-basic/language-reference/modifiers/private.md)—only code in the element that declares it can access it.<br /><br /> You can specify `Protected Friend` to enable access from code in the event's class, a derived class, or the same assembly.|  
 |`Shared`|Optional. Specifies that this event is not associated with a specific instance of a class or structure.|  

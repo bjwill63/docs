@@ -47,7 +47,7 @@ Identifies a user-defined Win32 application manifest file to be embedded into a 
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`fileName`|The path of the custom manifest file.|  
   
 ## Remarks  

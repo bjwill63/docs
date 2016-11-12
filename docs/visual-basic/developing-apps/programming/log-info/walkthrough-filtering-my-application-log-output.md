@@ -77,7 +77,7 @@ This walkthrough demonstrates how to change the default log filtering for the `M
  This table shows the severity level required for Log to write a message to the listeners, given a particular `DefaultSwitch` setting.  
   
 |DefaultSwitch Value|Message severity required for output|  
-|-|-| 
+|---|---| 
 |`Critical`|`Critical`|  
 |`Error`|`Critical` or `Error`|  
 |`Warning`|`Critical`, `Error`, or `Warning`|  

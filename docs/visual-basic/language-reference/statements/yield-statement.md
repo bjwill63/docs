@@ -48,7 +48,7 @@ Yield expression
 #### Parameters  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`expression`|Required. An expression that is implicitly convertible to the type of the iterator function or `Get` accessor that contains the `Yield` statement.|  
   
 ## Remarks  

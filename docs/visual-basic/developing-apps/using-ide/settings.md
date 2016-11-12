@@ -41,7 +41,7 @@ Visual Basic settings are designed to optimize the user experience and to maximi
 ## Windows and Views  
   
 |Feature|Displayed by default?|Notes|  
-|-|-|-|    
+|---|---|---|    
 |[Class View](/visualstudio/ide/viewing-the-structure-of-code)|No|Hides **Hidden Types and Members**|  
 |[Command Window](/visualstudio/ide/reference/command-window)|No||  
 |**Dynamic Help** window|No|Does not appear when you press F1.|  
@@ -61,20 +61,20 @@ Visual Basic settings are designed to optimize the user experience and to maximi
 ## Dialog Boxes  
   
 |Feature|Behavior|
-|-|-|  
+|---|---|  
 |**New Project** dialog box|When other platforms are installed on the computer, the IDE enables the combo box that allows you to specify the targeted platform.|  
 |[Options Dialog Box](/visualstudio/ide/reference/options-dialog-box-visual-studio)|Visual Basic enables simplified **Options** pages. Click the **Show All Settings** check box to see the full list of options.|  
   
 ## Keyboard  
   
 |Feature|Behavior|  
-|-|-|  
+|---|---|  
 |Visual Basic 6.0 default shortcut keys|Supports typical Visual Basic 6 keyboard mapping.|  
   
 ## Miscellaneous IDE Elements  
   
 |Feature|Behavior|  
-|-|-|  
+|---|---|  
 |Tool tips|-   Appear for all menu items and toolbar buttons when the mouse hovers above them.|  
 |[Visual Basic IntelliSense Code Snippets](../../../visual-basic/developing-apps/using-ide/intellisense-code-snippets.md)|Includes a library of code snippets that are ready to be inserted in your application.|  
 |[Visual Basic-Specific IntelliSense](/visualstudio/ide/visual-basic-specific-intellisense)|-   Provides all of the IntelliSense features with some productivity enhancements for Visual Basic developers.|  

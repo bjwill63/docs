@@ -49,7 +49,7 @@ Processes documentation comments to an XML file.
 ## Arguments  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`+` &#124; `-`|Optional. Specifying +, or just `/doc`, causes the compiler to generate documentation information and place it in an XML file. Specifying `-` is the equivalent of not specifying `/doc`, causing no documentation information to be created.|  
 |`file`|Required if `/doc:` is used. Specifies the output XML file, which is populated with the comments from the source-code files of the compilation. If the file name contains a space, surround the name with quotation marks (" ").|  
   
@@ -69,7 +69,7 @@ Processes documentation comments to an XML file.
  See [XML Comment Tags](../../../visual-basic/language-reference/xmldoc/recommended-xml-tags-for-documentation-comments.md) for ways to generate documentation from comments in your code.  
   
 |To set /doc in the Visual Studio integrated development environment|  
-|-|  
+|---|  
 |1.  Have a project selected in **Solution Explorer**. On the **Project** menu, click **Properties**. For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).<br />2.  Click the **Compile** tab.<br />3.  Set the value in the **Generate XML documentation file** box.|  
   
 ## Example  

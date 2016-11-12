@@ -51,7 +51,7 @@ object.Value
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`object`|Required. Collection of <xref:System.Xml.Linq.XElement> objects.|  
   
 ## Return Value  

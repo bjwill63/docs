@@ -53,7 +53,7 @@ result = expression1 AndAlso expression2
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`result`|Required. Any `Boolean` expression. The result is the `Boolean` result of comparison of the two expressions.|  
 |`expression1`|Required. Any `Boolean` expression.|  
 |`expression2`|Required. Any `Boolean` expression.|  
@@ -64,7 +64,7 @@ result = expression1 AndAlso expression2
  If both expressions evaluate to `True`, `result` is `True`. The following table illustrates how `result` is determined.  
   
 |If `expression1` is|And `expression2` is|The value of `result` is|  
-|-|-|-|  
+|---|---|---|  
 |`True`|`True`|`True`|  
 |`True`|`False`|`False`|  
 |`False`|(not evaluated)|`False`|  

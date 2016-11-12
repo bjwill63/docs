@@ -66,7 +66,7 @@ Specifies the *type parameters* for a *generic* programming element. Multiple pa
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`genericmodifier`|Optional. Can be used only in generic interfaces and delegates. You can declare a type covariant by using the [Out](../../../visual-basic/language-reference/modifiers/out-generic-modifier.md) keyword or contravariant by using the [In](../../../visual-basic/language-reference/modifiers/in-generic-modifier.md) keyword. See [Covariance and Contravariance](../Topic/Covariance%20and%20Contravariance%20\(C%23%20and%20Visual%20Basic\).md).|  
 |`typename`|Required. Name of the type parameter. This is a placeholder, to be replaced by a defined type supplied by the corresponding type argument.|  
 |`constraintlist`|Optional. List of requirements that constrain the data type that can be supplied for `typename`. If you have multiple constraints, enclose them in curly braces (`{ }`) and separate them with commas. You must introduce the constraint list with the [As](../../../visual-basic/language-reference/statements/as-clause.md) keyword. You use `As` only once, at the beginning of the list.|  

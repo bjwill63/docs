@@ -59,7 +59,7 @@ Imports [ aliasname = ] namespace.element
 ## Parts  
   
 |Term|Definition|  
-|-|-|  
+|---|---|  
 |`aliasname`|Optional. An *import alias* or name by which code can refer to `namespace` instead of the full qualification string. See [Declared Element Names](../../../visual-basic/programming-guide/language-features/declared-elements/declared-element-names.md).|  
 |`namespace`|Required. The fully qualified name of the namespace being imported. Can be a string of namespaces nested to any level.|  
 |`element`|Optional. The name of a programming element declared in the namespace. Can be any container element.|  

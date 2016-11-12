@@ -75,7 +75,7 @@ Resolving among overloaded versions
  If two overloads of a procedure have identical signatures except that the last parameter is declared [Optional](../../../../visual-basic/language-reference/modifiers/optional.md) in one and [ParamArray](../../../../visual-basic/language-reference/modifiers/paramarray.md) in the other, the compiler resolves a call to that procedure as follows:  
   
 |If the call supplies the last argument as|The compiler resolves the call to the overload declaring the last argument as|  
-|-|-|  
+|---|---|  
 |No value (argument omitted)|`Optional`|  
 |A single value|`Optional`|  
 |Two or more values in a comma-separated list|`ParamArray`|  
