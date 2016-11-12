@@ -39,5 +39,5 @@ The assemblies referenced by your program will automatically be loaded at build 
   
 ## See Also  
  [C# Programming Guide](../../../../csharp/programming-guide/index.md)   
- [Assemblies and the Global Assembly Cache (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/assemblies-and-the-global-assembly-cache.md)   
+ [Assemblies and the Global Assembly Cache (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/index.md)   
  [How to: Load Assemblies into an Application Domain](../Topic/How%20to:%20Load%20Assemblies%20into%20an%20Application%20Domain.md)

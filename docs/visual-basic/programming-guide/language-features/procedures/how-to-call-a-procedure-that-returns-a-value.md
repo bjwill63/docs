@@ -69,7 +69,7 @@ A `Function` procedure returns a value to the calling code. You call it by inclu
 ## See Also  
  [Function Procedures](./function-procedures.md)   
  [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
- [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md)   
+ [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md)   
  [How to: Create a Procedure that Returns a Value](./how-to-create-a-procedure-that-returns-a-value.md)   
  [How to: Return a Value from a Procedure](./how-to-return-a-value-from-a-procedure.md)   
  [How to: Call a Procedure that Does Not Return a Value](./how-to-call-a-procedure-that-does-not-return-a-value.md)

@@ -201,9 +201,9 @@ End Module
  <xref:System.Runtime.CompilerServices>   
  <xref:System.Runtime.CompilerServices.ExtensionAttribute>   
  [Extension Methods](../../../csharp/programming-guide/classes-and-structs/extension-methods.md)   
- [Module Statement](../../../visual-basic/language-reference/statements/module-statement.md)   
+ [Module Statement](../../../../visual-basic/language-reference/statements/module-statement.md)   
  [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
  [Optional Parameters](./optional-parameters.md)   
  [Parameter Arrays](./parameter-arrays.md)   
- [Attributes](../../../visual-basic/programming-guide/concepts/attributes/index.md)   
- [Scope in Visual Basic](../../../visual-basic/programming-guide/language-features/declared-elements/scope.md)
+ [Attributes](../../../../visual-basic/programming-guide/concepts/attributes/index.md)   
+ [Scope in Visual Basic](../../../../visual-basic/programming-guide/language-features/declared-elements/scope.md)

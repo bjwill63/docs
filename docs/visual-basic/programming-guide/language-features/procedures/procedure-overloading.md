@@ -92,7 +92,7 @@ translation.priority.ht:
  [!code-vb[VbVbcnProcedures#73](./codesnippet/VisualBasic/procedure-overloading_1.vb)]  
   
 ### Overloaded Versions  
- An alternative is to overload a single procedure name. You can use the [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md) keyword to define a version of the procedure for each parameter list, as follows:  
+ An alternative is to overload a single procedure name. You can use the [Overloads](../../../../visual-basic/language-reference/modifiers/overloads.md) keyword to define a version of the procedure for each parameter list, as follows:  
   
  [!code-vb[VbVbcnProcedures#72](./codesnippet/VisualBasic/procedure-overloading_2.vb)]  
   
@@ -114,5 +114,5 @@ translation.priority.ht:
  [How to: Overload a Procedure that Takes an Indefinite Number of Parameters](./how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters.md)   
  [Considerations in Overloading Procedures](./considerations-in-overloading-procedures.md)   
  [Overload Resolution](./overload-resolution.md)   
- [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md)   
- [Generic Types in Visual Basic](../../../visual-basic/programming-guide/language-features/data-types/generic-types.md)
+ [Overloads](../../../../visual-basic/language-reference/modifiers/overloads.md)   
+ [Generic Types in Visual Basic](../../../../visual-basic/programming-guide/language-features/data-types/generic-types.md)

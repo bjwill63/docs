@@ -58,7 +58,7 @@ A `Sub` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/programmin
   
  `End Sub`  
   
- The `modifiers` can specify access level and information about overloading, overriding, sharing, and shadowing. For more information, see [Sub Statement](../../../visual-basic/language-reference/statements/sub-statement.md).  
+ The `modifiers` can specify access level and information about overloading, overriding, sharing, and shadowing. For more information, see [Sub Statement](../../../../visual-basic/language-reference/statements/sub-statement.md).  
   
 ## Parameter Declaration  
  You declare each procedure parameter similarly to how you declare a variable, specifying the parameter name and data type. You can also specify the passing mechanism, and whether the parameter is optional or a parameter array.  
@@ -81,7 +81,7 @@ A `Sub` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/programmin
   
  `[Call]`  *subname* `[(` *argumentlist* `)]`  
   
- You can call a `Sub` method from outside the class that defines it. First, you have to use the `New` keyword to create an instance of the class, or call a method that returns an instance of the class. For more information, see [New Operator](../../../visual-basic/language-reference/operators/new-operator.md). Then, you can use the following syntax to call the `Sub` method on the instance object:  
+ You can call a `Sub` method from outside the class that defines it. First, you have to use the `New` keyword to create an instance of the class, or call a method that returns an instance of the class. For more information, see [New Operator](../../../../visual-basic/language-reference/operators/new-operator.md). Then, you can use the following syntax to call the `Sub` method on the instance object:  
   
  *Object*.*methodname*`[(`*argumentlist*`)]`  
   
@@ -100,6 +100,6 @@ A `Sub` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/programmin
  [Property Procedures](./property-procedures.md)   
  [Operator Procedures](./operator-procedures.md)   
  [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
- [Sub Statement](../../../visual-basic/language-reference/statements/sub-statement.md)   
+ [Sub Statement](../../../../visual-basic/language-reference/statements/sub-statement.md)   
  [How to: Call a Procedure that Does Not Return a Value](./how-to-call-a-procedure-that-does-not-return-a-value.md)   
  [How to: Call an Event Handler in Visual Basic](./how-to-call-an-event-handler.md)

@@ -100,5 +100,5 @@ When you call a `Sub` or `Function` procedure, you can pass arguments *by positi
  [Passing Arguments by Value and by Reference](./passing-arguments-by-value-and-by-reference.md)   
  [Optional Parameters](./optional-parameters.md)   
  [Parameter Arrays](./parameter-arrays.md)   
- [Optional](../../../visual-basic/language-reference/modifiers/optional.md)   
- [ParamArray](../../../visual-basic/language-reference/modifiers/paramarray.md)
+ [Optional](../../../../visual-basic/language-reference/modifiers/optional.md)   
+ [ParamArray](../../../../visual-basic/language-reference/modifiers/paramarray.md)

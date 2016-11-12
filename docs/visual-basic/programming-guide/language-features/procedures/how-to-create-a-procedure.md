@@ -84,5 +84,5 @@ You enclose a procedure between a starting declaration statement (`Sub` or `Func
  [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
  [Recursive Procedures](./recursive-procedures.md)   
  [Procedure Overloading](./procedure-overloading.md)   
- [Objects and Classes](../../../visual-basic/programming-guide/language-features/objects-and-classes/index.md)   
+ [Objects and Classes](../../../../visual-basic/programming-guide/language-features/objects-and-classes/index.md)   
  [Object-Oriented Programming](../Topic/Object-Oriented%20Programming%20\(C%23%20and%20Visual%20Basic\).md)

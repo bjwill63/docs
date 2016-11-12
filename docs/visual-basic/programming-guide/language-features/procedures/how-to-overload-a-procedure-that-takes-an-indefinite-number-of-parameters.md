@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Overload a Procedure that Takes an Indefinite Number of Parameters (Visual Basic)
-If a procedure has a [ParamArray](../../../visual-basic/language-reference/modifiers/paramarray.md) parameter, you cannot define an overloaded version taking a one-dimensional array for the parameter array. For more information, see "Implicit Overloads for a ParamArray Parameter" in [Considerations in Overloading Procedures](./considerations-in-overloading-procedures.md).  
+If a procedure has a [ParamArray](../../../../visual-basic/language-reference/modifiers/paramarray.md) parameter, you cannot define an overloaded version taking a one-dimensional array for the parameter array. For more information, see "Implicit Overloads for a ParamArray Parameter" in [Considerations in Overloading Procedures](./considerations-in-overloading-procedures.md).  
   
 ### To overload a procedure that takes a variable number of parameters  
   
@@ -50,14 +50,14 @@ If a procedure has a [ParamArray](../../../visual-basic/language-reference/modif
   
 3.  For each acceptable number of supplied values, write a `Sub` or `Function` declaration statement that defines the corresponding parameter list. Do not use either the `Optional` or the `ParamArray` keyword in this overloaded version.  
   
-4.  In each declaration, precede the `Sub` or `Function` keyword with the [Overloads](../../../visual-basic/language-reference/modifiers/overloads.md) keyword.  
+4.  In each declaration, precede the `Sub` or `Function` keyword with the [Overloads](../../../../visual-basic/language-reference/modifiers/overloads.md) keyword.  
   
 5.  Following each declaration, write the procedure code that should execute when the calling code supplies values corresponding to that declaration's parameter list.  
   
 6.  Terminate each procedure with the `End Sub` or `End Function` statement as appropriate.  
   
 ## Example  
- The following example shows a procedure defined with a [ParamArray](../../../visual-basic/language-reference/modifiers/paramarray.md) parameter, and then an equivalent set of overloaded procedures.  
+ The following example shows a procedure defined with a [ParamArray](../../../../visual-basic/language-reference/modifiers/paramarray.md) parameter, and then an equivalent set of overloaded procedures.  
   
  [!code-vb[VbVbcnProcedures#69](./codesnippet/VisualBasic/how-to-overload-a-procedure-that-takes-an-indefinite-number-of-parameters_1.vb)]  
   

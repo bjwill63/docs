@@ -82,4 +82,4 @@ class TestAssembly
 ## See Also  
  <xref:System.Reflection.AssemblyName>   
  [C# Programming Guide](../../../../csharp/programming-guide/index.md)   
- [Assemblies and the Global Assembly Cache (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/assemblies-and-the-global-assembly-cache.md)
+ [Assemblies and the Global Assembly Cache (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/index.md)

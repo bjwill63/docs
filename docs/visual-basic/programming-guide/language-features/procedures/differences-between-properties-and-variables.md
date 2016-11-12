@@ -69,8 +69,8 @@ Variables and properties both represent values that you can access. However, the
 ## See Also  
  [Property Procedures](./property-procedures.md)   
  [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
- [Property Statement](../../../visual-basic/language-reference/statements/property-statement.md)   
- [Dim Statement](../../../visual-basic/language-reference/statements/dim-statement.md)   
+ [Property Statement](../../../../visual-basic/language-reference/statements/property-statement.md)   
+ [Dim Statement](../../../../visual-basic/language-reference/statements/dim-statement.md)   
  [How to: Create a Property](./how-to-create-a-property.md)   
  [How to: Declare a Property with Mixed Access Levels](./how-to-declare-a-property-with-mixed-access-levels.md)   
  [How to: Call a Property Procedure](./how-to-call-a-property-procedure.md)   

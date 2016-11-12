@@ -57,7 +57,7 @@ A `Function` procedure is a series of [!INCLUDE[vbprvb](../../../../csharp/progr
 End Function  
 ```  
   
- The *modifiers* can specify access level and information regarding overloading, overriding, sharing, and shadowing. For more information, see [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md).  
+ The *modifiers* can specify access level and information regarding overloading, overriding, sharing, and shadowing. For more information, see [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md).  
   
  You declare each parameter the same way you do for [Sub Procedures](./sub-procedures.md).  
   
@@ -72,7 +72,7 @@ Function findSqrt(ByVal radicand As Single) As Single
 End Function  
 ```  
   
- For more information, see "Parts" in [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md).  
+ For more information, see "Parts" in [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md).  
   
 ## Returning Values  
  The value a `Function` procedure sends back to the calling code is called its return value. The procedure returns this value in one of two ways:  
@@ -99,7 +99,7 @@ End Function
   
  The advantage of assigning the return value to the function name is that control does not return from the procedure until it encounters an `Exit Function` or `End Function` statement. This allows you to assign a preliminary value and adjust it later if necessary.  
   
- For more information about returning values, see [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md). For information about returning arrays, see [Arrays](../../../visual-basic/programming-guide/language-features/arrays/index.md).  
+ For more information about returning values, see [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md). For information about returning arrays, see [Arrays](../../../../visual-basic/programming-guide/language-features/arrays/index.md).  
   
 ## Calling Syntax  
  You invoke a `Function` procedure by including its name and arguments either on the right side of an assignment statement or in an expression. You must provide values for all arguments that are not optional, and you must enclose the argument list in parentheses. If no arguments are supplied, you can optionally omit the parentheses.  
@@ -127,7 +127,7 @@ End Function
  [Property Procedures](./property-procedures.md)   
  [Operator Procedures](./operator-procedures.md)   
  [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md)   
- [Function Statement](../../../visual-basic/language-reference/statements/function-statement.md)   
+ [Function Statement](../../../../visual-basic/language-reference/statements/function-statement.md)   
  [How to: Create a Procedure that Returns a Value](./how-to-create-a-procedure-that-returns-a-value.md)   
  [How to: Return a Value from a Procedure](./how-to-return-a-value-from-a-procedure.md)   
  [How to: Call a Procedure That Returns a Value](./how-to-call-a-procedure-that-returns-a-value.md)
