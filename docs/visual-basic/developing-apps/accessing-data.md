@@ -39,11 +39,8 @@ translation.priority.ht:
   
 ## Related Sections  
  [Creating Data Applications](/visualstudio/data-tools/creating-data-applications)  
- Provides links to pages that discuss incorporating data access functionality into your applications.  
-  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)  
- Provides links to pages about particular scenarios related to data access.  
-  
+ Provides links to pages that discuss incorporating data access functionality into your applications.
+
  [Overview of Data Applications in Visual Studio](/visualstudio/data-tools/overview-of-data-applications-in-visual-studio)  
  Provides links to pages on creating applications that work with data, using [!INCLUDE[vsprvs](../../csharp/includes/vsprvs_md.md)].  
   
@@ -58,19 +55,10 @@ translation.priority.ht:
   
  [Work with datasets in n-tier applications](/visualstudio/data-tools/work-with-datasets-in-n-tier-applications)  
  Provides links to topics about how to create multitiered data applications.  
-  
- [Occasionally Connected Applications](http://msdn.microsoft.com/en-us/5f261728-a9a9-4304-8447-b94404a63099)  
- Provides links to topics that describe how to incorporate [!INCLUDE[sql_sync_long](../../visual-basic/developing-apps/includes/sql_sync_long_md.md)] into applications that enable synchronization of data between local and remote data.  
-  
- [PAVE OVER Using SQL Server Compact (Visual Studio)](http://msdn.microsoft.com/en-us/13320dd1-94e5-4077-bf76-8df253695ccc)  
- Provides links to topics about how to manage data by using SQL Server Compact with Visual Studio.  
-  
+     
  [Connecting to Data in Visual Studio](/visualstudio/data-tools/connecting-to-data-in-visual-studio)  
  Provides links to pages on connecting your application to data with design-time tools and ADO.NET connection objects, using [!INCLUDE[vsprvs](../../csharp/includes/vsprvs_md.md)].  
-  
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)  
- Provides links to pages explaining what datasets are, how to create new datasets, and how to create and edit the individual objects they are made of.  
-  
+
  [Fetching Data into Your Application](/visualstudio/data-tools/fetching-data-into-your-application)  
  Provides links to pages describing how to load data into datasets and how to execute SQL statements and stored procedures.  
   
@@ -80,7 +68,7 @@ translation.priority.ht:
  [Editing Data in Your Application](/visualstudio/data-tools/editing-data-in-your-application)  
  Provides links to pages describing how to manipulate the data in the data tables of a dataset.  
   
- [Validating Data](../Topic/Validating%20Data.md)  
+ [Validate data in datasets](/visualstudio/data-tools/validate-data-in-datasets)  
  Provides links to pages describing how to add validation to a dataset during column and row changes.  
   
  [Saving Data](/visualstudio/data-tools/saving-data)  
