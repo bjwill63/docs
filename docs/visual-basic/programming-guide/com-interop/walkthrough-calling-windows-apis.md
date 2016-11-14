@@ -49,7 +49,7 @@ Windows APIs are dynamic-link libraries (DLLs) that are part of the Windows oper
   
  Windows API calls were an important part of [!INCLUDE[vbprvb](../../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] programming in the past, but are seldom necessary with [!INCLUDE[vbprvblong](../../../visual-basic/developing-apps/customizing-extending-my/includes/vbprvblong_md.md)]. Whenever possible, you should use managed code from the [!INCLUDE[dnprdnshort](../../../csharp/getting-started/includes/dnprdnshort_md.md)] to perform tasks, instead of Windows API calls. This walkthrough provides information for those situations in which using Windows APIs is necessary.  
   
- [!INCLUDE[note_settings_general](../../../csharp/language-reference/compiler-messages/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../../csharp/language-reference/compiler-messages/includes/note_settings_general_md.md)]  
   
 ## API Calls Using Declare  
  The most common way to call Windows APIs is by using the `Declare` statement.  
