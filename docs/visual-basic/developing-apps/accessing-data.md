@@ -35,7 +35,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Accessing Data in Visual Basic Applications
-[!INCLUDE[vbprvb](../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] includes several new features to assist in developing applications that access data. Data-bound forms for Windows applications are created by dragging items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto the form. You bind controls to data by dragging items from the **Data Sources Window** onto existing controls.  
+[!INCLUDE[vbprvb](../../csharp/programming-guide/concepts/linq/includes/vbprvb_md.md)] includes several new features to assist in developing applications that access data. Data-bound forms for Windows applications are created by dragging items from the [Data Sources Window](/visualstudio/data-tools/bind-controls-to-data-in-visual-studio) onto the form. You bind controls to data by dragging items from the **Data Sources Window** onto existing controls.  
   
 ## Related Sections  
  [Creating Data Applications](/visualstudio/data-tools/creating-data-applications)  

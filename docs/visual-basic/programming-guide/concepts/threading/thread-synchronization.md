@@ -64,7 +64,7 @@ End Class
   
 -   [SyncLock Statement](../../../../visual-basic/language-reference/statements/synclock-statement.md)  
   
--   [Monitors](../Topic/Monitors.md)  
+-   @System.Threading.Monitor  
   
 ## Monitors  
  Like the `SyncLock` keyword, monitors prevent blocks of code from simultaneous execution by multiple threads. The <xref:System.Threading.Monitor.Enter%2A> method allows one and only one thread to proceed into the following statements; all other threads are blocked until the executing thread calls <xref:System.Threading.Monitor.Exit%2A>. This is just like using the `SyncLock` keyword. For example:  
@@ -162,7 +162,7 @@ End Module
  [Multithreaded Applications (Visual Basic)](../../../../visual-basic/programming-guide/concepts/threading/multithreaded-applications.md)   
  [SyncLock Statement](../../../../visual-basic/language-reference/statements/synclock-statement.md)   
  [Mutexes](http://msdn.microsoft.com/library/9dd06e25-12c0-4a9e-855a-452dc83803e2)   
- [Monitors](../Topic/Monitors.md)   
+ @System.Threading.Monitor   
  [Interlocked Operations](http://msdn.microsoft.com/library/cbda7114-c752-4f3e-ada1-b1e8dd262f2b)   
  [AutoResetEvent](http://msdn.microsoft.com/library/6d39c48d-6b37-4a9b-8631-f2924cfd9c18)   
  [Synchronizing Data for Multithreading](http://msdn.microsoft.com/library/b980eb4c-71d5-4860-864a-6dfe3692430a)

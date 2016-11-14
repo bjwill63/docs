@@ -55,5 +55,4 @@ Function evaluation is disabled because a previous function evaluation timed out
   
 ## See Also  
  [Debugging in Visual Studio](/visualstudio/debugger/debugging-in-visual-studio)   
- [Navigating through Code with the Debugger](/visualstudio/debugger/navigating-through-code-with-the-debugger)   
- [Expressions in Visual Basic](../Topic/Expressions%20in%20Visual%20Basic.md)
+ [Navigating through Code with the Debugger](/visualstudio/debugger/navigating-through-code-with-the-debugger)
