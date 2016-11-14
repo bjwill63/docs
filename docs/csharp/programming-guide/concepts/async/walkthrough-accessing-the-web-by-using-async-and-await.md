@@ -189,14 +189,14 @@ You can write asynchronous programs more easily and intuitively by using feature
         {   
             "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",  
             "http://msdn.microsoft.com",  
-            "http://msdn.microsoft.com/en-us/library/hh290136.aspx",  
-            "http://msdn.microsoft.com/en-us/library/ee256749.aspx",  
-            "http://msdn.microsoft.com/en-us/library/hh290138.aspx",  
-            "http://msdn.microsoft.com/en-us/library/hh290140.aspx",  
-            "http://msdn.microsoft.com/en-us/library/dd470362.aspx",  
-            "http://msdn.microsoft.com/en-us/library/aa578028.aspx",  
-            "http://msdn.microsoft.com/en-us/library/ms404677.aspx",  
-            "http://msdn.microsoft.com/en-us/library/ff730837.aspx"  
+            "http://msdn.microsoft.com/library/hh290136.aspx",  
+            "http://msdn.microsoft.com/library/ee256749.aspx",  
+            "http://msdn.microsoft.com/library/hh290138.aspx",  
+            "http://msdn.microsoft.com/library/hh290140.aspx",  
+            "http://msdn.microsoft.com/library/dd470362.aspx",  
+            "http://msdn.microsoft.com/library/aa578028.aspx",  
+            "http://msdn.microsoft.com/library/ms404677.aspx",  
+            "http://msdn.microsoft.com/library/ff730837.aspx"  
         };  
         return urls;  
     }  
@@ -537,14 +537,14 @@ namespace AsyncExampleWPF
             {   
                 "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",  
                 "http://msdn.microsoft.com",  
-                "http://msdn.microsoft.com/en-us/library/hh290136.aspx",  
-                "http://msdn.microsoft.com/en-us/library/ee256749.aspx",  
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",  
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",  
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",  
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",  
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",  
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"  
+                "http://msdn.microsoft.com/library/hh290136.aspx",  
+                "http://msdn.microsoft.com/library/ee256749.aspx",  
+                "http://msdn.microsoft.com/library/hh290138.aspx",  
+                "http://msdn.microsoft.com/library/hh290140.aspx",  
+                "http://msdn.microsoft.com/library/dd470362.aspx",  
+                "http://msdn.microsoft.com/library/aa578028.aspx",  
+                "http://msdn.microsoft.com/library/ms404677.aspx",  
+                "http://msdn.microsoft.com/library/ff730837.aspx"  
             };  
             return urls;  
         }  
@@ -691,14 +691,14 @@ namespace AsyncExampleWPF
             {   
                 "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",  
                 "http://msdn.microsoft.com",  
-                "http://msdn.microsoft.com/en-us/library/hh290136.aspx",  
-                "http://msdn.microsoft.com/en-us/library/ee256749.aspx",  
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",  
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",  
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",  
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",  
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",  
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"  
+                "http://msdn.microsoft.com/library/hh290136.aspx",  
+                "http://msdn.microsoft.com/library/ee256749.aspx",  
+                "http://msdn.microsoft.com/library/hh290138.aspx",  
+                "http://msdn.microsoft.com/library/hh290140.aspx",  
+                "http://msdn.microsoft.com/library/dd470362.aspx",  
+                "http://msdn.microsoft.com/library/aa578028.aspx",  
+                "http://msdn.microsoft.com/library/ms404677.aspx",  
+                "http://msdn.microsoft.com/library/ff730837.aspx"  
             };  
             return urls;  
         }  

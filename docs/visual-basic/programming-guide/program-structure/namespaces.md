@@ -146,7 +146,7 @@ End Namespace
  <xref:System.Windows.Forms.ListBox>   
  <xref:System.Windows.Forms?displayProperty=fullName>   
  [Assemblies and the Global Assembly Cache](../../../visual-basic/programming-guide/concepts/assemblies-gac/index.md)   
- [How to: Create and Use Assemblies Using the Command Line](../Topic/How%20to:%20Create%20and%20Use%20Assemblies%20Using%20the%20Command%20Line%20\(C%23%20and%20Visual%20Basic\).md)   
+ [How to: Create and Use Assemblies Using the Command Line](http://msdn.microsoft.com/library/70f65026-3687-4e9c-ab79-c18b97dd8be4)   
  [References and the Imports Statement](../../../visual-basic/programming-guide/program-structure/references-and-the-imports-statement.md)   
  [Imports Statement (.NET Namespace and Type)](../../../visual-basic/language-reference/statements/imports-statement-net-namespace-and-type.md)   
  [Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)

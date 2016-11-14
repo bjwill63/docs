@@ -106,4 +106,4 @@ Grouping is one of the most powerful capabilities of [!INCLUDE[vbteclinq](../../
  [Anonymous Types](../../../csharp/programming-guide/classes-and-structs/anonymous-types.md)   
  [How to: Perform a Subquery on a Grouping Operation](../../../csharp/programming-guide/linq-query-expressions/how-to-perform-a-subquery-on-a-grouping-operation.md)   
  [How to: Create a Nested Group](../../../csharp/programming-guide/linq-query-expressions/how-to-create-a-nested-group.md)   
- [Grouping Data](../Topic/Grouping%20Data.md)
+ [Grouping Data](http://msdn.microsoft.com/library/43892bd5-1634-479c-8249-bb7525d87c5d)

@@ -138,4 +138,4 @@ csc /out:TestCode.exe /reference:MathLibrary.DLL TestCode.cs
 ## See Also  
  [C# Programming Guide](../../../../csharp/programming-guide/index.md)   
  [Assemblies and the Global Assembly Cache (C#)](../../../../csharp/programming-guide/concepts/assemblies-gac/index.md)   
- [Creating a Class to Hold DLL Functions](../Topic/Creating%20a%20Class%20to%20Hold%20DLL%20Functions.md)
+ [Creating a Class to Hold DLL Functions](http://msdn.microsoft.com/library/e08e4c34-0223-45f7-aa55-a3d8dd979b0f)

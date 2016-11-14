@@ -39,7 +39,7 @@ translation.priority.ht:
 This topic provides links to information about how to work with the [!INCLUDE[dnprdnshort](../../csharp/getting-started/includes/dnprdnshort_md.md)] class library.  
   
 ## Related Sections  
- [Getting Started](../Topic/Getting%20Started%20with%20the%20.NET%20Framework.md)  
+ [Getting Started](http://msdn.microsoft.com/library/c693fd34-88fe-4d90-b332-19eeadf3b7e7)  
  Provides a comprehensive overview of the .NET Framework and links to additional resources.  
   
  [Class Library Overview](https://msdn.microsoft.com/library/hfa3fa08)  

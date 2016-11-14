@@ -157,7 +157,7 @@ public Customer this[long id] => store.LookupCustomer(id);
   
  The return type of an iterator can be <xref:System.Collections.IEnumerable>, <xref:System.Collections.Generic.IEnumerable%601>, <xref:System.Collections.IEnumerator>, or <xref:System.Collections.Generic.IEnumerator%601>.  
   
- For more information, see [Iterators](../Topic/Iterators%20\(C%23%20and%20Visual%20Basic\).md).  
+ For more information, see [Iterators](http://msdn.microsoft.com/library/f45331db-d595-46ec-9142-551d3d1eb1a7).  
   
 ## C# Language Specification  
  [!INCLUDE[CSharplangspec](../../../csharp/language-reference/keywords/includes/csharplangspec_md.md)]  

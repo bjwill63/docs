@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Interpolated Strings (C# and Visual Basic Reference)
-Used to construct strings.  An interpolated string expression looks like a template string that contains expressions.  An interpolated string expression creates a string by replacing the contained expressions with the ToString represenations of the expressions’ results.  An interpolated string is easier to understand with respect to arguments than [Composite Formatting](../Topic/Composite%20Formatting.md).  Here is an example of an interpolated string:  
+Used to construct strings.  An interpolated string expression looks like a template string that contains expressions.  An interpolated string expression creates a string by replacing the contained expressions with the ToString represenations of the expressions’ results.  An interpolated string is easier to understand with respect to arguments than [Composite Formatting](http://msdn.microsoft.com/library/87b7d528-73f6-43c6-b71a-f23043039a49).  Here is an example of an interpolated string:  
   
 ```cs  
 Console.WriteLine($"Name = {name}, hours = {hours:hh}")  
